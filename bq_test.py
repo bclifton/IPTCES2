@@ -20,7 +20,7 @@ from statsmodels.tsa import *
 tsa = sm.tsa
 
 ##############################################
-# BigQuery variables
+
 with open('config/settings.json') as json_data:
     settings = json.load(json_data)
 client = get_client(settings['PROJECT_ID'], service_account=settings['SERVICE_ACCOUNT'], private_key=settings['KEY'], readonly=True)
@@ -44,8 +44,6 @@ nextweek = dt.date.today() + dt.timedelta(days = 8)
 
 # Temp variables
 leaders = ['Ellen Johnson Sirleaf']
-date_start = '19790101'
-date_end = '20150108'
 country = 'LBR'
 
 
@@ -54,7 +52,9 @@ country = 'LBR'
 
 def get_leaders_from_bigquery():
 	
-	print date_start, date_end
+	
+	date_start = '19790101'
+	date_end = ''.join(str(dt.date.today()).split('-'))
 
 	# This will have to be modified:
 	for leader in leaders:
@@ -105,7 +105,7 @@ def perform_analysis(data, gsCodes):
 	# The first 30 entries in the rolling_mean become NaN, so...
 	grm = goldstein['sma-30'].dropna()
 
-	test_sample = pd.DataFrame(grm[-400:]) # 200 entries seems to be enough to determine stationarity.
+	test_sample = pd.DataFrame(grm)
 	test_sample.index = pd.to_datetime(test_sample.index)
 	test_sample.columns = ['Goldstein daily average']
 
