@@ -1,0 +1,202 @@
+code	description
+-10.0	Military attack; clash; assault; Biological weapons use; Military occupation; Coups and mutinies; Military raid; Military engagements; Detonate nuclear weapons; Engage in mass killings; Engage in ethnic cleansing; Use weapons of mass destruction; Use chemical or radiological weapons
+-9.9	Assassination; Guerrilla assault; Paramilitary assault; Torture; Sexual assault; Bodily punishment; Shooting; Beatings; Physical assault; Force
+-9.8	Assassination; Guerrilla assault; Paramilitary assault; Torture; Sexual assault; Bodily punishment; Shooting; Beatings; Physical assault; Force
+-9.7	Assassination; Guerrilla assault; Paramilitary assault; Torture; Sexual assault; Bodily punishment; Shooting; Beatings; Physical assault; Force
+-9.6	Assassination; Guerrilla assault; Paramilitary assault; Torture; Sexual assault; Bodily punishment; Shooting; Beatings; Physical assault; Force
+-9.5	Engage in mass expulsion; Impose blockade; Restrict movement; Occupy territory; Violate ceasefire
+-9.4	Seize position or possessions; Military seizure; Abduction; Seize possession; Confiscate property; Destroy damage or seize property
+-9.3	Seize position or possessions; Military seizure; Abduction; Seize possession; Confiscate property; Destroy damage or seize property
+-9.2	Seize position or possessions; Military seizure; Abduction; Seize possession; Confiscate property; Destroy damage or seize property
+-9.1	Abduct hijack or take hostage; Use unconventional violence; Use tactics of violent repression
+-9.0	Abduct hijack or take hostage; Use unconventional violence; Use tactics of violent repression
+-8.9	Non-military destruction/injury; Bombings
+-8.8	Non-military destruction/injury; Bombings
+-8.7	Non-military destruction/injury; Bombings
+-8.6	Non-injury destructive action; Riot or political turmoil
+-8.5	Non-injury destructive action; Riot or political turmoil
+-8.4	Non-injury destructive action; Riot or political turmoil
+-8.3	Non-injury destructive action; Riot or political turmoil
+-8.2	Attempt to assassinate; Impose embargo boycott or sanctions; Use as human shield
+-8.1	Attempt to assassinate; Impose embargo boycott or sanctions; Use as human shield
+-8.0	Attempt to assassinate; Impose embargo boycott or sanctions; Use as human shield
+-7.9	Attempt to assassinate; Impose embargo boycott or sanctions; Use as human shield
+-7.8	Armed force mobilization exercise display; military buildup; Military border violation; Military border fortification; Military mobilization; Military troops display; Military naval display; Military alert; Military demonstration
+-7.7	Armed force mobilization exercise display; military buildup; Military border violation; Military border fortification; Military mobilization; Military troops display; Military naval display; Military alert; Military demonstration
+-7.6	Armed force mobilization exercise display; military buildup; Military border violation; Military border fortification; Military mobilization; Military troops display; Military naval display; Military alert; Military demonstration
+-7.5	Engage in violent protest for change in institutions regime; Engage in violent protest for leadership change policy change or rights; Obstruct passage to demand change in institutions regimes; Protest violently; Riot
+-7.4	Engage in violent protest for change in institutions regime; Engage in violent protest for leadership change policy change or rights; Obstruct passage to demand change in institutions regimes; Protest violently; Riot
+-7.3	Demonstrate military or police power; Exhibit force posture; Increase military alert status; Increase police alert status; mobilize or increase armed forces; Mobilize or increase police power
+-7.2	Demonstrate military or police power; Exhibit force posture; Increase military alert status; Increase police alert status; mobilize or increase armed forces; Mobilize or increase police power
+-7.1	Break diplomatic relations; Threat with force specified; Military clash; Threaten military war; Threaten military occupation; Threaten military blockade; Threaten military attack; Military force threat
+-7.0	Break diplomatic relations; Threat with force specified; Military clash; Threaten military war; Threaten military occupation; Threaten military blockade; Threaten military attack; Military force threat
+-6.9	Ultimatum; threat with negative sanction and time limit; Control crowds; Protest altruism; Protest; Give ultimatum
+-6.8	Guerrilla seizure; Police seizure; Seize
+-6.7	Guerrilla seizure; Police seizure; Seize
+-6.6	Conduct hunger strike; Conduct hunger strike for change in institutions regime; Conduct hunger strike for leadership change policy change or rights; Conduct strike or boycott for leadership change policy change or rights; Demonstrate for leadership change policy change or rights; Demonstrate or rally; Engage in political dissent; Halt mediation
+-6.5	Conduct hunger strike; Conduct hunger strike for change in institutions regime; Conduct hunger strike for leadership change policy change or rights; Conduct strike or boycott for leadership change policy change or rights; Demonstrate for leadership change policy change or rights; Demonstrate or rally; Engage in political dissent; Halt mediation
+-6.4	Non-military force threats
+-6.3	Non-military force threats
+-6.2	Threaten
+-6.1	Threaten
+-6.0	Threaten
+-5.9	Threaten
+-5.8	Threat with specific negative nonmilitary sanction; Sanctions threat; Threaten to reduce or stop aid boycott embargo or sanction reduce or break relations; Threaten to impose restrictions on freedoms of speech and expression ban political parties or politicians impose curfew impose state of emergency or martial law
+-5.7	Threat with specific negative nonmilitary sanction; Sanctions threat; Threaten to reduce or stop aid boycott embargo or sanction reduce or break relations; Threaten to impose restrictions on freedoms of speech and expression ban political parties or politicians impose curfew impose state of emergency or martial law
+-5.6	Reduce or cut off aid or assistance; act to punish/deprive
+-5.5	Reduce or cut off aid or assistance; act to punish/deprive
+-5.4	Non-military demonstration walk out on; Protest defacement and art; Protest procession; Protest obstruction; Protest demonstration
+-5.3	Non-military demonstration walk out on; Protest defacement and art; Protest procession; Protest obstruction; Protest demonstration
+-5.2	Non-military demonstration walk out on; Protest defacement and art; Protest procession; Protest obstruction; Protest demonstration
+-5.1	Arrest detain or charge with legal action; Ban political parties or politicians; Defy norms law;
+-5.0	Order person or personnel out of country; Expel; Demand; Demand information investigation policy support aid protection peacekeeping political reform change in leadership policy change mediation withdrawal ceasefire meeting or negotiation; Reject proposal to meet discuss or negotiate
+-4.9	Expel organization or group; Issue order or command insist demand compliance; Demand
+-4.8	Expel organization or group; Issue order or command insist demand compliance; Demand
+-4.7	Expel organization or group; Issue order or command insist demand compliance; Demand
+-4.6	Threat without specific negative sanction stated; Detain or arrest person(s)
+-4.5	Threat without specific negative sanction stated; Detain or arrest person(s)
+-4.4	Threat without specific negative sanction stated; Detain or arrest person(s)
+-4.3	Reduce routine international activity; recall officials
+-4.2	Reduce routine international activity; recall officials
+-4.1	Reduce routine international activity; recall officials
+-4.0	Refuse; oppose; refuse to allow; Turn down proposal; reject protest demand threat; Censor media; Refuse to allow; Reject proposal; Reject; Veto
+-3.9	Impose curfew; Defy norms; Political flight; Disclose information; Break law
+-3.8	Halt negotiation
+-3.7	Halt negotiation
+-3.6	Denounce; Abuse
+-3.5	Denounce; Abuse
+-3.4	Denounce; Abuse
+-3.3	Denounce; Abuse
+-3.2	Give warning
+-3.1	Give warning
+-3.0	Give warning
+-2.9	Accuse
+-2.8	Accuse
+-2.7	Accuse
+-2.6	Issue formal complaint or protest; Complain; Informally or formally complain;
+-2.5	Issue formal complaint or protest; Complain; Informally or formally complain;
+-2.4	Issue formal complaint or protest; Complain; Informally or formally complain;
+-2.3	Charge; criticize; blame; disapprove; Cancel or postpone a planned event; Reduce routine activity
+-2.2	Charge; criticize; blame; disapprove; Cancel or postpone a planned event; Reduce routine activity
+-2.1	Disapprove; Accuse; Investigate; Investigate crime, corruption, human rights abuses, military action, or war crimes
+-2.0	Disapprove; Accuse; Investigate; Investigate crime, corruption, human rights abuses, military action, or war crimes
+-1.9	Make complaint (not formal)
+-1.8	Make complaint (not formal)
+-1.7	Make complaint (not formal)
+-1.6	Make complaint (not formal)
+-1.5	Deny an attributed policy, action, role, or position
+-1.4	Deny an attributed policy, action, role, or position
+-1.3	Deny an attributed policy, action, role, or position
+-1.2	Deny an attributed policy, action, role, or position
+-1.1	Deny an attributed policy, action, role, or position
+-1.0	Deny
+-0.9	Deny an accusation; Deny responsibility
+-0.8	Deny an accusation; Deny responsibility
+-0.7	Deny an accusation; Deny responsibility
+-0.6	Make a pessimistic comment
+-0.5	Make a pessimistic comment
+-0.4	Appeal for change in leadership, policy, or rights
+-0.3	Appeal for political reform
+-0.2	Comment on a situation
+-0.1	Urge or suggest action or policy; Explicit decline to comment; Request action call for;
+0.0	YOU'RE DOING GREAT. CALL A FELLOW WORLD LEADER!
+0.1	Ask for information
+0.2	Ask for information
+0.3	Make an optimistic comment
+0.4	Make an optimistic comment
+0.5	Make an optimistic comment
+0.6	Yield position; retreat; evacuate
+0.7	Surrender yield to order submit to arrest
+0.8	Propose
+0.9	Propose
+1.0	Talk on the phone; Meet with; send note Discussions; Consult
+1.1	Yield
+1.2	Entreat, plead, or appeal to; Beg
+1.3	Call for action
+1.4	Consult
+1.5	Offer a proposal; Offer a peace proposal
+1.6	Request; Ask for humanitarian aid; Ask for military aid; Ask for economic aid; Grant asylum
+1.7	Express regret; apologize
+1.8	Express regret; apologize
+1.9	Visit; go to; Release and/or return persons or property
+2.0	Admit wrongdoing; Apologize retract statement; Acknowledge responsibility
+2.1	Admit wrongdoing; Apologize retract statement; Acknowledge responsibility
+2.2	Apologize; Relax curfew or censorship
+2.3	Demobilize armed forces; Observe truce; Evacuate victims; Provide shelter; Grant
+2.4	Give a state invitation
+2.5	Give a state invitation
+2.6	Meet at a third location
+2.7	Assure or reassure
+2.8	Receive visit; Host
+2.9	Suspend sanctions; end punishment; Call truce
+3.0	Appeal
+3.1	Agree to future action or procedure to meet or to negotiate; Appeal
+3.2	Agree to future action or procedure to meet or to negotiate; Appeal
+3.3	Ask for policy assistance; Ask for material assistance; Praise, hail, applaud, or extend condolences
+3.4	Ask for policy assistance; Ask for material assistance; Praise, hail, applaud, or extend condolences
+3.5	Forgive; Endorse or approve; Defend verbally; Engage in diplomatic cooperation
+3.6	Endorse other's policy or position; give verbal support
+3.7	Endorse other's policy or position; give verbal support
+3.8	Rally support on behalf of
+3.9	Rally support on behalf of
+4.0	Express intent to cooperate; Appeal to others to meet or negotiate, settle dispute, or engage in mediation
+4.1	Express intent to cooperate; Appeal to others to meet or negotiate, settle dispute, or engage in mediation
+4.2	Express intent to cooperate; Appeal to others to meet or negotiate, settle dispute, or engage in mediation
+4.3	Promise other future support; Promise own policy support; Express intent to provide diplomatic cooperation
+4.4	Promise other future support; Promise own policy support; Express intent to provide diplomatic cooperation
+4.5	Promise other future support; Promise own policy support; Express intent to provide diplomatic cooperation
+4.6	Promise
+4.7	Promise
+4.8	Collaborate; Agree
+4.9	Collaborate; Agree
+5.0	Accede to demands for change in institutions regime leadership policies rights or political reforms; Ease administrative sanctions; Ease ban on political parties or politicians; Ease curfew; Ease political dissent; Ease restrictions on political freedoms; Ease state of emergency or martial law; Express intent to mediate; Express intent to settle dispute
+5.1	Accede to demands for change in institutions regime leadership policies rights or political reforms; Ease administrative sanctions; Ease ban on political parties or politicians; Ease curfew; Ease political dissent; Ease restrictions on political freedoms; Ease state of emergency or martial law; Express intent to mediate; Express intent to settle dispute
+5.2	Promise material support; Promise humanitarian support; Promise military support; Promise economic support
+5.3	Promise material support; Promise humanitarian support; Promise military support; Promise economic support
+5.4	Grant privilege; diplomatic recognition; de facto relations
+5.5	Grant privilege; diplomatic recognition; de facto relations
+5.6	Grant privilege; diplomatic recognition; de facto relations
+5.7	Grant privilege; diplomatic recognition; de facto relations
+5.8	Grant privilege; diplomatic recognition; de facto relations
+5.9	Express intent to provide military protection or peacekeeping; Grant diplomatic recognition; Engage in material cooperation
+6.0	Express intent to provide military protection or peacekeeping; Grant diplomatic recognition; Engage in material cooperation
+6.1	Express intent to provide military protection or peacekeeping; Grant diplomatic recognition; Engage in material cooperation
+6.2	Cooperate economically
+6.3	Cooperate economically
+6.4	Cooperate economically
+6.5	Give other assistance; Make substantive agreement
+6.6	Give other assistance; Make substantive agreement
+6.7	Give other assistance; Make substantive agreement
+6.8	Give other assistance; Make substantive agreement
+6.9	Apologize; Ease economic sanctions boycott or embargo; Engage in negotiations; Express intent to allow international involvement (not mediation); Express intent to accept mediation; Express intent to change institutions regime; Express intent to de-escalate military engagement; Express intent to ease administrative sanctions; Express intent to provide rights release persons or property
+7.0	Apologize; Ease economic sanctions boycott or embargo; Engage in negotiations; Express intent to allow international involvement (not mediation); Express intent to accept mediation; Express intent to change institutions regime; Express intent to de-escalate military engagement; Express intent to ease administrative sanctions; Express intent to provide rights release persons or property
+7.1	Apologize; Ease economic sanctions boycott or embargo; Engage in negotiations; Express intent to allow international involvement (not mediation); Express intent to accept mediation; Express intent to change institutions regime; Express intent to de-escalate military engagement; Express intent to ease administrative sanctions; Express intent to provide rights release persons or property
+7.2	Apologize; Ease economic sanctions boycott or embargo; Engage in negotiations; Express intent to allow international involvement (not mediation); Express intent to accept mediation; Express intent to change institutions regime; Express intent to de-escalate military engagement; Express intent to ease administrative sanctions; Express intent to provide rights release persons or property
+7.3	Extend economic aid; give buy sell loan borrow; Provide humanitarian aid; Cooperate militarily
+7.4	Extend economic aid; give buy sell loan borrow; Provide humanitarian aid; Cooperate militarily
+7.5	Extend economic aid; give buy sell loan borrow; Provide humanitarian aid; Cooperate militarily
+7.6	Rally support; Extend humanitarian aid
+7.7	Rally support; Extend humanitarian aid
+7.8	Rally support; Extend humanitarian aid
+7.9	Sign formal agreement
+8.0	Sign formal agreement
+8.1	Sign formal agreement
+8.2	Extend military assistance
+8.3	Extend military assistance
+8.4	Extend military assistance
+8.5	Provide military protection or peacekeeping
+8.6	Provide military protection or peacekeeping
+8.7	Provide military protection or peacekeeping
+8.8	Provide military protection or peacekeeping
+8.9	Provide military protection or peacekeeping
+9.0	Allow delivery of humanitarian aid; Allow international involvement not specified below; De-escalate military engagement; Declare truce ceasefire; Demobilize armed forces; Ease military blockade; Receive deployment of peacekeepers; Receive inspectors
+9.1	Allow delivery of humanitarian aid; Allow international involvement not specified below; De-escalate military engagement; Declare truce ceasefire; Demobilize armed forces; Ease military blockade; Receive deployment of peacekeepers; Receive inspectors
+9.2	Allow delivery of humanitarian aid; Allow international involvement not specified below; De-escalate military engagement; Declare truce ceasefire; Demobilize armed forces; Ease military blockade; Receive deployment of peacekeepers; Receive inspectors
+9.3	Allow delivery of humanitarian aid; Allow international involvement not specified below; De-escalate military engagement; Declare truce ceasefire; Demobilize armed forces; Ease military blockade; Receive deployment of peacekeepers; Receive inspectors
+9.4	Allow delivery of humanitarian aid; Allow international involvement not specified below; De-escalate military engagement; Declare truce ceasefire; Demobilize armed forces; Ease military blockade; Receive deployment of peacekeepers; Receive inspectors
+9.5	Allow delivery of humanitarian aid; Allow international involvement not specified below; De-escalate military engagement; Declare truce ceasefire; Demobilize armed forces; Ease military blockade; Receive deployment of peacekeepers; Receive inspectors
+9.6	Allow delivery of humanitarian aid; Allow international involvement not specified below; De-escalate military engagement; Declare truce ceasefire; Demobilize armed forces; Ease military blockade; Receive deployment of peacekeepers; Receive inspectors
+9.7	Allow delivery of humanitarian aid; Allow international involvement not specified below; De-escalate military engagement; Declare truce ceasefire; Demobilize armed forces; Ease military blockade; Receive deployment of peacekeepers; Receive inspectors
+9.8	Retreat or surrender militarily
+9.9	Retreat or surrender militarily
+10.0	Retreat or surrender militarily
