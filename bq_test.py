@@ -19,8 +19,6 @@ import statsmodels.api as sm
 from statsmodels.tsa import *
 tsa = sm.tsa
 
-from ConfigParser import SafeConfigParser
-
 ##############################################
 # BigQuery variables
 with open('config/settings.json') as json_data:
