@@ -1,7 +1,6 @@
 #!/usr/bin/env python
-
 import sys
-
+import os
 import glob
 import json
 import datetime as dt
@@ -24,8 +23,9 @@ from ConfigParser import SafeConfigParser
 
 ##############################################
 # BigQuery variables
-
-client = get_client(PROJECT_ID, service_account=SERVICE_ACCOUNT, private_key=KEY, readonly=True)
+with open('config/settings.json') as json_data:
+    settings = json.load(json_data)
+client = get_client(settings['PROJECT_ID'], service_account=settings['SERVICE_ACCOUNT'], private_key=settings['KEY'], readonly=True)
 
 # Font variables
 FONT_LOCATION = '/Users/brianclifton/Desktop/Fonts 2/A/LL Akkurat Family OTStd/AkkuratStd-Regular.otf'
@@ -47,7 +47,7 @@ nextweek = dt.date.today() + dt.timedelta(days = 8)
 # Temp variables
 leaders = ['Ellen Johnson Sirleaf']
 date_start = '19790101'
-date_end = '20141216'
+date_end = '20150108'
 country = 'LBR'
 
 
@@ -56,6 +56,8 @@ country = 'LBR'
 
 def get_leaders_from_bigquery():
 	
+	print date_start, date_end
+
 	# This will have to be modified:
 	for leader in leaders:
 
@@ -117,6 +119,9 @@ def perform_analysis(data, gsCodes):
 	model = sm.tsa.ARMA(test_sample,(12, 0)).fit() # 12 Lags seems to be enough to get an accurate prediction.
 
 	# Creates the prediction based on the proceeding two weeks through one week into the future:
+	print twoweeksago
+	print nextweek
+
 	prediction = model.predict(twoweeksago, str(nextweek), dynamic = False)
 
 	# The fitting of the prediction to the actual looked about 1 day off, so...
@@ -269,16 +274,8 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
 ##############################################################
 
 def main():
-	# get_leaders_from_bigquery()
+	get_leaders_from_bigquery()
 
-	config = SafeConfigParser()
-	script_dir = os.path.dirname(__file__)
-	config_file = os.path.join(script_dir, 'config/settings.cfg')
-	config.read(config_file)
-
-	PROJECT_ID = config.get('default', 'PROJECT_ID')
-	SERVICE_ACCOUNT = config.get('default', 'SERVICE_ACCOUNT')
-	KEY = config.get('default', 'KEY')
 
 	open_files()
 
