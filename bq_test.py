@@ -3,7 +3,9 @@ import sys
 import os
 import glob
 import json
+import csv
 import datetime as dt
+from collections import deque
 
 import numpy as np
 import pandas as pd
@@ -37,41 +39,62 @@ CSV_PATH = 'csv/'
 GS_PATH = 'assets/goldstein_suggestions.tsv'
 
 # Time variables
-tomorrow = str(dt.date.today()) 
+tomorrow = str(dt.date.today())
 twoweeksago = str(dt.date.today() - dt.timedelta(days = 14))
 nextweek = dt.date.today() + dt.timedelta(days = 8)
 
-
-# Temp variables
-leaders = ['Ellen Johnson Sirleaf']
-country = 'LBR'
-
-
+leaders = pd.read_csv(CSV_PATH + 'everyone.csv')
 
 ##############################################################
 
 def get_leaders_from_bigquery():
-	
-	
-	date_start = '19790101'
-	date_end = ''.join(str(dt.date.today()).split('-'))
+    query_template = 'SELECT SQLDATE, Actor1Name, Actor1CountryCode, GoldsteinScale, NumMentions FROM [gdelt-bq:full.events] {} AND SQLDATE>{} AND SQLDATE<{} IGNORE CASE;'
 
-	# This will have to be modified:
-	for leader in leaders:
+    date_end = ''.join(str(dt.date.today()).split('-'))
 
-		job_id, results = client.query('SELECT SQLDATE, Actor1Name, Actor1CountryCode, GoldsteinScale, NumMentions FROM [gdelt-bq:full.events] WHERE Actor1Name CONTAINS \"'+ leader +'\" AND Actor1CountryCode=\"'+ country +'\" AND SQLDATE>'+ date_start +' AND SQLDATE<'+ date_end +' IGNORE CASE;')
+    for row in leaders.iterrows():
+        leader = row[1]
 
-		complete, row_count = client.check_job(job_id)
-		results = client.get_query_rows(job_id)
+        if type(leader['gdelt_search']) != type('') or type(leader['display_name']) != type(''):
+            continue
 
-		df = json_normalize(results)
+        filename = leader['display_name'].replace(' ', '_') + '.csv'
+        date_start = ''
+        file_exists = os.path.isfile(CSV_PATH + filename)
 
-		name = '_'.join(leader.split(' '))
+        if file_exists:
+            date_start = get_last_row(CSV_PATH + filename)[5]
+        else:
+            date_start = '19790101'
 
-		df.to_csv(CSV_PATH + name + '.csv', encoding='utf-8')
-		
-		print 'Saved: ' + name + '.csv'
+        query = query_template.format(leader['gdelt_search'], date_start, date_end)
+        print 'Query: ' + query
 
+        try:
+            job_id, results = client.query(query, timeout=1000)
+            if results == []:
+                continue
+
+            df = json_normalize(results)
+            df = df.sort(columns='SQLDATE')
+
+            if file_exists:
+                with open(CSV_PATH + filename, 'a') as f:
+                    df.to_csv(f, header=False)
+            else:
+                df.to_csv(CSV_PATH + filename, encoding='utf-8')
+
+            print 'Saved: ' + filename
+
+        except BigQueryTimeoutException:
+            print 'Timed out'
+
+
+##############################################################
+
+def get_last_row(csv_filename):
+    with open(csv_filename, 'rb') as f:
+        return deque(csv.reader(f), 1)[0]
 
 ##############################################################
 
@@ -97,7 +120,7 @@ def perform_analysis(data, gsCodes):
 	full_daterange = pd.date_range(start = min(df.index), end = max(df.index))
 
 	# ffill() takes care of days that do not have a entry / Goldstein score in GDELT:
-	goldstein = goldstein.reindex(full_daterange).ffill() 
+	goldstein = goldstein.reindex(full_daterange).ffill()
 
 	# Creates a rolling_mean using a 30-day window:
 	goldstein['sma-30'] = pd.rolling_mean(goldstein['GoldAverage'], 30)
@@ -137,7 +160,7 @@ def perform_analysis(data, gsCodes):
 	print "Suggested actions for the coming week:\n" + gsDescription
 	print '==================='
 
-	draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescription)
+	#draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescription)
 
 ##############################################################
 
@@ -151,8 +174,8 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
 	fig = plt.figure(figsize = (14, 8))
 	ax = fig.add_subplot(111)
 	ax.set_frame_on(False)
-	plt.tick_params(axis = "both", which = "both", bottom = "off", top = "off",  
-	                labelbottom = "on", left = "off", right = "off", labelleft = "on") 
+	plt.tick_params(axis = "both", which = "both", bottom = "off", top = "off",
+	                labelbottom = "on", left = "off", right = "off", labelleft = "on")
 
 	yticks = [-10, -7.5, -5, -2.5, 0, 2.5, 5, 7.5, 10]
 	plt.yticks(yticks, alpha = 0.5, fontproperties = font, rotation = 0)
@@ -166,29 +189,29 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
 	# Draws the horizontal dashed lines:
 	horizontal_lines = np.linspace(-10, 10, num = 9)
 	for y in horizontal_lines:
-	    plt.plot(daterange, 
+	    plt.plot(daterange,
 	         [y] * len(daterange),
-	         '--', 
-	         lw = 0.5, 
+	         '--',
+	         lw = 0.5,
 	         color = 'black',
 	         alpha = 0.3,
 	         label = None)
-	    
+
 	plt.plot(daterange,
 	         [1] * len(daterange),
 	         alpha = 0.57,
 	         color = green)
 
 	# Plot the main data:
-	plot_sample.plot(kind = 'line', 
-	            ax = ax, 
-	            color = blue, 
+	plot_sample.plot(kind = 'line',
+	            ax = ax,
+	            color = blue,
 	            ylim = (-10, 10),
 	            legend = False)
 
-	prediction.plot(kind = 'line', 
+	prediction.plot(kind = 'line',
 	                ax = ax,
-	                color = 'red', 
+	                color = 'red',
 	                label = 'prediction',
 	                legend = False,
 	                grid = False)
@@ -204,21 +227,21 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
 	# Legend
 	plt.text(str(nextweek),
 	     9,
-	     "Trend", 
+	     "Trend",
 	     fontsize = 14,
 	     fontproperties = font,
 	     color = blue,
 	     ha = "right")
 	plt.text(str(nextweek),
 	     8,
-	     "Target", 
+	     "Target",
 	     fontsize = 14,
 	     fontproperties = font,
 	     color = green,
 	     ha = "right")
 	plt.text(str(nextweek),
 	     7,
-	     "Prediction", 
+	     "Prediction",
 	     fontsize = 14,
 	     fontproperties = font,
 	     color = "red",
@@ -226,25 +249,25 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
 
 	# Prediction Number
 	plt.text(str(nextweek),
-	     predicts, 
-	     nextweek.strftime("%b. %d, %Y") + "", 
+	     predicts,
+	     nextweek.strftime("%b. %d, %Y") + "",
 	     fontsize = 14,
 	     fontproperties = font,
 	     color = "red",
 	     ha = "left")
 	plt.text(str(nextweek),
-	     predicts -2, 
-	     "  " + str(predicts), 
+	     predicts -2,
+	     "  " + str(predicts),
 	     fontsize = 36,
 	     fontproperties = font,
 	     color = "red",
-	     ha = "left")  
+	     ha = "left")
 
 	# Credits
-	plt.text(startdate, 
+	plt.text(startdate,
 	     -15,
 	     "Original data provided by GDELT (http://gdeltproject.org/)"
-	     "\nData source: http://storage.googleapis.com/gdelt_bc/"+ name +".csv"  
+	     "\nData source: http://storage.googleapis.com/gdelt_bc/"+ name +".csv"
 	     "\nAuthor: Brian Clifton (briancliftonstudio.com / @BrianClifton1)"
 	     "\n\n___________________________________________________________"
 	     "_______________________________________________________________",
@@ -272,13 +295,8 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
 ##############################################################
 
 def main():
-	get_leaders_from_bigquery()
-
-
-	open_files()
-
-
-
+    get_leaders_from_bigquery()
+	#open_files()
 
 
 
