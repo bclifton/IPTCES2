@@ -43,7 +43,7 @@ tomorrow = str(dt.date.today())
 twoweeksago = str(dt.date.today() - dt.timedelta(days = 14))
 nextweek = dt.date.today() + dt.timedelta(days = 8)
 
-leaders = pd.read_csv(CSV_PATH + 'everyone.csv')
+leaders = pd.read_csv('everyone.csv')
 
 ##############################################################
 
