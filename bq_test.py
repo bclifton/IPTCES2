@@ -28,7 +28,7 @@ with open('config/settings.json') as json_data:
 client = get_client(settings['PROJECT_ID'], service_account=settings['SERVICE_ACCOUNT'], private_key=settings['KEY'], readonly=True)
 
 # Font variables
-FONT_LOCATION = 'SourceCodePro-Medium.ttf'
+FONT_LOCATION = 'assets/AkkuratStd-Regular.otf'
 font = fm.FontProperties(fname=FONT_LOCATION)
 
 # Path variables
@@ -108,12 +108,15 @@ def open_files():
     gsCodes = pd.read_csv(GS_PATH, index_col='code', sep='\t')
 
     for f in glob.glob(CSV_PATH + '*.csv'):
+
+        print 'Analyzing ' + f
+
         try:
             display_name = os.path.basename(f).replace('.csv', '').replace('_', ' ')
             leader = leaders[(leaders.display_name == display_name)]
             perform_analysis(f, gsCodes, leader)
         except:
-            print 'Failed to analyze: ' + f
+            print 'Could not analyze ' + f
             continue
 
 
@@ -150,11 +153,22 @@ def perform_analysis(data, gsCodes, leader):
     plot_sample.columns = ['Goldstein daily average']
 
     # Creates the forcasting model using Autoregressive Moving Average (ARMA):
-    model = sm.tsa.ARMA(test_sample,(12, 0)).fit() # 12 Lags seems to be enough to get an accurate prediction.
+    #model = sm.tsa.ARMA(test_sample,(12, 0)).fit() # 12 Lags seems to be enough to get an accurate prediction.
+    tries = 0
+    success = False
+    while tries < 6 and success is False:
+        try:
+            model = sm.tsa.ARMA(test_sample,(12, tries)).fit() # 12 Lags seems to be enough to get an accurate prediction.
+            success = True
+        except:
+            tries += 1
+
+    if success is False:
+        return False
 
     # Creates the prediction based on the proceeding two weeks through one week into the future:
-    print twoweeksago
-    print nextweek
+    #print twoweeksago
+    #print nextweek
 
     prediction = model.predict(twoweeksago, str(nextweek), dynamic = False)
 
