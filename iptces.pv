@@ -1,0 +1,77 @@
+size(1524, 750)
+color(mode=RGB, range=255)
+
+background(34, 31, 31)
+
+stylesheet('label',  size=40, leading=1.25)
+stylesheet('b', weight='bold')
+stylesheet('prediction', size=50, weight="bold", leading=1.25)
+stylesheet('subtext', size=10)
+
+
+font(face='AkzidenzGroteskBE-Light')
+
+margin = 110
+
+name = "Ellen Johnson Sirleaf"
+country = "Liberia"
+prediction = "Make a denial"
+suggestion = "Make a symbolic statement"
+subtext = "The International Political Tele-Conferencing"
+
+fill(255, 255, 255)
+text("<label>Dear <b>"+name+"</b> of <b>"+country+"</b>,\nThis week we predict that you will:</label>", 
+    margin, 
+    90
+)
+
+
+fill(244, 85, 74)
+text("<label><prediction>"+prediction+"</prediction></label>", 
+    margin, 
+    200
+)
+
+# Graph
+image('/Users/brianclifton/Copy/ITP work/3.5/IPTCES identity/graph.png', 
+    margin, 
+    255, 
+    height=280
+)
+
+# Line
+image('/Users/brianclifton/Copy/ITP work/3.5/IPTCES identity/line.png',
+    margin + 30, 
+    210,
+    width=930
+)
+
+# Logo
+image('/Users/brianclifton/Copy/ITP work/3.5/IPTCES identity/logo.png', 
+    1160,
+    160, 
+    height=300
+)
+
+
+fill(255, 255, 255)
+text("<label>To alleviate the Global Crisis, we suggest you:</label>", 
+    margin, 
+    600
+)
+
+fill(75, 146, 219)
+rect(margin, 620, 900, 80)
+
+fill(255, 255, 255)
+text("<label><prediction>"+suggestion+"</prediction></label>", 
+    margin + 10, 
+    680
+)
+
+fill(183, 183, 183)
+text("<subtext>"+ subtext +"</subtext>",
+    1200,
+    500)
+
+
