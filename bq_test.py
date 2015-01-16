@@ -137,6 +137,7 @@ def perform_analysis(data, gsCodes, leader):
 
     #name = df['Actor1Name'][0].title()
     name = leader['display_name'].values[0]
+    country = leader['display_country'].values[0]
 
     # These steps incorporate the number of mentions a Goldstein score is associated with, reducing the impact of error in the event encoding, making the average better reflect the event's presence in the GDELT.
     df['GoldMentions'] = df['GoldsteinScale'] * df['NumMentions']
@@ -190,6 +191,7 @@ def perform_analysis(data, gsCodes, leader):
 
     suggestion = round(((predicts - 1) * -1), 1)
     gsDescription = gsCodes.loc[suggestion].values[0]
+    prediction_text = gsCodes.loc[predicts].values[0]
 
     print '==================='
     print name + "'s Forecast: ", predicts
@@ -197,8 +199,10 @@ def perform_analysis(data, gsCodes, leader):
     print "Suggested actions for the coming week:\n" + gsDescription
     print '==================='
 
-    #draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescription, leader)
-    send_tweet(leader['username'].values[0], gsDescription, image_name(name))
+    graph_file = draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescription, leader)
+
+    #image = compose.draw(name=name, country=country, suggestion=gsDescription, prediction=prediction_text, graph_file=graph_file)
+    #send_tweet(leader['username'].values[0], gsDescription, image_name(name))
 
 ##############################################################
 
@@ -331,6 +335,7 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
             color=green)
 
     plt.savefig(image_name(name), bbox_inches = 'tight', dpi = 300)
+    return image_name(name)
 
 ##############################################################
 
@@ -350,7 +355,7 @@ def send_tweet(username, suggestion, filename):
 ##############################################################
 
 def main():
-    #get_leaders_from_bigquery()
+    get_leaders_from_bigquery()
     open_files()
 
 
