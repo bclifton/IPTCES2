@@ -1,7 +1,6 @@
 import sys
 from PIL import ImageFont, ImageDraw, Image
 
-
 def draw(name, country, prediction, suggestion, graph_file):
     size = (1524*2, 750*2)
     margin = 220

@@ -1,2 +1,2 @@
-name,country
-Ellen Johnson Sirleaf,LBR
+username,userid,twitter_name,display_name,display_country,gdelt_search,filename,bio
+@GouvGabon,2706414134,Gouvernement Gabon,Ali Bongo Ondimba,Gabon,"WHERE Actor1Name=""ALI BONGO ONDIMBA"" AND Actor1CountryCode='GAB'",,Compte officiel du Gouvernment gabonais - Official account of the Gabonese Government

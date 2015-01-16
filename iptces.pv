@@ -3,7 +3,7 @@ color(mode=RGB, range=255)
 
 background(34, 31, 31)
 
-stylesheet('label',  size=40, leading=1.25)
+stylesheet('label',  size=40, leading=1.35)
 stylesheet('b', weight='bold')
 stylesheet('prediction', size=50, weight="bold", leading=1.25)
 stylesheet('subtext', size=10)
@@ -22,7 +22,7 @@ subtext = "The International Political Tele-Conferencing"
 fill(255, 255, 255)
 text("<label>Dear <b>"+name+"</b> of <b>"+country+"</b>,\nThis week we predict that you will:</label>", 
     margin, 
-    90
+    75
 )
 
 
@@ -65,7 +65,7 @@ rect(margin, 620, 900, 80)
 
 fill(255, 255, 255)
 text("<label><prediction>"+suggestion+"</prediction></label>", 
-    margin + 10, 
+    margin + 20, 
     680
 )
 
