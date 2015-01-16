@@ -38,7 +38,7 @@ client = get_client(settings['PROJECT_ID'], service_account=settings['SERVICE_AC
 #twitter = Twython(settings['APP_KEY'], settings['APP_SECRET'], settings['OAUTH_TOKEN'], settings['OAUTH_TOKEN_SECRET'])
 
 # Font variables
-FONT_LOCATION = 'assets/AkkuratStd-Regular.otf'
+FONT_LOCATION = 'assets/AkzidenzGrotesk/AkzidenzGroteskBE-Regular.otf'
 font = fm.FontProperties(fname=FONT_LOCATION)
 
 # Path variables
@@ -53,7 +53,7 @@ tomorrow = str(dt.date.today())
 twoweeksago = str(dt.date.today() - dt.timedelta(days = 14))
 nextweek = dt.date.today() + dt.timedelta(days = 8)
 
-leaders = pd.read_csv('everyone.csv')
+leaders = pd.read_csv('test.csv')
 
 ##############################################################
 
@@ -178,13 +178,11 @@ def perform_analysis(data, gsCodes, leader):
         return False
 
     # Creates the prediction based on the proceeding two weeks through one week into the future:
-    #print twoweeksago
-    #print nextweek
-
     prediction = model.predict(twoweeksago, str(nextweek), dynamic = False)
 
     # The fitting of the prediction to the actual looked about 1 day off, so...
     prediction = prediction.shift(-1)
+    # print prediction
 
     # Finds the average of the Goldstein scores for the coming week:
     predicts = round(prediction.ix[tomorrow:str(nextweek)].mean(), 1)
@@ -212,8 +210,15 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
 
     country = leader['display_country'].values[0]
 
+    last_index_plot = plot_sample.index[-1]
+    prediction = prediction.loc[last_index_plot:]
+
+    print predicts
+    # print plot_sample.index[-1]
+
     startdate = datetime.date(plot_sample.index[0])
     enddate = dt.date.today() + dt.timedelta(days = 8)
+    arrowdate = dt.date.today() + dt.timedelta(days = 2)
     daterange = [startdate + dt.timedelta(days = x) for x in range(0, (enddate - startdate).days)]
 
 
@@ -225,12 +230,15 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
 
     yticks = [-10, -7.5, -5, -2.5, 0, 2.5, 5, 7.5, 10]
     plt.yticks(yticks, alpha = 0.5, fontproperties = font, rotation = 0)
+    # plt.xlabels(horizontalalignments = 'center')
     ax.get_yaxis().set_visible(False)
 
-    plt.xticks(alpha = 0.5, fontproperties = font, rotation = 0)
+    plt.xticks(alpha = 0.5, fontproperties = font, rotation = -45)
 
-    blue = (26/255.,37/255.,229/255.)
-    green = (12/255., 170/255.,12/255.)
+    # blue = (26/255., 37/255., 229/255.)
+    red =(224/255., 86/255., 74/255.)
+    green = (148/255., 166/255., 58/255.)
+    gray = (170/255., 170/255., 170/255.)
 
     # Draws the horizontal dashed lines:
     horizontal_lines = np.linspace(-10, 10, num = 9)
@@ -238,103 +246,129 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
         plt.plot(daterange,
                 [y] * len(daterange),
                 '--',
-                lw = 0.5,
+                dashes = [12, 8],
+                linewidth = 1.0,
                 color = 'black',
-                alpha = 0.3,
+                alpha = 0.5,
                 label = None)
 
         plt.plot(daterange,
                 [1] * len(daterange),
-                alpha = 0.57,
+                alpha = 1.0,
+                linewidth = 5.0,
                 color = green)
 
-        # Plot the main data:
+    # Plot the main data:
     plot_sample.plot(kind = 'line',
             ax = ax,
-            color = blue,
+            color = gray,
+            linewidth = 5.0,
             ylim = (-10, 10),
             legend = False)
 
-    prediction.plot(kind = 'line',
+    prediction.plot(
+            kind = 'line',
             ax = ax,
-            color = 'red',
+            color = red,
+            dashes = [12, 4],
+            linewidth = 5.0,
             label = 'prediction',
             legend = False,
             grid = False)
+
+    plt.arrow(arrowdate, predicts + 5, 0.0, predicts - 2, 
+            # length_includes_head = True,
+            # head_starts_at_zero = True,
+            facecolor = red,
+            edgecolor = red,
+            antialiased = True,
+            head_width = 4, 
+            head_length = 1,
+            linewidth = 4.0,
+            zorder = 99)
+
+    plt.axhline(
+            y = 10,
+            # xdaterange,
+            # [11] * len(daterange),
+            alpha = 1.0,
+            linewidth = 4.0,
+            color = red,
+            zorder = 99)
     # Title
-    plt.text(startdate,
-            13,
-            name.replace('_', ' ') + ' (' + country + ')' + ': Goldstein Trend and Prediction',
-            fontsize = 24,
-            fontproperties = font,
-            color = 'black',
-            ha = 'left')
+    # plt.text(startdate,
+    #         13,
+    #         name.replace('_', ' ') + ' (' + country + ')' + ': Goldstein Trend and Prediction',
+    #         fontsize = 24,
+    #         fontproperties = font,
+    #         color = 'black',
+    #         ha = 'left')
 
     # Legend
-    plt.text(str(nextweek),
-            9,
-            "Trend",
-            fontsize = 14,
-            fontproperties = font,
-            color = blue,
-            ha = "right")
-    plt.text(str(nextweek),
-            8,
-            "Target",
-            fontsize = 14,
-            fontproperties = font,
-            color = green,
-            ha = "right")
-    plt.text(str(nextweek),
-            7,
-            "Prediction",
-            fontsize = 14,
-            fontproperties = font,
-            color = "red",
-            ha = "right")
+    # plt.text(str(nextweek),
+    #         9,
+    #         "Trend",
+    #         fontsize = 14,
+    #         fontproperties = font,
+    #         color = blue,
+    #         ha = "right")
+    # plt.text(str(nextweek),
+    #         8,
+    #         "Target",
+    #         fontsize = 14,
+    #         fontproperties = font,
+    #         color = green,
+    #         ha = "right")
+    # plt.text(str(nextweek),
+    #         7,
+    #         "Prediction",
+    #         fontsize = 14,
+    #         fontproperties = font,
+    #         color = "red",
+    #         ha = "right")
 
     # Prediction Number
-    plt.text(str(nextweek),
-            predicts,
-            nextweek.strftime("%b. %d, %Y") + "",
-            fontsize = 14,
-            fontproperties = font,
-            color = "red",
-            ha = "left")
-    plt.text(str(nextweek),
-            predicts -2,
-            "  " + str(predicts),
-            fontsize = 36,
-            fontproperties = font,
-            color = "red",
-            ha = "left")
+    # plt.text(str(nextweek),
+    #         predicts,
+    #         nextweek.strftime("%b. %d, %Y") + "",
+    #         fontsize = 14,
+    #         fontproperties = font,
+    #         color = "red",
+    #         ha = "left")
+    # plt.text(str(nextweek),
+    #         predicts -2,
+    #         "  " + str(predicts),
+    #         fontsize = 36,
+    #         fontproperties = font,
+    #         color = "red",
+    #         ha = "left")
 
     # Credits
-    plt.text(startdate,
-            -15,
-            "Original data provided by GDELT (http://gdeltproject.org/)"
-            "\nData source: http://storage.googleapis.com/gdelt_bc/"+ name +".csv"
-            "\nAuthor: Brian Clifton (briancliftonstudio.com / @BrianClifton1)"
-            "\n\n___________________________________________________________"
-            "_______________________________________________________________",
-            fontsize = 10,
-            fontproperties = font,
-            alpha = 0.5)
+    # plt.text(startdate,
+    #         -15,
+    #         "Original data provided by GDELT (http://gdeltproject.org/)"
+    #         "\nData source: http://storage.googleapis.com/gdelt_bc/"+ name +".csv"
+    #         "\nAuthor: Brian Clifton (briancliftonstudio.com / @BrianClifton1)"
+    #         "\n\n___________________________________________________________"
+    #         "_______________________________________________________________",
+    #         fontsize = 10,
+    #         fontproperties = font,
+    #         alpha = 0.5)
 
     # Suggested Actions
-    plt.text(startdate,
-            -17,
-            "Suggested actions for the coming week:",
-            fontsize = 20,
-            fontproperties = font,
-            color='black')
-    plt.text(startdate,
-            -20,
-            "" + gsDescription + ""
-            "\n(Goldstein Scale "+ str(suggestion) + ")",
-            fontsize = 24,
-            fontproperties = font,
-            color=green)
+    # plt.text(startdate,
+    #         -17,
+    #         "Suggested actions for the coming week:",
+    #         fontsize = 20,
+    #         fontproperties = font,
+    #         color='black')
+    # plt.text(startdate,
+    #         -20,
+    #         "" + gsDescription + ""
+    #         "\n(Goldstein Scale "+ str(suggestion) + ")",
+    #         fontsize = 24,
+    #         fontproperties = font,
+    #         color=green)
 
     plt.savefig(image_name(name), bbox_inches = 'tight', dpi = 300)
     return image_name(name)
