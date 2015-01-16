@@ -194,15 +194,17 @@ def perform_analysis(data, gsCodes, leader):
     prediction_text = gsCodes.loc[predicts].values[0]
 
     print '==================='
-    print name + "'s Forecast: ", predicts
+    print name + "'s Forecast: ", predicts, prediction_text
     print name + "'s Suggested Action: ", (predicts - 1) * -1
     print "Suggested actions for the coming week:\n" + gsDescription
     print '==================='
 
-    graph_file = draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescription, leader)
+    #graph_file = draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescription, leader)
 
     #image = compose.draw(name=name, country=country, suggestion=gsDescription, prediction=prediction_text, graph_file=graph_file)
-    #send_tweet(leader['username'].values[0], gsDescription, image_name(name))
+    #final_image = 'images/' + name + '_' + tomorrow + '.png'
+    #image.save(final_image, 'PNG')
+    #send_tweet(leader['username'].values[0], gsDescription, final_image)
 
 ##############################################################
 
@@ -355,7 +357,7 @@ def send_tweet(username, suggestion, filename):
 ##############################################################
 
 def main():
-    get_leaders_from_bigquery()
+    #get_leaders_from_bigquery()
     open_files()
 
 
