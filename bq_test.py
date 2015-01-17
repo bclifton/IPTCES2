@@ -16,6 +16,7 @@ from bigquery import get_client
 
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
+import matplotlib.dates as mdates
 
 import statsmodels.api as sm
 from statsmodels.tsa import *
@@ -159,7 +160,8 @@ def perform_analysis(data, gsCodes, leader):
     test_sample.index = pd.to_datetime(test_sample.index)
     test_sample.columns = ['Goldstein daily average']
 
-    plot_sample = pd.DataFrame(grm[-200:])
+    plot_sample = pd.DataFrame(grm[-230:])
+    # plot_sample = pd.DataFrame(grm)
     plot_sample.index = pd.to_datetime(plot_sample.index)
     plot_sample.columns = ['Goldstein daily average']
 
@@ -214,31 +216,41 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
     prediction = prediction.loc[last_index_plot:]
 
     print predicts
-    # print plot_sample.index[-1]
+
+    fontsize = 16
 
     startdate = datetime.date(plot_sample.index[0])
     enddate = dt.date.today() + dt.timedelta(days = 8)
-    arrowdate = dt.date.today() + dt.timedelta(days = 2)
     daterange = [startdate + dt.timedelta(days = x) for x in range(0, (enddate - startdate).days)]
 
+    plt.rcParams['ytick.major.pad'] = '18'
+    plt.rcParams['xtick.major.pad'] = '18'
+    # plt.rcParams['ylabel.major.pad'] = '18'
 
-    fig = plt.figure(figsize = (14, 8))
+    fig = plt.figure(figsize = (13.5, 4))
     ax = fig.add_subplot(111)
     ax.set_frame_on(False)
+    ax.yaxis.labelpad = 18
+
     plt.tick_params(axis = "both", which = "both", bottom = "off", top = "off",
                     labelbottom = "on", left = "off", right = "off", labelleft = "on")
 
     yticks = [-10, -7.5, -5, -2.5, 0, 2.5, 5, 7.5, 10]
-    plt.yticks(yticks, alpha = 0.5, fontproperties = font, rotation = 0)
-    # plt.xlabels(horizontalalignments = 'center')
-    ax.get_yaxis().set_visible(False)
+    plt.yticks(yticks, 
+        alpha = 0.5, 
+        fontproperties = font, 
+        fontsize = fontsize,
+        rotation = 0, 
+        color = 'white')
 
-    plt.xticks(alpha = 0.5, fontproperties = font, rotation = -45)
+    ax.get_yaxis().set_visible(False)
 
     # blue = (26/255., 37/255., 229/255.)
     red =(224/255., 86/255., 74/255.)
     green = (148/255., 166/255., 58/255.)
     gray = (170/255., 170/255., 170/255.)
+    lightgray = (228/255., 228/255., 228/255.)
+    darkgray = (129/255., 129/255., 129/255.)
 
     # Draws the horizontal dashed lines:
     horizontal_lines = np.linspace(-10, 10, num = 9)
@@ -248,23 +260,18 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
                 '--',
                 dashes = [12, 8],
                 linewidth = 1.0,
-                color = 'black',
-                alpha = 0.5,
+                color = darkgray,
+                clip_on = False,
                 label = None)
-
-        plt.plot(daterange,
-                [1] * len(daterange),
-                alpha = 1.0,
-                linewidth = 5.0,
-                color = green)
 
     # Plot the main data:
     plot_sample.plot(kind = 'line',
             ax = ax,
-            color = gray,
+            color = lightgray,
             linewidth = 5.0,
             ylim = (-10, 10),
-            legend = False)
+            legend = False,
+            zorder = 10)
 
     prediction.plot(
             kind = 'line',
@@ -276,101 +283,69 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
             legend = False,
             grid = False)
 
-    plt.arrow(arrowdate, predicts + 5, 0.0, predicts - 2, 
-            # length_includes_head = True,
-            # head_starts_at_zero = True,
+    plt.ylabel('Clifton-Lavigne-Goldstein Scale',
+            color = gray,
+            fontproperties = font,
+            fontsize = fontsize - 2)
+
+    plt.arrow(dt.date.today() + dt.timedelta(days = 3), 12, 0.0, -12 + predicts + 2, 
+            length_includes_head = True,
             facecolor = red,
             edgecolor = red,
             antialiased = True,
-            head_width = 4, 
-            head_length = 1,
+            head_width = 2.5, 
+            head_length = 1.5,
             linewidth = 4.0,
+            clip_on = False,
             zorder = 99)
 
+    # red horizontal line
     plt.axhline(
-            y = 10,
-            # xdaterange,
-            # [11] * len(daterange),
+            y = 12,
+            xmin = -0.075,
+            xmax = 0.975,
+            clip_on = False,
             alpha = 1.0,
             linewidth = 4.0,
-            color = red,
-            zorder = 99)
-    # Title
-    # plt.text(startdate,
-    #         13,
-    #         name.replace('_', ' ') + ' (' + country + ')' + ': Goldstein Trend and Prediction',
-    #         fontsize = 24,
-    #         fontproperties = font,
-    #         color = 'black',
-    #         ha = 'left')
+            color = red)
 
-    # Legend
-    # plt.text(str(nextweek),
-    #         9,
-    #         "Trend",
-    #         fontsize = 14,
-    #         fontproperties = font,
-    #         color = blue,
-    #         ha = "right")
-    # plt.text(str(nextweek),
-    #         8,
-    #         "Target",
-    #         fontsize = 14,
-    #         fontproperties = font,
-    #         color = green,
-    #         ha = "right")
-    # plt.text(str(nextweek),
-    #         7,
-    #         "Prediction",
-    #         fontsize = 14,
-    #         fontproperties = font,
-    #         color = "red",
-    #         ha = "right")
+    # tiny verticle line
+    plt.axvline(
+            x = startdate - dt.timedelta(days = 18),
+            ymin = 1.1,
+            ymax = 1.15,
+            clip_on = False,
+            alpha = 1.0,
+            linewidth = 4.0,
+            color = red)
 
-    # Prediction Number
-    # plt.text(str(nextweek),
-    #         predicts,
-    #         nextweek.strftime("%b. %d, %Y") + "",
-    #         fontsize = 14,
-    #         fontproperties = font,
-    #         color = "red",
-    #         ha = "left")
-    # plt.text(str(nextweek),
-    #         predicts -2,
-    #         "  " + str(predicts),
-    #         fontsize = 36,
-    #         fontproperties = font,
-    #         color = "red",
-    #         ha = "left")
+    # green horizontal line at 1.0
+    plt.axhline(
+            y = 1,
+            xmin = 0.0025,
+            # xmin = 0,
+            # xmax = 0.985,
+            xmax = 0.9925,
+            clip_on = False,
+            alpha = 1.0,
+            linewidth = 5.0,
+            color = green)
 
-    # Credits
-    # plt.text(startdate,
-    #         -15,
-    #         "Original data provided by GDELT (http://gdeltproject.org/)"
-    #         "\nData source: http://storage.googleapis.com/gdelt_bc/"+ name +".csv"
-    #         "\nAuthor: Brian Clifton (briancliftonstudio.com / @BrianClifton1)"
-    #         "\n\n___________________________________________________________"
-    #         "_______________________________________________________________",
-    #         fontsize = 10,
-    #         fontproperties = font,
-    #         alpha = 0.5)
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b\n%Y'))
 
-    # Suggested Actions
-    # plt.text(startdate,
-    #         -17,
-    #         "Suggested actions for the coming week:",
-    #         fontsize = 20,
-    #         fontproperties = font,
-    #         color='black')
-    # plt.text(startdate,
-    #         -20,
-    #         "" + gsDescription + ""
-    #         "\n(Goldstein Scale "+ str(suggestion) + ")",
-    #         fontsize = 24,
-    #         fontproperties = font,
-    #         color=green)
+    plt.xticks(
+            fontproperties = font, 
+            fontsize = fontsize,
+            color = darkgray,
+            rotation = 0,
+            horizontalalignment='center')
 
-    plt.savefig(image_name(name), bbox_inches = 'tight', dpi = 300)
+    plt.savefig(image_name(name), 
+            bbox_inches = 'tight', 
+            dpi = 300, 
+            facecolor = 'black'
+            # transparent = True
+            )
     return image_name(name)
 
 ##############################################################
@@ -391,7 +366,12 @@ def send_tweet(username, suggestion, filename):
 ##############################################################
 
 def main():
-    #get_leaders_from_bigquery()
+    # import pickle
+    # with open('data.pkl') as f:
+    #     data = pickle.load(f)
+    # graph_file = draw_graph(data['plot_sample'], data['prediction'], data['predicts'], data['suggestion'], data['name'], data['gsDescription'], data['leader'])
+
+    get_leaders_from_bigquery()
     open_files()
 
 
