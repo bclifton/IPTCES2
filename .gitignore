@@ -2,3 +2,6 @@ settings.json
 env/
 csv/
 graphs/
+images/
+*.pyc
+iterate.dat
