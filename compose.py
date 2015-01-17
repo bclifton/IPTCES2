@@ -10,7 +10,7 @@ def draw(name, country, prediction, suggestion, graph_file):
     regular_fontpath = 'assets/AkzidenzGrotesk/AkzidGroBEReg'
     bold_fontpath = 'assets/AkzidenzGrotesk/AkzidGroBEBol'
 
-    canvas = Image.new('RGBA', size, (100,0,0))
+    canvas = Image.new('RGBA', size, (0,0,0))
     draw = ImageDraw.Draw(canvas)
 
     ###############################

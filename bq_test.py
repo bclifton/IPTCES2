@@ -4,6 +4,7 @@ import os
 import glob
 import json
 import csv
+import random
 import datetime as dt
 from collections import deque
 
@@ -114,11 +115,11 @@ def get_last_row(csv_filename):
 
 ##############################################################
 
-def open_files():
+def open_files(pattern='*.csv'):
 
     gsCodes = pd.read_csv(GS_PATH, index_col='code', sep='\t')
 
-    for f in glob.glob(CSV_PATH + '*.csv'):
+    for f in glob.glob(CSV_PATH + pattern):
 
         print 'Analyzing ' + f
 
@@ -136,7 +137,6 @@ def open_files():
 def perform_analysis(data, gsCodes, leader):
     df = pd.read_csv(data, index_col='SQLDATE', parse_dates=True)
 
-    #name = df['Actor1Name'][0].title()
     name = leader['display_name'].values[0]
     country = leader['display_country'].values[0]
 
@@ -190,8 +190,9 @@ def perform_analysis(data, gsCodes, leader):
     predicts = round(prediction.ix[tomorrow:str(nextweek)].mean(), 1)
 
     suggestion = round(((predicts - 1) * -1), 1)
-    gsDescription = gsCodes.loc[suggestion].values[0]
-    prediction_text = gsCodes.loc[predicts].values[0]
+
+    gsDescription   = random.choice(gsCodes.loc[suggestion].values[0].split(';'))
+    prediction_text = random.choice(gsCodes.loc[predicts].values[0].split(';'))
 
     print '==================='
     print name + "'s Forecast: ", predicts, prediction_text
@@ -199,11 +200,11 @@ def perform_analysis(data, gsCodes, leader):
     print "Suggested actions for the coming week:\n" + gsDescription
     print '==================='
 
-    #graph_file = draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescription, leader)
+    graph_file = draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescription, leader)
 
-    #image = compose.draw(name=name, country=country, suggestion=gsDescription, prediction=prediction_text, graph_file=graph_file)
-    #final_image = 'images/' + name + '_' + tomorrow + '.png'
-    #image.save(final_image, 'PNG')
+    image = compose.draw(name=name, country=country, suggestion=gsDescription, prediction=prediction_text, graph_file=graph_file)
+    final_image = 'images/' + name + '_' + tomorrow + '.png'
+    image.save(final_image, 'PNG')
     #send_tweet(leader['username'].values[0], gsDescription, final_image)
 
 ##############################################################
@@ -214,8 +215,6 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
 
     last_index_plot = plot_sample.index[-1]
     prediction = prediction.loc[last_index_plot:]
-
-    print predicts
 
     fontsize = 16
 
@@ -236,11 +235,11 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
                     labelbottom = "on", left = "off", right = "off", labelleft = "on")
 
     yticks = [-10, -7.5, -5, -2.5, 0, 2.5, 5, 7.5, 10]
-    plt.yticks(yticks, 
-        alpha = 0.5, 
-        fontproperties = font, 
+    plt.yticks(yticks,
+        alpha = 0.5,
+        fontproperties = font,
         fontsize = fontsize,
-        rotation = 0, 
+        rotation = 0,
         color = 'white')
 
     ax.get_yaxis().set_visible(False)
@@ -288,12 +287,12 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
             fontproperties = font,
             fontsize = fontsize - 2)
 
-    plt.arrow(dt.date.today() + dt.timedelta(days = 3), 12, 0.0, -12 + predicts + 2, 
+    plt.arrow(dt.date.today() + dt.timedelta(days = 3), 12, 0.0, -12 + predicts + 2,
             length_includes_head = True,
             facecolor = red,
             edgecolor = red,
             antialiased = True,
-            head_width = 2.5, 
+            head_width = 2.5,
             head_length = 1.5,
             linewidth = 4.0,
             clip_on = False,
@@ -334,18 +333,17 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%b\n%Y'))
 
     plt.xticks(
-            fontproperties = font, 
+            fontproperties = font,
             fontsize = fontsize,
             color = darkgray,
             rotation = 0,
             horizontalalignment='center')
 
-    plt.savefig(image_name(name), 
-            bbox_inches = 'tight', 
-            dpi = 300, 
-            facecolor = 'black'
-            # transparent = True
-            )
+    plt.savefig(image_name(name),
+            bbox_inches = 'tight',
+            dpi = 300,
+            transparent = True)
+
     return image_name(name)
 
 ##############################################################
@@ -371,8 +369,14 @@ def main():
     #     data = pickle.load(f)
     # graph_file = draw_graph(data['plot_sample'], data['prediction'], data['predicts'], data['suggestion'], data['name'], data['gsDescription'], data['leader'])
 
-    get_leaders_from_bigquery()
-    open_files()
+    open_files('Ali_Bongo_Ondimba.csv')
+    #image = compose.draw(name=name, country=country, suggestion=gsDescription, prediction=prediction_text, graph_file=graph_file)
+    #image = compose.draw(name = "Ellen Johnson Sirleaf", country = "Liberia", prediction = "Make a denial", suggestion = "Make a symbolic statement", graph_file = "graphs/Ali Bongo Ondimba_prediction.png")
+    #final_image = 'images/' + 'testing' + '_' + tomorrow + '.png'
+    #image.save(final_image, 'PNG')
+
+    #get_leaders_from_bigquery()
+    #open_files()
 
 
 

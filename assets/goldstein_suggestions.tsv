@@ -53,9 +53,9 @@ code	description
 -4.9	Expel an organization or a group; Issue an order or command that insists or demands compliance; Make a demand
 -4.8	Expel an organization or a group; Issue an order or command that insists or demands compliance; Make a demand
 -4.7	Expel an organization or a group; Issue an order or command that insists or demands compliance; Make a demand
--4.6	Make a threat without a specific negative sanction stated; Detain or arrest a person or persons
--4.5	Make a threat without a specific negative sanction stated; Detain or arrest a person or persons
--4.4	Make a threat without a specific negative sanction stated; Detain or arrest a person or persons
+-4.6	Make a threat without stating a specific negative sanction; Detain or arrest a person or persons
+-4.5	Make a threat without stating a specific negative sanction; Detain or arrest a person or persons
+-4.4	Make a threat without stating a specific negative sanction; Detain or arrest a person or persons
 -4.3	Reduce your routine international activity; Recall your officials
 -4.2	Reduce your routine international activity; Recall your officials
 -4.1	Reduce your routine international activity; Recall your officials
@@ -158,9 +158,9 @@ code	description
 5.6	Grant privileges to something or someone; Engage in diplomatic recognition
 5.7	Grant privileges to something or someone; Engage in diplomatic recognition
 5.8	Grant privileges to something or someone; Engage in diplomatic recognition
-5.9	Express intent to provide military protection or peacekeeping; Grant diplomatic recognition; Engage in material cooperation
-6.0	Express intent to provide military protection or peacekeeping; Grant diplomatic recognition; Engage in material cooperation
-6.1	Express intent to provide military protection or peacekeeping; Grant diplomatic recognition; Engage in material cooperation
+5.9	Express an intent to provide military protection or peacekeeping; Grant diplomatic recognition; Engage in material cooperation
+6.0	Express an intent to provide military protection or peacekeeping; Grant diplomatic recognition; Engage in material cooperation
+6.1	Express an intent to provide military protection or peacekeeping; Grant diplomatic recognition; Engage in material cooperation
 6.2	Cooperate economically
 6.3	Cooperate economically
 6.4	Cooperate economically
