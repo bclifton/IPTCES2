@@ -4,8 +4,9 @@ from PIL import ImageFont, ImageDraw, Image
 def draw(name, country, prediction, suggestion, graph_file):
     size = (1524*2, 750*2)
     margin = 220
-    topmargin = 120
-    graphsize = (1968, 560)
+    topmargin = 100
+    #graphsize = (1968, 560)
+    graphsize = (1968, 680)
 
     regular_fontpath = 'assets/AkzidenzGrotesk/AkzidGroBEReg'
     bold_fontpath = 'assets/AkzidenzGrotesk/AkzidGroBEBol'
@@ -67,11 +68,18 @@ def draw(name, country, prediction, suggestion, graph_file):
     graph = Image.open(graph_file).resize(graphsize)
     canvas.paste(graph, mask=graph, box=(margin, y))
 
+    red = (224, 86, 74)
+    #draw.rectangle([margin + 20, y+20, graphsize[0]+margin+20, y+30], fill=red)
+    draw.rectangle([margin+66, y+14, margin+76, y+47], fill=red)
+
     ###############################
     # Suggestion Label
     ###############################
-    y += 600
-    draw.text((margin, y), "To alleviate the Global Crisis, we suggest that you:", font=reg, fill=(255, 255, 255))
+    y += 700
+    #draw.text((margin, y), "To alleviate the Global Crisis, we suggest that you:", font=reg, fill=(255, 255, 255))
+    #draw.text((margin, y), "Instead, we suggest that you:", font=reg, fill=(255, 255, 255))
+    #draw.text((margin, y), "To produce global equilibrium, we suggest that you:", font=reg, fill=(255, 255, 255))
+    draw.text((margin, y), "To produce global equilibrium, we instead suggest that you:", font=reg, fill=(255, 255, 255))
 
     ###############################
     # Suggestion text

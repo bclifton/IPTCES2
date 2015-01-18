@@ -1,0 +1,453 @@
+username,userid,twitter_name,display_name,display_country,gdelt_search,filename,bio
+@MaithreepalaS,2911778245,Maithripala Sirisena,Maithripala Sirisena,Sri Lanka,WHERE Actor1Name CONTAINS 'Sirisena' AND Actor1CountryCode='LKA',,
+@MichelKafando,2902429903,Michel kafando,Michel Kafando,Burkina Faso,WHERE Actor1Name CONTAINS 'kafando' AND Actor1CountryCode='BFA',,Office of the Interim President | Michel kafando | #Ouagadougou | #BurkinaFaso | #ECOWAS | #Africa
+@French_Gov,2902364734,French Government,,France,,,French government's official twitter account for English speakers
+@PresidentRuvi,2889520524,Reuven Rivlin,Reuven Rivlin,Israel,"WHERE Actor1Name=""REUVEN RIVLIN"" AND Actor1CountryCode='ISR'",,Follow for live updates from the 10th President of the State of Israel - Official Account
+@BejiCEOfficial,2799385956,Beji Caid Essebsi,Beji Caid Essebsi,,,,الحساب الرسمي للباجي قائد السبسي الرئيس الخامس للجمهورية التونسية
+@RuhakanaRugunda,2775336695,Ruhakana Rugunda,Ruhakana Rugunda,Uganda,"WHERE Actor1Name=""RUHAKANA RUGUNDA"" AND Actor1CountryCode='UGA'",,The PM of Uganda
+@KlausIohannis,2765824141,Klaus Iohannis,,,,,
+@GouvGabon,2706414134,Gouvernement Gabon,Ali Bongo Ondimba,Gabon,"WHERE Actor1Name=""ALI BONGO ONDIMBA"" AND Actor1CountryCode='GAB'",,Compte officiel du Gouvernment gabonais - Official account of the Gabonese Government
+@APUkraine,2613887972,APU,,,,,"Офіційний твіттер 
+Адміністрації Президента України
+/ Administration of the President of Ukraine, 
+Official Twitter"
+@RashtrapatiBhvn,2597413135,President of India,Pranab Mukherjee,India,"WHERE Actor1Name=""Pranab Mukherjee"" AND Actor1CountryCode='IND'",,This is the official Twitter account of Rashtrapati Bhavan and is run by President’s Secretariat.  Tweets from the President are signed – President Mukherjee
+@Andrej_Kiska,2558812321,Andrej Kiska,Andrej Kiska,Slovakia,,,Prezident Slovenskej republiky
+@ProfMutharika,2545033486,Peter Mutharika,Peter Mutharika,Malawi,"WHERE Actor1Name=""PETER MUTHARIKA"" AND Actor1CountryCode='MWI'",,"Yale University,"
+@hagegeingob,2515899612,Hage Geingob,Hage Geingob,Namibia,"WHERE Actor1Name=""HAGE GEINGOB"" AND Actor1CountryCode='NAM'",,Prime Minister of the Republic of Namibia
+@CasaReal,2497155462,Casa de S.M. el Rey,Mariano Rajoy,Spain,"WHERE Actor1Name=""MARIANO RAJOY BREY"" AND Actor1CountryCode='ESP'",,Información e imágenes sobre la actividad de la Familia Real española y la Casa de S.M. el Rey. Normas de uso http://www.casareal.es/ES/Paginas/NormasTW.aspx …
+@Kolo_Roger,2476339505,Kolo Roger,Kolo Roger,Madagascar,,,Premier Ministre Malgache
+@govgeoabkhaz,2470587673,Қырҭтәыла Аиҳабыра,Irakli Garibashvili,Georgia,,,"Official Twitter Channel of Georgian Government in
+Abkhaz Language"
+@NauruBwiema,2442197798,Baron Waqa,Baron Waqa,Nauru,,,President of Nauru since 2013
+@PresidencySrb,2440554602,Presidency of Serbia,Tomislav Nikolić,Serbia,,,This is the official account of the Presidency of Serbia. This account is managed by the Presidency media team.
+@JapanGov,2428796856,The Gov't of Japan,Shinzō Abe,Japan,WHERE Actor1Name='Shinzo Abe' AND Actor1CountryCode='JPN',,Official Twitter of the Government of Japan
+@poroshenko,2423747006,Петро Порошенко,Petro Poroshenko,Ukraine,,,"Президент України,                                                                                           The President of Ukraine"
+@AlsisiOfficial,2419191913,Abdelfattah Elsisi,Abdel Fattah El-Sisi,Egypt,,,الحساب الرسمي للرئيس/عبدالفتاح السيسي                          رئيس جمهورية مصر العربية
+@PresidenceMada,2407830288,PrésidenceMadagascar,Hery Rajaonarimampianina,Madagascar,"WHERE Actor1Name=""HERY RAJAONARIMAMPIANINA"" and Actor1CountryCode='MDG'",,Compte Twitter Officiel de la Communication de la Présidence de la République de Madagascar
+@skngov,2389574116,SKN Government,Denzil Douglas,St. Kitts and Nevis,WHERE Actor1Code='KNAGOV' AND Actor1CountryCode='KNA' AND Actor1Name='DENZIL DOUGLAS',,The official Twitter account of the government of St. Kitts and Nevis.
+@Mapon_Matata,2349940394,MATATA PONYO Mapon,Augustin Matata Ponyo,Democratic Republic of the Congo,WHERE Actor1Name='MATATA PONYO MAPON' AND Actor1CountryCode='COD',,Premier Ministre de la République Démocratique du Congo
+@TommyRemengesau,2349626330,"Tommy Remengesau, Jr",Tommy Remengesau,Palau,"WHERE Actor1Name=""TOMMY REMENGESAU"" OR Actor1Name=""THOMAS REMENGESAU""",,"Alii and welcome to the official Twitter account for the President of the Republic of #Palau-- Tommy E. Remengesau, Jr.!"
+@DrAAbdullah,2329127093,Abdullah Abdullah,Abdullah Abdullah,Afghanistan,WHERE Actor1CountryCode='AFG' AND Actor1Name='FOREIGN MINISTER ABDULLAH',,Chief Executive of the Islamic Republic of Afghanistan
+@HassanalBolkia2,2322232166,Hassanal Bolkiah,Hassanal Bolkiah,Brunei Darussalam,WHERE Actor1Name='HASSANAL BOLKIAH' AND Actor1CountryCode='BRN' ,,This twitter account is controlled by a spokesman for the sultan Brunei Darussalam
+@Khamenei_ar,2247047317,الإمام الخامنئي,Ayatollah Ali Khamenei,Iran,WHERE Actor1Name='AYATOLLAH KHAMENEI' AND Actor1CountryCode = 'IRN',,الموقع الإعلامی لمکتب حفظ و نشر آثار سماحة آية الله العظمى السيد علي الخامنئي
+@Mehdi_Jomaa,2246134207,Mehdi Jomaa,Mehdi Jomaa,Tunisia,,,مهدي جمعة رئيس الحكومة التونسية - Mehdi Jomaa Chef du gouvernement tunisien
+@FlorenceGuillau,2244362226,Florence Guillaume,Florence Guillaume,Haiti,,,
+@MargvelashviliG,2243475914,President Of Georgia,Giorgi Margvelashvili,Georgia,,,"President of Georgia Giorgi Margvelashvili was elected on October 27, 2013 with more than 62% of the vote"
+@GovernmentGeo,2228188470,GeorgianGovernment,,Georgia,,,Official Twitter Channel of Georgian Government
+@SushilKoiralaNC,2224100184,Sushil Koirala,Sushil Koirala,Nepal,,,37th Prime Minister of Nepal and President of @NepaliCongress Party.
+@govSlovenia,2193752173,Slovenian Government,Miro Cerar,Slovenia,,,Official English language Twitter account of the Government of the Republic of Slovenia. | Slovenski profil @vladaRS
+@SkerritR,2168930017,Roosevelt Skerrit,Roosevelt Skerrit,Dominica,WHERE Actor1Name = 'ROOSEVELT SKERRIT' AND Actor1CountryCode = 'DMA',,Prime Minister of the Commonwealth of Dominica
+@PresYameen,1951275630,Abdulla Yameen,Abdulla Yameen,Maldives,,,"The Official Twitter of the President of the Republic of Maldives, His Excellency Abdulla Yameen Abdul Gayoom"
+@Yatsenyuk_AP,1896985040,Arseniy Yatsenyuk,Arseniy Yatsenyuk,Ukraine,WHERE Actor1CountryCode = 'UKR' AND Actor1Name='ARSENIY YATSENYUK',,Прем’єр-міністр України.
+@FijiGovernment,1674155761,Fiji Government,Frank Bainimarama,Fiji,WHERE Actor1CountryCode = 'FJI' AND Actor1Name CONTAINS 'Bainimarama',,The official twitter account of the Fijian Government
+@maduro_en,1660469318,Nicolás Maduro,Nicolás Maduro,Venezuela,WHERE Actor1Name='NICOLAS MADURO MOROS' AND Actor1CountryCode='VEN',,President of the Bolivarian Republic of Venezuela. Son of Chávez. Building the Homeland with revolutionary efficiency. English translation of @NicolasMaduro
+@MiroCerar,1655801280,dr. Miro Cerar,Miro Cerar,Slovenia,,,Prime Minister of the Republic of Slovenia / Uradni račun predsednika Vlade Republike Slovenije dr. Mira Cerarja in predsednika stranke SMC. Zanj tvita ekipa.
+@MonarchieBe,1626202080,Belgian Royal Palace,King Philippe,Belgium,,,"Officieel Twitter-kanaal van het Koninklijk Paleis, België - Compte Twitter officiel du Palais Royal, Belgique"
+@PMOComms,1623929238,PMOCOMMS,Abdiweli Sheikh Ahmed,Somalia,,,Only Official Account for the Somali Prime Minister  Communications Office (2014)
+@casacivilbr,1623608509,Casa Civil,Dilma Rousseff,Brazil,WHERE Actor1Name = 'Dilma Rousseff' AND Actor1CountryCode = 'bra',,Perfil oficial da Casa Civil da Presidência da República
+@MZemanOficialni,1618506558,Miloš Zeman,Miloš Zeman,Czech Republic,WHERE Actor1Name='MILOS ZEMAN' AND Actor1CountryCode = 'CZE',,
+@PSCU_Digital,1595205038,PSCU Kenya Digital,Uhuru Kenyatta,Kenya,WHERE Actor1Name='UHURU KENYATTA' AND Actor1CountryCode = 'KEN',,Embracing the digital age! The Home of Presidential and Government News
+@RamiHamdalla,1494909290,Rami Hamdallah,Rami Hamdallah,Palestine,,,Office Page of Prime Minister Dr. Rami Hamdallah
+@Malaysia_Gov,1491523212,Malaysia Government,Abdul Halim,Malaysia,WHERE Actor1Name='SULTAN ABDUL HALIM MUADZAM SHAH' AND Actor1CountryCode = 'mys',,Malaysia is a federal constitutional monarchy consisting of 13 States and 3 Federal Territories. RTs do not equal endorsement.
+@IurieLeanca,1479879036,Iurie Leancă,Iurie Leancă,Moldova,WHERE Actor1Name='IURIE LEANCA' AND Actor1CountryCode = 'mda',,"Contul oficial de Twitter al Prim-ministrului Republicii Moldova.
+Profil administrat de către Iurie Leancă şi echipa @PLDMoldova."
+@presedinte_md,1472196571,Nicolae Timofti,Nicolae Timofti,Moldova,,,Președintele Republicii Moldova / The President                                 of Republic of Moldova
+@PrimatureRDC,1446574225,PrimatureRDC,Augustin Matata Ponyo,Democratic Republic of the Congo,WHERE Actor1Name='MATATA PONYO MAPON' AND Actor1CountryCode = 'COD',,Compte twitter officiel de la Primature de la République Démocratique du Congo / Facebook: http://goo.gl/FMTxy
+@HassanRouhani,1404590618,Hassan Rouhani,Hassan Rouhani,Iran,,,Iranian President's Sole English Account ¦ Persian @Rouhani_ir ¦ media@rouhani.ir
+@RHCJO,1362191299,RHC,Abdullah II,Jordan,WHERE Actor1Name='Abdullah II' AND Actor1CountryCode = 'JOR',,"الديوان الملكي الهاشمي - The Royal Hashemite Court.
+ تغريدات جلالة الملك عبدالله الثاني تنتهي بـ
+Tweets from His Majesty King Abdullah II are signed #ABH"
+@Presidency_Sy,1353802260,Syrian Presidency,Bashar al-Assad,Syria,WHERE Actor1Name='BASHAR AL ASSAD' AND Actor1CountryCode = 'syr',,"This is the official Twitter account for the Presidency of the Syrian Arab Republic, offering updates on Presidential news and events."
+@LibyaInterimGov,1319832283,الحكومة المؤقتة,,Libya,,,Libya Interim Government الحكومة الليبية المؤقتة
+@IstanaRakyat,1316012929,Istana untuk Rakyat,Joko Widodo,Indonesia,,,Istura adalah Akun resmi Istana untuk Rakyat. Sebuah wahana komunikasi dan berbagi informasi dari Istana Kepresidenan untuk mendekatkan rakyat dengan istananya.
+@Ibrahim_Mahlab,1307285048,ابراهيم محلب,Ibrahim Mahlab,Egypt,,,"Ibrahim Mahlab, Egypt's prime minister الحساب الرسمي"
+@PrensaMichelle,1300716044,Prensa Michelle,Michelle Bachelet,Chile,"WHERE Actor1Name contains ""Bachelet"" AND Actor1CountryCode=""CHL""",,"Este es el canal oficial del Departamento de Prensa de la Presidenta Electa, Michelle Bachelet."
+@MPMCTweeter,1278739753,MPMC Tweeter,Tuilaepa Aiono Sailele Malielegaoi,Samoa,WHERE Actor1Name= 'TUILAEPA SAILELE MALIELEGAOI' AND Actor1CountryCode = 'WSM',,Ministry of Prime Minister & Cabinet for Samoa
+@IsaMustafaRKS,1254508717,Isa Mustafa,Isa Mustafa,Kosovo,,,Kryeministër i Republikës së Kosovës / Prime Minister of the Republic of Kosovo
+@ZeljkoBiH,1218056936,Željko Komšić,Željko Komšić,Bosnia and Herzegovina,,,Član Predsjedništva BiH
+@CYpresidency,1165728211,Προεδρία της ΚΔ,Nicos Anastasiades,Cyprus,,,"Προεδρία της Κυπριακής Δημοκρατίας/ 
+Presidency of the Republic of Cyprus/
+Kıbrıs Cumhuriyeti Cumhurbaşkanlığı;
+see also @AnastasiadesCY"
+@Presidencia_HN,1145775630,Casa Presidencial,Juan Orlando Hernández,Honduras,,,Cuenta Oficial de la Casa Presidencial de Honduras.
+@SomaliPM,1144935463,@SomaliPM,,,,,"Official Twitter account of the Somalia Prime Minister His Excellency
+Omar Abdirashid Ali Sharmarke. Re-tweet doesn't mean endorsement. Views are my own."
+@brunei_pmo,1120940742,Brunei PMO,,,,,The Official twitter account of Prime Minister's Office of Brunei Darussalam.
+@SassouCG,1106069527,Denis Sassou Nguesso,Denis Sassou Nguesso,Republic of the Congo,,,Compte Twitter Officiel du Président de la République du #Congo
+@pmoffice_mn,1091577991,PM's office,,,,,Ерөнхий сайдын ажлын алба
+@HRHPSalman,1072915220,سلمان بن عبدالعزيز,,,,,الحساب الرسمي لصاحب السمو الملكي الأمير / سلمان بن عبدالعزيز آل سعود ، ولي العهد نائب رئيس مجلس الوزراء وزير الدفاع في المملكة العربية السعودية
+@ebkoroma,1069973798,Ernest Bai Koroma,,,,,"I am Ernest Bai Koroma, President of the Republic of Sierra Leone. I became President of Sierra Leone in 2007 and I was re-elected for a second term - Nov. 2012"
+@StateHouseSey,1057428702,SeychellesStateHouse,,,,,The Office of the President of the Republic of Seychelles presents news concerning President James Michel and Seychelles national news.
+@EgyPresidency,1055385086,Egyptian Presidency,Abdel Fattah el-Sisi,Egypt,,,Follow us for the latest news about the Egyptian Presidency
+@uredprh,1049824686,Ured predsjednika RH,,,,,Službeni twitter account ureda Predsjednika Republike Hrvatske.
+@samoagovt,1016451774,Government of Samoa,,,,,Official Page of the Press Secretariat of the Government of Samoa | Tweets by Press Secretariat staffer @Renate_Rivers |
+@IsraeliPM_heb,1015176121,ראש ממשלת ישראל,,,,,"החשבון הרשמי של משרד ראש הממשלה בעברית
+http://www.pmo.gov.il"
+@Israelipm_ar,1009434428,بنيامين نتنياهو,,,,,الحساب الرسمي بالعربية لرئيس الوزراء الاسرائيلي
+@kyrgyzpresident,992876924,Президент КР,Almazbek Atambayev,Kyrgyzstan,WHERE Actor1Name='ALMAZ ATAMBAYEV' AND Actor1CountryCode='KGZ',,Официальные новости.Аппарат Президента Кыргызской Республики Алмазбека Атамбаева.Расмий жаңылыктар.Кыргыз Республикасынын Президентинин Аппараты.
+@press_president,975960930,Press Office,,,,,"Follow @PresidentAM_eng, @PresidentAM_rus and @PresidentAM_arm for updates"
+@PresidentAM_rus,975934998,President.am Press,,,,,Пресс служба Президента Республики Армения
+@PresidentAM_eng,975927512,President.am Press,,,,,Press Office of the President of the Republic of Armenia
+@Daniel_k_Duncan,965823858,Daniel Kablan DUNCAN,,,,,
+@Pontifex_pt,965741665,Papa Francisco,,,,,Bem-vindo ao Twitter oficial de Sua Santidade Papa Francisco
+@Pontifex_ar,965706379,البابا فرنسيس,,,,,أهلاً بكم في الصفحة الرسمية تويتر لقداسة البابا فرنسيس
+@Pontifex_ln,965704518,Papa Franciscus,,,,,Tuus adventus in paginam publicam Papae Francisci breviloquentis optatissimus est.
+@Palazzo_Chigi,963938472,Palazzo_Chigi,,,,,Profilo ufficiale della Presidenza del Consiglio dei Ministri. Governo italiano.
+@ts_elbegdorj,963395250,President's Office,,,,,"Монгол Улсын Ерөнхийлөгчийн Тамгын газар |
+Office of the President of Mongolia"
+@Grybauskaite_LT,961974776,Dalia Grybauskaitė,,,,,President of the Republic of Lithuania
+@gouvernementFR,951480480,Gouvernement,,,,,Twitter officiel du Gouvernement français.
+@somaligov_,950484104,SOMALI   GOVERMENT,,,,,
+@TheVillaSomalia,950313240,Villa Somalia,,,,,This is the official Twitter of Villa Somalia.
+@PMNawazSharif,937710709,Mian Nawaz Sharif,,,,,PM Nawaz Sharif on Twitter
+@PresidentKosovo,933003422,Atifete Jahjaga,,,,,President of the Republic of Kosovo
+@PutinRF_Eng,932196612,Vladimir Putin,Vladimir Putin,Russia,WHERE (Actor1Name='VLADIMIR PUTIN' or Actor1Name='VLADIMIR VLADIMIROVICH PUTIN') AND Actor1CountryCode='RUS',,The official twitter channel for President of the Russian Federation. Tweets from the President are signed #VP
+@ortcomkzE,927294824,ortcomkzE,,,,,Central Communications Office for the President of Kazakhstan
+@ortcomkz,926894935,ortcomkz,,,,,СЦК создана для улучшения взаимодействия между государственными органами и СМИ
+@KoupakiOfficiel,923449368,Pascal I. Koupaki,,,,,:: Compte Officiel de Pascal I. Koupaki :: Economiste et homme politique béninois. Premier Ministre du #BENIN de 2011 à 2013
+@GovCyprus,886930609,Cyprus Portal,,,,,Official twitter account of the Web Portal of the Rep. of Cyprus Inappropriate comments will be blocked
+@rubirivlin,886335560,ראובן (רובי) ריבלין,,,,,
+@Al_Kasbah,881162107,Alkasbah,,,,,رئاسة الحكومة  - http://www.alkasbah.tn
+@vladaOCDrs,857883481,Kancelarija za OCD,,,,,Kancelarija za saradnju sa civilnim društvom Vlade Republike Srbije. Stvaramo podsticajno okruženje za #OCDrs (organizacije civilnog društva u Srbiji)
+@KhaledBahah,851181762,Khaled Bahah,,,,,Permanent Representative of Yemen to the United Nation
+@MoussaMara2,850685436,Moussa Mara,,,,,"Premier Ministre du Mali, Expert Comptable de Formation, Président du parti Politique YELEMA(LE CHANGEMENT)."
+@PRepublicaTL,845048838,Taur Matan Ruak,,,,,
+@zasagmn,806124644,zasag,,,,,МОНГОЛ УЛСЫН ЕРӨНХИЙ САЙД Н.АЛТАНХУЯГИЙН ТЭРГҮҮЛСЭН ШИНЭЧЛЭЛИЙН ЗАСГИЙН ГАЗАР
+@StateHouseSL,782308724,State House,,,,,"Office of the President of Sierra Leone. Tweets by @CommsUnitSL managed by @jaraski. 
+http://www.facebook.com/StateHouseSL"
+@ChefGov_ma,748291920,عبد الإله ابن كيران,,,,,رئيس الحكومة
+@BgPresidency,737550788,Bulgarian Presidency,,,,,Administration of the Bulgarian President - Press Office/Администрация на Президента
+@QuirinaleStampa,732819391,Quirinale Uff Stampa,,,,,Twitter ufficiale dell'Ufficio Stampa della Presidenza della Repubblica.
+@JDMahama,726748106,John Dramani Mahama,,,,,"Official account of H.E. John Dramani Mahama, President of the Republic of Ghana, run by staff. Tweets by H.E. are signed– JM. http://www.presidency.gov.gh"
+@AkordaPress,635586094,Пресс-служба Акорды,,,,,Қазақстан Республикасы Президентінің Баспасөз қызметі               Press Office of The President of the Republic of Kazakhstan
+@Pravitelstvo_RF,634725546,Правительство России,,,,,Новости о Председателе Правительства России и Правительстве России. Английская версия аккаунта - @GovernmentRF
+@BorutPahor,634463033,Borut Pahor,Borut Pahor,Slovenia,,,"Uradni račun predsednika Republike Slovenije Boruta Pahorja. Tvita ekipa, tviti PRS označeni z BP/Official channel of the President of the Republic of Slovenia"
+@GovernmentRF,633794939,Government of Russia,Dmitry Medvedev,Russia,WHERE Actor1Name='DMITRIY MEDVEDEV' AND Actor1CountryCode='RUS',,"Follow news on the work of the Prime Minister and the Russian Government in English. For tweets in Russian, follow @Pravitelstvo_RF"
+@GeorgianGovernm,632907601,Georgian Government,,,,,
+@MahamadouIssouf,623290235,Mahamadou Issoufou,,,,,Président de la république du Niger
+@Matignon,621874680,Matignon,,,,,"Bienvenue sur le compte officiel du Premier ministre français, chef du gouvernement. Compte géré par le cabinet. Suivez aussi @gouvernementFR"
+@Straujuma,619870515,Laimdota Straujuma,,,,,Latvijas Republikas Ministru prezidente / Prime Minister of the Republic of Latvia
+@VBevanda,611770712,Vjekoslav Bevanda,,,,,
+@KBZayed,611109758,خليفة بن زايد,,,,,"شاركنا حبك للقائد { مبادرة } . *باذن الله عندما يصل عدد المتابعين لـ مليون سنقدمه كـ هدية لـ رئيس الدولة .
+http://instagram.com/KBZayed 
+kik : H.kbzayed"
+@primatureci,606309435,Le Premier Ministre,,,,,
+@SerbianGov,603524800,Serbian Government,,,,,"Official Twitter account of the Government of the Republic of Serbia in English. We welcome your suggestions, questions ..."
+@emansionliberia,603417503,Executive Mansion,,,,,The official Twitter page of the President of the Republic of Liberia
+@Sekhoutoureya,600418108,Présidence de Guinée,,,,,Bienvenue sur le compte Twitter officiel de la Présidence de la République de Guinée.
+@SalamTammam,599985251,Tammam Salam,,,,,The official twitter account of the Prime Minister of Lebanon Tammam Salam
+@MaldivesPO,594963354,President's Office,,,,,News and updates from the President’s Office about the changes\developments made by the government of Maldives. Comments & messages received maybe archived.
+@PrensaHC,594051718,PrensaHC,,,,,Cuenta oficial del equipo de prensa del Presidente Constitucional de la República del Paraguay @Horacio_Cartes.
+@predsednikrs,589069254,Томислав Николић,,,,,Званична презентација председника Републике Србије на Твитеру. Твитови председника почињу са ТН:
+@presidenciaCV,580037845,Jorge Carlos Fonseca,,,,,"Bio: President of the Republic of Cape Verde.
+https://wdv24e.s.cld.pt"
+@IlvesToomas,579747564,toomas hendrik ilves,,,,,vaata kodukalt/look at my homepage
+@presstj,579483133,presstj,,,,,
+@HadiPresident,570223846,عبدربه  منصور هادي,,,,,
+@AnastasiadesCY,568981074,Nicos Anastasiades,,,,,"Νίκος Αναστασιάδης, Πρόεδρος της Κυπριακής Δημοκρατίας/ President of the Republic of Cyprus; see also @CYpresidency"
+@SaintLuciaGov,547314961,St. Lucia Government,,,,,Government of Saint Lucia Twitter Account
+@PresidentAM_arm,545885877,President.am Press,,,,,Հայաստանի Հանրապետության Նախագահի մամլո ծառայություն
+@PMTCHAD,532423452,Primature du Tchad,,,,,Compte Twitter Officiel de la Primature de la République du Tchad.
+@Nicolae_Timofti,528997120,Nicolae Timofti,,,,,Președintele Republicii Moldova
+@Pontifex_es,525264466,Papa Francisco,,,,,Bienvenido al Twitter oficial de Su Santidad Papa Francisco
+@StateHousePress,525120064,StateHouse PressZM,,,,,The State House Press Office is one of the offices of Five Special Assistants attending to the President of Zambia.
+@luisguillermosr,524571803,Luis Guillermo Solís,,,,,Primer Servidor de la República de Costa Rica 2014 - 2018
+@jammehofficial,523491641,Prof. Yahya Jammeh,,,,,President of the Republic of The Gambia
+@Pontifex_de,523150102,Papst Franziskus,,,,,Willkommen auf der offiziellen Twitter-Seite Seiner Heiligkeit Papst Franziskus
+@Pontifex_pl,522122949,Papież Franciszek,,,,,Witamy na oficjalnej stronie Twitter Jego Świątobliwości Papieża Franciszka
+@Pontifex_fr,500713106,Pape François,,,,,Bienvenue sur la page Twitter officielle du Pape François
+@Pontifex_it,500711588,Papa Francesco,,,,,Benvenuti alla pagina Twitter ufficiale di Sua Santità Papa Francesco
+@Pontifex,500704345,Pope Francis,,,,,Welcome to the official Twitter page of His Holiness Pope Francis
+@GuatemalaGob,495102115,Gobierno Guatemala,,,,,Noticias e información del Gobierno de Guatemala.
+@BaldwinSpencer,484178775,Baldwin Spencer,,,,,
+@BdiPresidence,482242599,Burundi | Présidence,,,,,
+@GvtMonaco,472167838,Gouvernement Monaco,,,,,Bienvenue sur le compte officiel du Gouvernement de la Principauté de Monaco
+@PMOIndia,471741741,PMO India,,,,,Office of the Prime Minister of India
+@MBZNews,471010707,أخبار محمد بن زايد,,,,,حساب تويتر الرسمي لأخبار سمو الشيخ محمد بن زايد آل نهيان The official twitter account for the news of HH Mohamed bin Zayed Al Nahyan
+@AbeShinzo,468122115,安倍晋三,,,,,衆議院議員安倍晋三（あべしんぞう）の公式twitterです
+@micwebTonga,467314261,micwebTonga,,,,,Tonga Government Portal website/ Prime Minister Office/ Ministry of Information and Communications
+@presidenceTN,455895084,تونس - الرئاسة,,,,,الحساب الخاص برئاسة الجمهورية التونسية على تويتر
+@SaikhanbilegCh,454739210,Saikhanbileg,,,,,"Улсын Их Хурлын гишүүн, УИХ дахь АН-ын бүлгийн ахлагч"
+@VladaCG,450605189,Vlada Crne Gore,,,,,"Zvanični nalog Vlade Crne Gore. Zvanične informacije.
+#CrnaGora"
+@VladaRH,444097675,Vlada R. Hrvatske,,,,,Vlada RH - službeni Twitter račun. Government of the Republic of Croatia - official Twitter account. Pravila korištenja: http://bit.ly/1syf0Qk
+@PrimatureRwanda,440647714,Primature,,,,,The Office of the Prime Minister of Rwanda
+@PSimpsonMiller,440460647,Portia SimpsonMiller,,,,,Portia Simpson-Miller is the leader of the People's National Party and Jamaica's first female Prime Minister.
+@PutinRF,438133358,Владимир Путин,,,,,Официальный аккаунт поддержки Президента Российской Федерации Владимира Путина. Личные сообщения отмечены #ВП
+@A_Davutoglu_ar,434882299,Ahmet Davutoğlu,,,,,"الصفحة الرسمية لرئيس الوزراء التركي ورئيس حزب العدالة والتنمية أحمد داوود أوغلو على موقع تويتر 
+Türkçe:@Ahmet_Davutoglu  -  English: @A_Davutoglu_eng"
+@A_Davutoglu_eng,434829567,Ahmet Davutoğlu,,,,,Prime Minister of Republic of Turkey - Chairman of AK PARTY
+@TaaviRoivas,422049167,Taavi Rõivas,,,,,"Peaminister, liberaal, spordifänn"
+@mincombolivia,415816193,Min. de Comunicacion,,,,,El Ministerio de Comunicación fue creado mediante Decreto Supremo N° 0793 del 15 de febrero de 2011.
+@ARG_AFG,413756746,ارګ,,,,,This is an Official Account of Presidential Palace of Afghanistan
+@kantei,412940784,首相官邸,,,,,本アカウントは首相官邸の公式アカウントです。首相官邸（災害情報）ツイッターに加えて、日々の情報も国民の皆様に発信します。首相官邸ＨＰに掲載される総理についての更新情報などを中心にお届けします。
+@UgandaMediaCent,398537661,Uganda Media Centre,,,,,The Government of Uganda's Official centre for Public Communications
+@DonaldRamotar,397237197,Donald Ramotar,,,,,Presidential Candidate People's Progressive Party
+@UAEGover,395556077,UAE Government,,,,,مشروع توحيد دولة الإمارات العربية المتحده الكترونيا
+@FijiPM,395425451,JV Bainimarama,,,,,"The office of Josaia Voreqe Bainimarama, Prime Minister of the Republic of Fiji"
+@FijiRepublic,393086391,Republic of Fiji,,,,,
+@IBK_2013,391694893,Ibrahim B. Keita,,,,,Président de la République du #Mali. https://www.facebook.com/IBK.Officiel
+@PrimeMinisterGE,390860839,Irakli Garibashvili,,,,,Official twitter channel of the Prime Minister of Georgia
+@PresidenceMali,389486048,Presidence Mali,,,,,Fil officiel de la Présidence de la République du #Mali
+@eng_pm_kz,389272165,PM KZ,,,,,English-language twitter account of the official site of the Prime Minister of Kazakhstan @KarimMassimov_E
+@kaz_pm_kz,389265641,PM KZ,,,,,ҚР Премьер-Министрі ресми сайтының қазақ тіліндегі твиттер-аккаунты @KarimMassimov
+@PMKamla,388639092,Kamla P. Bissessar,,,,,Official Twitter page of the Prime Minister of the Republic of Trinidad and Tobago.
+@VladaMK,382673029,Влада на Македонија,,,,,"ВЛАДА НА РЕПУБЛИКА МАКЕДОНИЈА
+http://www.facebook.com/VladaMK 
+http://www.youtube.com/VladaMakedonija"
+@teamkanzler,382003842,teamkanzler,,,,,
+@SCpresidenciauy,380961080,Sec. Comunicación,,,,,Bienvenidos al twitter oficial de la Secretaría de Comunicación - Presidencia de la República Oriental del #Uruguay
+@RecepT_Erdogan,378534651,Recep Tayyip Erdogan,,,,,"رئيس الجمهورية التركية 
+http://Facebook.com/RecepTayyipErdogan …
+@RT_Erdogan"
+@rplevneliev,377940978,Росен Плевнелиев,,,,,"Страница на Росен Плевнелиев, поддържана от щаба за президентската кампания #rplevneliev2011. Туитовете от Росен са подписани с инициали РП"
+@palaismonaco,377384429,palaisprinciermonaco,,,,,"Bienvenue sur le compte officiel du Palais Princier de Monaco. 
+Ce compte est géré par son service de presse."
+@TaurMatanRuak,376198296,Taur Matan Ruak,,,,,"Former leader of independence forces, head of armed forces of new democracy of Timor-Leste. Sworn in as President Timor-Leste May 20, 2012."
+@donaldtusk,375146901,Donald Tusk,,,,,Oficjalny profil Donalda Tuska. The official profile of Donald Tusk.
+@CasaCivilPRA,373310880,Casa Civil Angola,,,,,"Bem vindo!
+A Casa Civil do Presidente da República de Angola."
+@Presidenceci,370809101,Presidenceci,,,,,Profil officiel de la Présidence de la République de
+@Munhzull,370764505,Zulaa,,,,,"Government Press Office, @1111tuv, #Mongolia"
+@PaulBiya,370585542,Paul Biya,,,,,Président de la République - President of the Republic
+@HelleThorningS,367359870,Helle Thorning,,,,,
+@jokowi_do2,366987179,Joko Widodo,,,,,Pengennya sederhana dalam kesederhanaan.
+@StateHouseKenya,364830542,State House Kenya,,,,,State House Kenya
+@Horacio_Cartes,361445173,Horacio_Cartes,,,,,Cuenta oficial del Presidente Constitucional de la República del Paraguay
+@TeLoCuentoPTY,360245371,Te Lo Cuento PTY,,,,,-Te Lo Cuento y tú me lo cuentas-
+@avucic,356450858,Александар Вучић,,,,,"Председник Српске напредне странке.
+President of the Serbian Progressive Party.
+Званична Фејсбук страница
+:: http://www.facebook.com/VucicAleksandar"
+@Jorgecfonseca,345455857,Jorge Carlos Fonseca,,,,,"Canal do Candidato a presidência da republica de Cabo Verde no twitter. Notícias, agenda, e declarações políticas."
+@marianorajoy,343447873,Mariano Rajoy Brey,,,,,"Soy presidente del Gobierno de España y presidente del PP. Bienvenidos a mi Twitter, donde me acompaña mi equipo."
+@RepSouthSudan,331878888,Gov of South Sudan,,,,,The Official Twitter account for the Government of South Sudan.
+@Kabmin_UA_r,331502948,Кабмин Украины,,,,,Официальное Twitter-представительство Кабинета Министров Украины. Информация поступает с официального веб-сайта Кабинета Министров Украины. Более детально:
+@Kabmin_UA,331491073,Кабмін України,,,,,Офіційне Twitter-представництво Кабінету Міністрів України. Інформація надходить з офіційного веб-сайту Кабінету Міністрів України. Детальніше за адресою
+@BarrowDean,322849285,Dean O. Barrow,,,,,"Born in Belize City on March 2, 1951.  First elected to the House of Representatives in 1984.  Sworn in as Prime Minister of Belize on Friday, February 8, 2008."
+@amurekezi,319286650,Murekezi Anastase,,,,,PRIME MINISTER OF RWANDA
+@adrian_hasler,316668206,Adrian Hasler,,,,,
+@Gouvci,316559637,GOUV.CI,,,,,
+@BWGovernment,316291124,Botswana Government,,,,,This is the Official Twitter Page of the Government of Botswana.
+@infopresidencia,312887235,Presidencia Colombia,,,,,"Colombia en paz, con equidad y educada - Cuenta oficial de la Presidencia de la República de Colombia - Secretaría de Prensa. http://on.fb.me/q987HO"
+@BR_Sprecher,311941092,André Simonazzi,,,,,Offizielles Twitter-Profil des Bundesratssprechers André Simonazzi. Tweets seines Teams enden mit dem Kürzel (BK).
+@MeGovernment,309032583,Govt. of Montenegro,,,,,"Official English language Twitter account of the Government of #Montenegro.
+Follow our Montenegrin account: @VladaCG"
+@HailemariamD,307850736,Hailemariam Desalegn,,,,,Deputy-Prime Minister and Foreign Minister of the Federal Democratic Republic of Ethiopia. Deputy-Chairman of @EPRDF
+@StateHouseUg,306151694,State House Uganda,,,,,The Official State House Uganda Twitter page. All Information Posted and Viewd on this page are subjected to the State House User Policy.
+@PR_Paul_Biya,301026859,President Paul Biya,,,,,"2e président du Cameroun, j'ai accédé à la présidence le 06 nov 1982 après la démission du Président A. AHIDJO. Depuis, le renouveau du Cameroun est en marche."
+@GruevskiNikola,299942973,Nikola Gruevski,,,,,Премиер на Република Македонија и лидер на ВМРО-ДПМНЕ / Prime Minister of the Republic of Macedonia and leader of VMRO-DPMNE
+@SAPresident,295663598,Jacob G. Zuma,Jacob G. Zuma,South Africa,WHERE Actor1Name='jacob zuma' AND Actor1CountryCode = 'zaf',,President of the Republic of South Africa.
+@palaisnational,292928347,Michel Martelly,,,,,"Michel Martelly, President of the Republic of Haiti - Blog about the president..."
+@FinGovernment,292291704,Finnish Government,,,,,Latest from the Finnish Government and ministries
+@statsradet,292249730,Statsrådet,,,,,De senaste nyheterna från regeringen och ministerierna
+@RepGabon,291595538,République Gabonaise,,,,,
+@RaulCastroR,291220589,Raúl Castro Ruz,,,,,"Discursos y noticias de Raúl Castro, Primer Secretario del @PartidoPCC y Presidente del Consejo de Estado y de Ministro de Cuba publicadas en @Cubadebate"
+@primeministerkz,288234254,PrimeMinister.kz,,,,,Tвиттер-аккаунт официального сайта Премьер-Министра РК
+@valtioneuvosto,283979780,valtioneuvosto,,,,,Hallituksen ja ministeriöiden tuoreimmat uutiset. Tiliä ylläpitää Valtioneuvoston viestintäosasto http://bit.ly/1yoBWsk
+@GovernmentMN,280835808,Government Mongolia,,,,,Official twitter for Government of Mongolia
+@Maroc_eGov,280678149,eGov Maroc,,,,,Compte du programme de l'eGouvernement Marocain | Priorité de #MarocNumeric2013 | Direction de l'@EconomieNumeric (MICIEN) | Contact: eGov@mcinet.gov.ma
+@GuvernulRM,278969895,Directia comunicare,,,,,
+@AzerbaijanPA,278520184,AzerbaijanPA,,,,,Prezident Administrasiyası / Azərbaycan Respublikası / Rəsmi Twitter səhifəsi - Administration of the President / Republic of Azerbaijan / Official Twitter page
+@ComunicadosHN,277030216,Comunicados Honduras,,,,,
+@EmomaliRahmon,276380526,Emomali Rahmon,,,,,The President of Republic of Tajikistan.
+@ediramaal,273410176,Edi Rama,,,,,Faqja Zyrtare e Kryeministrit të Republikës së Shqipërisë
+@trpresidency,272621942,Turkish Presidency,,,,,
+@tccankaya,272613386,T.C.Cumhurbaşkanlığı,,,,,
+@IOGpr11,272490709,Ismail Omar Guelleh,,,,,Compte officiel du candidat de l'UMP. L'équipe com partage avec vous ici la une de l'actualité de la campagne présidentielle et des tweets du candidat lui même!
+@AButkevicius,271372111,Algirdas Butkevičius,,,,,Prime Minister of the Republic of Lithuania
+@KarimMassimov_E,270839688,Karim Massimov,,,,,"Prime Minister of Kazakhstan.
+Версию на казахском и русском языках вы найдете здесь @KarimMassimov"
+@jmkikwete,269780552,Jakaya Kikwete,,,,,The President of The United Republic of Tanzania (Rais wa Jamhuri ya Muungano wa Tanzania)
+@JPN_PMO,266991549,PM's Office of Japan,,,,,This is the official English twitter account of Prime Minister's Office of Japan. Our Facebook URL is                          http://www.facebook.com/Japan.PMO
+@Kantei_Saigai,265205959,首相官邸（災害情報）,,,,,"本アカウントは首相官邸の公式アカウントです。
+首相官邸から災害関連の政府活動情報をお届けいたします。"
+@presgoodluck,262660092,Goodluck Jonathan,,,,,"The OFFICIAL Twitter account for Goodluck Jonathan, President of The Federal Republic of Nigeria."
+@Moncef_Marzouki,262125327,محمد المنصف المرزوقي,,,,,رئيس الجمهورية التونسية - Président de la République Tunisienne
+@setkabgoid,260686783,Sekretariat Kabinet,,,,,Terdepan dan terkini dalam menyampaikan berita seputar pemerintahan. Dikelola oleh Desk Informasi Sekretariat Kabinet
+@prcavacosilva,257666657,Aníbal Cavaco Silva,,,,,Twitter oficial de Aníbal Cavaco Silva
+@PresidentUA,254952852,Щоденник Президента,,,,,Twitter представництво Президента України
+@KarimMassimov,252983114,Карим Масимов,,,,,Премьер-министр Республики Казахстан English version is here @KarimMassimov_E
+@DrEnsour,249951608,د. عبدالله النسور,Abdullah Ensour,Jordan,,,Prime Minister - Hashemite Kingdom of Jordan
+@UAEmGov,245243568,حكومة دولة الامارات,,,,,الحساب الرسمي لحكومة الامارات الذكية  The Official UAE Mobile Government Account
+@elbegdorj,238480712,Цахиагийн ЭЛБЭГДОРЖ,,,,,"Tsakhiagiin ELBEGDORJ, President of Mongolia | Монгол Улсын Ерөнхийлөгч
+| МОНГОЛ УЛСЫН ТӨЛӨӨ ЗҮТГЭЕ! |"
+@kormany_hu,237292791,Kormányportál,,,,,Magyarország Kormánya hivatalos portáljának Twitter oldala
+@presidencymv,235827932,Presidency Maldives,,,,,Official twitter account of The President's Office
+@prdthailand,235124393,กรมประชาสัมพันธ์,,,,,"Thailand's Government Public Relations Department, Office of the Prime Minister. The provider of official news and information about Thailand."
+@RegSprecher,234343491,Steffen Seibert,,,,,"Hier twittert Steffen Seibert, Sprecher der Bundesregierung und Chef des Bundespresseamtes (BPA). 
+Tweets seiner Mitarbeiter/innen enden mit dem Kürzel (BPA)."
+@UrugwiroVillage,233953901,Presidency | Rwanda,,,,,Official Twitter account of the Office of the President of Rwanda.Your unique opportunity to follow the work of President Paul Kagame on a daily basis.
+@Saudiegov,233501306,سعودي,,,,,البوابة الوطنية للتعاملات الإلكترونية الحكومية
+@sigmundurdavid,231054442,Sigmundur Davíð,,,,,Forsætisráðherra Íslands / Prime Minister of Iceland
+@BoykoBorisov,229635171,Boyko Borisov,,,,,Bulgarian Prime Minister
+@PresidencyGhana,227729078,Presidency of Ghana,,,,,"His Excellency President John Mahama was born in Damongo, in the Damango-Daboya constituency of Ghana."
+@pgchristie,221961767,Perry Christie,,,,,Prime Minister and leader of the Progressive Liberal Party
+@govofvanuatu,218627408,Vanuatu Government,,,,,Vanuatu Government Online Social Network
+@TPKanslia,218184927,TPKanslia,,,,,Tasavallan presidentin kanslia / Republikens presidents kansli / Office of the President of the Republic of Finland
+@JC_Varela,216457140,Juan Carlos Varela,,,,,Presidente Constitucional de la República de Panamá.
+@MashiRafael,209780362,Rafael Correa,,,,,Presidente Constitucional de la República del Ecuador.
+@govgr,207483074,government.gov.gr,,,,,Ο επίσημος λογαριασμός της ιστοσελίδας της Ελληνικής Κυβέρνησης. (Ευθύνη διαχείρισης: Ομάδα Επικοινωνιακού Σχεδιασμού της Γ.Γ του Πρωθυπουργού)
+@KremlinRussia_E,205622130,President of Russia,,,,,Official Kremlin news
+@ADO__Solutions,198439337,ADO_Solutions,,,,,"Alassane Dramane Ouattara, Président la République de Côte d'Ivoire.
+http://www.facebook.com/AdoSolutions"
+@GMICafghanistan,197700863,GMIC Afghanistan,,,,,"The GMIC was established in 2007 to respond to the great information need of the Afghan public, media,national and international stakeholders."
+@macky_sall,197493438,Macky SALL,,,,,Page Officielle du Président de la République du Sénégal
+@eucopresident,196994616,Donald Tusk,,,,,"Twitter channel of Donald Tusk, President of the European Council. Managed by the media team."
+@presidentkoroma,192543524,Ernest Bai Koroma,,,,,President of Sierra Leone
+@CourGrandDucale,190261116,Cour Grand-Ducale,,,,,Les activités à la Cour Grand-Ducale du Luxembourg. Latest activities from the Grand-Ducal Court of Luxembourg.
+@UKenyatta,183165874,Uhuru Kenyatta,,,,,President of The Republic of Kenya.
+@B_Izetbegovic,181884541,Bakir Izetbegović,,,,,
+@Ahmet_Davutoglu,181567076,Ahmet Davutoğlu,,,,,Türkiye Cumhuriyeti Başbakanı -  Adalet ve Kalkınma Partisi Genel Başkanı
+@BurundiGov,178298916,Burundi Government,,,,,Portail des institutions de la République du Burundi
+@PresidentNoy,177746513,P-Noy,,,,,"We request everyone to now follow @noynoyaquino, the President's official Twitter account. Thank you."
+@Xavier_Bettel,173929268,Bettel Xavier,,,,,Prime Minister/President of Demokratesch Partei
+@pcmperu,173020528,Consejo de Ministros,,,,,"Presidencia del Consejo de Ministros: 
+http://www.pcm.gob.pe 
+Cuenta administrada por la Oficina de Prensa e Imagen Institucional"
+@GovPH_PCOO,172770197,PCOO,,,,,The Official Twitter Account of the Presidential Communications Operations Office of the Philippine Government
+@azpresident,171357785,İlham Əliyev,,,,,Azərbaycan Respublikasının Prezidenti İlham Əliyevin rəsmi twitter kanalı.
+@PresidenciadeHN,169572405,Presidencia Honduras,,,,,
+@JunckerEU,169426475,Jean-Claude Juncker,,,,,President of the @EU_Commission
+@kyrgyzrepublic,167019733,Kyrgyz Republic,,,,,
+@antiguagov,166231881,Antigua and Barbuda,,,,,Official Twitter page for the Government of Antigua and Barbuda
+@15StClairAve,165427807,TT Prime Minister,,,,,The Official twitter channel for the Office of the Prime Minister of Trinidad and Tobago
+@strakovka,164302135,Úřad vlády ČR,,,,,Oficiální twitter účet Úřadu vlády České republiky
+@Rigas_pils,163823223,Valsts prezidents,,,,,Oficiālais Latvijas Valsts prezidenta Twitter konts. Informācija sabiedrībai par Latvijas Valsts prezidenta un Valsts prezidenta kancelejas darbību.
+@JGoodlucktweets,163594070,Goodluck Jonathan,,,,,An Account Opened in Support of the President of the Federal Republic of Nigeria.  This is not the President.
+@ThaiKhuFah,159062306,Thai Khu Fah,,,,,ศูนย์ประชาสัมพันธ์ข่าวรัฐบาลไทย Thai Government News Center
+@KremlinRussia,158650448,Президент России,,,,,Кремль. Официальные новости
+@EU_Commission,157981564,European Commission,,,,,"The Commission's job is to represent and uphold the interests of the European Union as a whole. It is headed by 28 Commissioners, 1 per member state."
+@koninklijkhuis,156926956,Koninklijk Huis,,,,,Dit is het officiële Twitter-kanaal over het Koninklijk Huis van de Rijksvoorlichtingsdienst. This is the official Twitter account of the Dutch Royal House
+@Victor_Ponta,156221710,Victor Ponta,,,,,"Premierul Romaniei, presedintele PSD. Contul este gestionat de Echipa VP / Prime Minister of Romania, President of PSD. Account run by Victor Ponta’s Staff."
+@belizegov,155932163,Government of Belize,,,,,Government at Service of The People
+@MinPres,155507136,Minister-president,,,,,Minister-president van Nederland – Redactie door de Rijksvoorlichtingsdienst – Wij zijn benieuwd naar jullie reacties
+@PrimatureGabon,154076382,Paul BIYOGHE MBA,,,,,
+@MedvedevRussia,153812887,Дмитрий Медведев,,,,,Председатель Правительства Российской Федерации.Аккаунт на английском - @MedvedevRussiaE
+@MedvedevRussiaE,153810519,Dmitry Medvedev,,,,,"Prime Minister of Russia. For tweets in Russian, follow @MedvedevRussia"
+@CasaRosadaAR,153169998,Casa Rosada,,,,,Twitter Oficial de la Casa de Gobierno de la República Argentina  http://www.casarosada.gob.ar
+@Ollanta_HumalaT,151190865,Ollanta Humala Tasso,,,,,"Presidente Constitucional de la República del Perú. Oficial (r) del Ejército, felizmente casado y orgulloso padre de Illariy, Nayra y Samin."
+@sanchezceren,148776931,Salvador Sánchez C.,,,,,Twitter oficial de Salvador Sánchez Cerén Presidente de la República de El Salvador para el periodo 2014 - 2019
+@merrionstreet,148000327,MerrionStreet.ie,,,,,"MerrionStreet.ie - Irish Government News Service is a service provided from Government Buildings in Dublin.
+RT's not an endorsement."
+@presidenciacr,144875363,Casa Presidencial CR,,,,,"Twitter Oficial de Casa Presidencial, Costa Rica. // Official Presidence of Costa Rica's Twitter Account."
+@presidentaz,143742312,Ilham Aliyev,,,,,Official twitter channel of the President of the Republic of Azerbaijan - Ilham Aliyev.
+@agarciapadilla,141223563,Alejandro,,,,,Perfil oficial del Gobernador de Puerto Rico. Official Profile of Puerto Rico's Governor. Tuits del Gobernador son firmados -AGP
+@IsraeliPM,141084952,PM of Israel,,,,,The official Twitter account of the Office of the Prime Minister of Israel
+@atambayev,140328404,Almazbek Atambaev,,,,,Ролевой аккаунт от первого лица.
+@PresidencialVen,138901003,Prensa Presidencial,,,,,
+@CFKArgentina,138814032,Cristina Kirchner,,,,,"Cristina Fernández de Kirchner, Presidenta de la Nación Argentina. En facebook: http://www.facebook.com/CFKArgentina"
+@komorowski,138163716,Bronisław Komorowski,,,,,
+@KamlaUNC,138149098,Kamla,,,,,Official Twitter for Kamla Persad Bissessar - candidate for Prime Minister of Trinidad and Tobago
+@imprensaPR,136409743,Imprensa Presidência,,,,,Secretaria de Imprensa da Presidência da República traz informações sobre a agenda da presidenta Dilma Rousseff em todo o País.
+@EndaKennyTD,135514272,Enda Kenny,,,,,"Taoiseach, Leader of Fine Gael, husband and father."
+@GH_PARK,134732045,박근혜(Park Geun Hye),,,,,대한민국 18대 대통령 박근혜의 공식 트위터입니다.
+@bluehousekorea,132800515,대한민국 청와대,,,,,"청와대 공식 트위터 계정 / Official Cheong Wa Dae twitter account - Office of the president, the Republic of Korea"
+@PresidenciaRD,132595055,PresidenciaRD,,,,,Cuenta twitter oficial de la Presidencia de la República Dominicana.
+@KenyaGov,132444446,Kenya Government,,,,,
+@dilmabr,131574396,Dilma Rousseff,,,,,"Twitter de Dilma Rousseff, presidenta do Brasil"
+@KagutaMuseveni,126955629,Yoweri K Museveni,,,,,President of the Republic of Uganda
+@BrazilGovNews,126397246,Brazil Gov News,,,,,Official Twitter channel of SECOM with the latest news from the Brazilian Federal Government.
+@PrimeMinisterKR,125585413,국무총리실(PMO),,,,,"{국무총리실 공식 트위터}
+'통(通)하지 않으면 통(痛)한다'는 각오로 대국민 소통의 활시위를 당기겠습니다."
+@GovernAndorra,122452959,Govern d’Andorra,,,,,"El twitter del Govern d'Andorra, un espai informatiu i de servei públic per estar en contacte amb el ciutadà.
+
+Visita el nostre web:"
+@prensapalacio,122441438,Presidencia Perú,,,,,Gobierno del Perú informa.
+@Pr_Alpha_Conde,121556351,Prof. Alpha Condé,,,,,Président de la République de Guinée)
+@regierung_fl,116202030,Reg. Liechtenstein,,,,,
+@EwaKopacz,110963318,Ewa Kopacz,,,,,Polityk
+@Viktor_Orban,109712752,Orbán Viktor,,,,,
+@boikoborisov,108003653,ген. Бойко Борисов,,,,,Министър-председател на Република България
+@MichelJMartelly,106887653,Michel J. Martelly,,,,,"Michel Joseph Martelly, Prezidan Repiblik Ayiti - Président de la République d'Haïti."
+@ArmandoGuebuza,106073177,Armando Guebuza,,,,,"Presidente da República de Moçambique.
+Republic of Mozambique´s President"
+@PrimeministerGR,104298598,"Prime Minister, GR",,,,,Ο Πρωθυπουργός της Ελλάδας | Prime Minister of the Hellenic Republic.
+@md_higgins,104192882,Michael D Higgins,,,,,President of Ireland
+@David_Cameron,103065157,David Cameron,,,,,Prime Minister and Leader of the @Conservatives
+@Presidencia_Ec,101895924,Presidencia Ecuador,,,,,Cuenta Oficial de Twitter de la Presidencia de la República de Ecuador.
+@DrBoniYAYI,100540710,YAYIBONI,,,,,"Banquier et économiste de formation, Boni Yayi est à la tête de la République du Bénin depuis Avril 2006. http://www.flickr.com/people/boniyayi-bj/ …"
+@Hilaaleege,100006693,Hilaaleege,,,,,Residence of the President - Republic of Maldives
+@PresidenciaPy,99295157,Presidencia Paraguay,,,,,Cuenta oficial de la Presidencia de la República del Paraguay.
+@CharlesMichel,98639150,Charles Michel,Charles Michel,Belgium,WHERE Actor1Name = 'Charles Michel' AND Actor1CountryCode = 'bel',,Premier Ministre de Belgique / Eerste Minister van België / Premierminister von Belgien
+@forsaetisradun,96155186,Forsætisráðuneytið,,,,,"Forsætisráðuneytið, Stjórnarráðshúsinu við Lækjartorg, 101 Reykjavík. Netfang: postur@for.is, sími 545 8400 - forsaetisraduneyti.is"
+@TonyAbbottMHR,93766096,Tony Abbott,,,,,Prime Minister of Australia
+@ottoperezmolina,90978338,Otto Pérez Molina,,,,,Presidente Constitucional de la República de Guatemala.
+@presidencia_sv,88716854,Casa Presidencial,,,,,Cuenta oficial de la Presidencia de la República de El Salvador.
+@RobertFico,88427076,Robert Fico,,,,,"Predseda vlády SR, právnik, predseda strany SMER – sociálna demokracia"
+@adosolutions,86037380,Alassane D. Ouattara,,,,,"Twitter officiel Alassane Dramane Ouattara, Président la République de Côte d'Ivoire."
+@PalestinianGov,85518943,Gov. Media Center,,,,,"PGMC is responsible for managing the outflow of governmental media relations and information data collected through Arab, Israeli, and foreign media outlets."
+@RwandaGov,85346528,Government of Rwanda,,,,,The official Twitter handle of the Government of Rwanda communications@gov.rw
+@samaras_antonis,83656002,Σαμαράς Αντώνης,,,,,
+@HaiderAlAbadi,80817491,Haider Al-Abadi,,,,,Prime Minister of Iraq | Former Deputy Speaker of CoR | MP since 2006 | Former Chairman Finance Committee | Former Chairman of Economic & Investment Committee
+@lacasablanca,78138151,La Casa Blanca,,,,,Cuenta oficial de la Casa Blanca. Comentarios recibidos a través de esta página están sujetos a la Ley de Archivos Presidenciales. Vea http://wh.gov/privacidad/
+@GOVuz,75402364,GOV.UZ,,,,,The Governmental Portal of The Republic of Uzbekistan is the official state information resource of the Government of The Republic of Uzbekistan.
+@manuelvalls,70385068,Manuel Valls,,,,,Premier ministre
+@noynoyaquino,69209858,Noynoy Aquino,,,,,President of the Republic of the Philippines
+@QaTaR_,68643830,قرارات,,,,,حساب لنشر القرارات والمراسيم الأميرية ومجلس الوزراء في #قطر. لا يتبع الحساب أي جهة رسمية
+@RT_Erdogan,68034431,Recep Tayyip Erdoğan,,,,,Türkiye Cumhuriyeti Cumhurbaşkanı - President of the Republic of Turkey
+@JuanManSantos,64839766,Juan Manuel Santos,,,,,Presidente de Colombia
+@BohuslavSobotka,62798772,Bohuslav Sobotka,,,,,
+@desdelamoncloa,58417540,La Moncloa,,,,,"Secretaría de Estado de Comunicación. Ministerio de la Presidencia. Gobierno de España. 
+
+Normas de uso:  http://www.lamoncloa.gob.es/paginas/varios/RedessocialesTwitter.aspx …"
+@JuanOrlandoH,58244743,Juan Orlando H.,,,,,Cuenta oficial del Presidente de la República de Honduras. 2014 - 2018 http://www.facebook.com/juanorlandoh
+@PremierRP,57626153,Kancelaria Premiera,,,,,Oficjalny profil Kancelarii Premiera. The official twitter channel for the Office of the Polish Prime Minister Ewa Kopacz.
+@ivojosipovic,56443222,Ivo Josipović,,,,,Ja sam Ivo Josipović i Predsjednik sam Republike Hrvatske.
+@alibongoondimba,51097280,Ali Bongo,,,,,
+@govgd,50030601,Gov't of Grenada,,,,,
+@OPMJamaica,48574376,Jamaica House,,,,,Activities of the Office of the Prime Minister of Jamaica
+@osucastle,47425726,Ghana's President,,,,,News about the Ghanaian President.
+@Denzil_Douglas,47109262,Denzil Douglas,,,,,
+@ashrafghani,46376581,Ashraf Ghani,,,,,President of the Islamic Republic of Afghanistan. Personal tweets from Dr. Ashraf Ghani are signed - AG.
+@Brivibas36,45522221,Valdības māja,,,,,Ministru kabinets / Government of Latvia
+@HHShkMohd,44335525,HH Sheikh Mohammed,Mohammed bin Rashid Al Maktoum,United Arab Emirates,"WHERE Actor1Name CONTAINS ""MAKTUM"" AND Actor1CountryCode=""ARE""",,Official Tweets by His Highness Sheikh Mohammed bin Rashid Al Maktoum
+@prezydentpl,43932737,Bronisław Komorowski,Bronisław Komorowski,Poland,"WHERE Actor1Name = ""Bronislaw Komorowski"" AND Actor1CountryCode=""POL""",,Oficjalny profil Prezydenta Rzeczypospolitej Polskiej. The official twitter channel for the President of the Republic of Poland.
+@StenbockiMaja,41104145,Valitsuse uudised,Taavi Rõivas,Estonia,"WHERE Actor1CountryCode=""EST"" AND Actor1Type1Code=""GOV""",,"Vabariigi Valitsuse uudised. For tweets in English, visit @EstonianGovt"
+@EstonianGovt,40868132,Estonian Government,,,,,"News from the Estonian Government. For tweets in Estonian, visit @StenbockiMaja"
+@gobrep,39630199,Gobierno República,,,,,Actualidad del Gobierno de la República de México.
+@fico2014,39046067,ROBERT FICO,Robert Fico,Slovakia,"WHERE Actor1Name = ""ROBERT FICO"" AND Actor1CountryCode=""SVK""",,SMER  –   SOCIÁLNA  DEMOKRACIA
+@tsheringtobgay,37869117,Tshering Tobgay,Tshering Tobgay,Bhutan,"WHERE Actor1CountryCode=""BTN"" AND Actor1Type1Code=""GOV""",,PM
+@niinisto,37665086,Sauli Niinistö,,,,,Tämä on Sauli Niinistön virallinen Twitter-tili. Sauli merkkaa omat viestinsä SN
+@PaulKagame,37601149,Paul Kagame,Paul Kagame,Rwanda,"WHERE Actor1Name = ""Paul Kagame"" AND Actor1CountryCode=""RWA""",,"President of the Republic of Rwanda, write to: paulkagame@gov.rw"
+@QueenRania,36412963,Rania Al Abdullah,,,,,A mum and a wife with a really cool day job...
+@alexstubb,36048614,Alexander Stubb,Alexander Stubb,Finland,"WHERE Actor1Name = ""Alexander Stubb"" AND Actor1CountryCode=""FIN""",,Prime Minister of Finland. Chairman of Kokoomus. Eternal optimist. Sub 10h Ironman. What you tweet is what you get.
+@BritishMonarchy,36042554,BritishMonarchy,,,,,"Updates, pictures and videos from Buckingham Palace about the work and activities of The Royal Family and the institution of Monarchy."
+@Statsmin_kontor,36028993,SMK,,,,,Statsministerens kontor bistår statsministeren i å lede og samordne arbeidet i regjeringen.
+@DaniloMedina,35485571,Danilo Medina,Danilo Medina,Dominican Republic,"WHERE Actor1CountryCode=""DOM"" AND Actor1Type1Code=""GOV""",,"Presidente constitucional de la República Dominicana. Comprometido con construir un país de oportunidades y bienestar. Padre de 3 bellas hijas, esposo de Candy."
+@PresidenciaMX,34666670,Presidencia México,,,,,Oficina de la Presidencia de la República 2012 - 2018.
+@leehsienloong,34568673,Lee Hsien Loong,Lee Hsien Loong,Singapore,"WHERE Actor1Name = ""Lee Hsien Loong"" AND Actor1CountryCode=""SGP""",,"Official Twitter account of the Prime Minister of Singapore, maintained by the Prime Minister's Office. Tweets by Mr Lee are signed LHL."
+@govpt,31237480,Governo de Portugal,,,,,
+@WhiteHouse,30313925,The White House,,,,,Follow for the latest from President Obama and his administration. Tweets from the President are signed –bo. Tweets may be archived: http://wh.gov/privacy .
+@JosephMuscat_JM,29466039,Joseph Muscat,Joseph Muscat,Malta,"WHERE Actor1CountryCode=""MLT"" AND Actor1Type1Code=""GOV""",,Prime Minister and Leader of the Labour Party - Malta. This profile is run by the PL campaign team. Personal tweets by Joseph Muscat are signed -JM.
+@govtofgeorgia,29242264,Republic of Georgia,,,,,Gov. of Georgia
+@Kronprinsparet,28101138,Det kongelige hoff,,,,,Official twitter stream on behalf of Their Royal Highnesses The Crown Prince and Crown Princess of Norway
+@khamenei_ir,27966935,Khamenei.ir,Ali Khamenei,Iran,"WHERE Actor1Name CONTAINS ""Khamenei"" AND Actor1CountryCode=""IRN""",,"Follow for regular updates and news about Ayatollah Seyed Ali Khamenei, Iran's Supreme Leader ---
+Arabic Account: @khamenei_ar"
+@guv_ro,27864636,Guvernul României,,,,,Romania
+@wernerfaymann,26380221,Werner Faymann,Werner Faymann,Austria,"WHERE Actor1Name=""Werner Faymann"" AND Actor1CountryCode=""AUT""",,
+@TabareVazquez,25517917,Tabare Vazquez,Tabare Vazquez,Uruguay,"WHERE Actor1Name=""Tabare Vazquez"" AND Actor1CountryCode=""URY""",,Presidente de la Republica Oriental del Uruguay
+@GjorgeIvanov,19693272,GjorgeIvanov,Gjorge Ivanov,Macedonia,"WHERE Actor1Name CONTAINS ""Ivanov"" AND Actor1CountryCode=""MKD""",,
+@passoscoelho,19689047,Pedro Passos Coelho,,,,,"Canal do presidente do PSD no twitter. Notícias, agenda, e declarações políticas."
+@narendramodi,18839785,Narendra Modi,,,,,Prime Minister of India
+@fhollande,18814998,François Hollande,,,,,Président de la République française
+@matteorenzi,18762875,Matteo Renzi,,,,,Presidente del Consiglio dei Ministri. Segretario del PD
+@NoticiaCR,18710706,La Noticia CR,,,,,"Contacto Directo del Gobierno de Costa Rica
+https://www.facebook.com/LaNoticiaCR"
+@johnkeypm,17380167,John Key,John Key,New Zealand,"WHERE Actor1Name=""JOHN KEY"" AND Actor1CountryCode=""NZL""",,"Prime Minister of New Zealand and Leader of the NZ National Party. Authorised by John Key MP, Executive Wing, Parliament, Molesworth Street, Wellington"
+@presidencia,17311493,Presidência,Cavaco Silva,Portugal,"WHERE Actor1Name=""CAVACO SILVA"" AND Actor1CountryCode=""PRT""",,Twitter Oficial da Presidência da República Portuguesa
+@netanyahu,17061263,בנימין נתניהו,Benjamin Netanyahu,Israel,"WHERE Actor1Name CONTAINS ""NETANYAHU"" AND Actor1CountryCode=""ISR""",,"העמוד הרשמי של יו''ר הליכוד וראש הממשלה, בנימין נתניהו"
+@Elysee,16717501,Élysée,,,,,Bienvenue sur le compte officiel de la Présidence de la République française et du Palais de l'Élysée. Livetweets à suivre sur #DirectPR .
+@erna_solberg,16432083,Erna Solberg,Erna Solberg,Norway,"WHERE Actor1Name CONTAINS ""SOLBERG"" AND Actor1CountryCode=""NOR""",,"Statsminister i Norge. Jobber for et samfunn med muligheter for alle.
+For saker til forvaltningen, henvend deg til rette myndighet for saksbehandling."
+@NajibRazak,16389180,Mohd Najib Tun Razak,Mohd Najib Tun Razak,Malaysia,"WHERE Actor1Name CONTAINS ""RAZAK"" AND Actor1CountryCode=""MYS""",,"Prime Minister of Malaysia, working towards a #BetterNation"
+@premierministre,15895464,Stephen Harper,,,,,Premier ministre du Canada. Follow me in English: @pmharper
+@Rijksoverheid,15595333,Rijksoverheid,,,,,De Rijksoverheid beantwoordt uw vragen over wet- en regelgeving | ma-vr 8.00-20.00 | Geen persoonlijke gegevens | Twitterbeleid op http://rijksoverheid.nl/contact
+@Regering,15595166,Regering,,,,,
+@Number10gov,14224719,UK Prime Minister,David Cameron,United Kingdom,"WHERE Actor1Name CONTAINS ""CAMERON"" AND Actor1CountryCode=""GBR""",,"The official Twitter channel for Prime Minister David Cameron's office, based at 10 Downing Street. Read social media policy: http://bit.ly/No10-social-media …"
+@pmharper,7401202,Stephen Harper,Stephen Harper,Canada,"WHERE Actor1Name CONTAINS ""HARPER"" AND Actor1CountryCode=""CAN""",,"Prime Minister of Canada. 
+
+Suivez-moi en français à @premierministre."
+@EPN,2897441,Enrique Peña Nieto,Enrique Peña Nieto,Mexico,"WHERE Actor1CountryCode=""MEX"" AND Actor1Type1Code=""GOV""",,Presidente de los Estados Unidos Mexicanos.
+@BarackObama,813286,Barack Obama,Barack Obama,United States,WHERE (Actor1Name='Obama' OR Actor1Name='BARACK OBAMA') AND Actor1CountryCode='USA',,This account is run by Organizing for Action staff. Tweets from the President are signed -bo.

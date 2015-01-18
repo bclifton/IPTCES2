@@ -1,453 +1,346 @@
-username,userid,twitter_name,display_name,display_country,gdelt_search,filename,bio
-@MaithreepalaS,2911778245,Maithripala Sirisena,Maithripala Sirisena,Sri Lanka,WHERE Actor1Name CONTAINS 'Sirisena' AND Actor1CountryCode='LKA',,
-@MichelKafando,2902429903,Michel kafando,Michel Kafando,Burkina Faso,WHERE Actor1Name CONTAINS 'kafando' AND Actor1CountryCode='BFA',,Office of the Interim President | Michel kafando | #Ouagadougou | #BurkinaFaso | #ECOWAS | #Africa
-@French_Gov,2902364734,French Government,,France,,,French government's official twitter account for English speakers
-@PresidentRuvi,2889520524,Reuven Rivlin,Reuven Rivlin,Israel,"WHERE Actor1Name=""REUVEN RIVLIN"" AND Actor1CountryCode='ISR'",,Follow for live updates from the 10th President of the State of Israel - Official Account
-@BejiCEOfficial,2799385956,Beji Caid Essebsi,Beji Caid Essebsi,,,,الحساب الرسمي للباجي قائد السبسي الرئيس الخامس للجمهورية التونسية
-@RuhakanaRugunda,2775336695,Ruhakana Rugunda,Ruhakana Rugunda,Uganda,"WHERE Actor1Name=""RUHAKANA RUGUNDA"" AND Actor1CountryCode='UGA'",,The PM of Uganda
-@KlausIohannis,2765824141,Klaus Iohannis,,,,,
-@GouvGabon,2706414134,Gouvernement Gabon,Ali Bongo Ondimba,Gabon,"WHERE Actor1Name=""ALI BONGO ONDIMBA"" AND Actor1CountryCode='GAB'",,Compte officiel du Gouvernment gabonais - Official account of the Gabonese Government
-@APUkraine,2613887972,APU,,,,,"Офіційний твіттер 
-Адміністрації Президента України
-/ Administration of the President of Ukraine, 
-Official Twitter"
-@RashtrapatiBhvn,2597413135,President of India,Pranab Mukherjee,India,"WHERE Actor1Name=""Pranab Mukherjee"" AND Actor1CountryCode='IND'",,This is the official Twitter account of Rashtrapati Bhavan and is run by President’s Secretariat.  Tweets from the President are signed – President Mukherjee
-@Andrej_Kiska,2558812321,Andrej Kiska,Andrej Kiska,Slovakia,,,Prezident Slovenskej republiky
-@ProfMutharika,2545033486,Peter Mutharika,Peter Mutharika,Malawi,"WHERE Actor1Name=""PETER MUTHARIKA"" AND Actor1CountryCode='MWI'",,"Yale University,"
-@hagegeingob,2515899612,Hage Geingob,Hage Geingob,Namibia,"WHERE Actor1Name=""HAGE GEINGOB"" AND Actor1CountryCode='NAM'",,Prime Minister of the Republic of Namibia
-@CasaReal,2497155462,Casa de S.M. el Rey,Mariano Rajoy,Spain,"WHERE Actor1Name=""MARIANO RAJOY BREY"" AND Actor1CountryCode='ESP'",,Información e imágenes sobre la actividad de la Familia Real española y la Casa de S.M. el Rey. Normas de uso http://www.casareal.es/ES/Paginas/NormasTW.aspx …
-@Kolo_Roger,2476339505,Kolo Roger,Kolo Roger,Madagascar,,,Premier Ministre Malgache
-@govgeoabkhaz,2470587673,Қырҭтәыла Аиҳабыра,Irakli Garibashvili,Georgia,,,"Official Twitter Channel of Georgian Government in
-Abkhaz Language"
-@NauruBwiema,2442197798,Baron Waqa,Baron Waqa,Nauru,,,President of Nauru since 2013
-@PresidencySrb,2440554602,Presidency of Serbia,Tomislav Nikolić,Serbia,,,This is the official account of the Presidency of Serbia. This account is managed by the Presidency media team.
-@JapanGov,2428796856,The Gov't of Japan,Shinzō Abe,Japan,WHERE Actor1Name='Shinzo Abe' AND Actor1CountryCode='JPN',,Official Twitter of the Government of Japan
-@poroshenko,2423747006,Петро Порошенко,Petro Poroshenko,Ukraine,,,"Президент України,                                                                                           The President of Ukraine"
-@AlsisiOfficial,2419191913,Abdelfattah Elsisi,Abdel Fattah El-Sisi,Egypt,,,الحساب الرسمي للرئيس/عبدالفتاح السيسي                          رئيس جمهورية مصر العربية
-@PresidenceMada,2407830288,PrésidenceMadagascar,Hery Rajaonarimampianina,Madagascar,"WHERE Actor1Name=""HERY RAJAONARIMAMPIANINA"" and Actor1CountryCode='MDG'",,Compte Twitter Officiel de la Communication de la Présidence de la République de Madagascar
-@skngov,2389574116,SKN Government,Denzil Douglas,St. Kitts and Nevis,WHERE Actor1Code='KNAGOV' AND Actor1CountryCode='KNA' AND Actor1Name='DENZIL DOUGLAS',,The official Twitter account of the government of St. Kitts and Nevis.
-@Mapon_Matata,2349940394,MATATA PONYO Mapon,Augustin Matata Ponyo,Democratic Republic of the Congo,WHERE Actor1Name='MATATA PONYO MAPON' AND Actor1CountryCode='COD',,Premier Ministre de la République Démocratique du Congo
-@TommyRemengesau,2349626330,"Tommy Remengesau, Jr",Tommy Remengesau,Palau,"WHERE Actor1Name=""TOMMY REMENGESAU"" OR Actor1Name=""THOMAS REMENGESAU""",,"Alii and welcome to the official Twitter account for the President of the Republic of #Palau-- Tommy E. Remengesau, Jr.!"
-@DrAAbdullah,2329127093,Abdullah Abdullah,Abdullah Abdullah,Afghanistan,WHERE Actor1CountryCode='AFG' AND Actor1Name='FOREIGN MINISTER ABDULLAH',,Chief Executive of the Islamic Republic of Afghanistan
-@HassanalBolkia2,2322232166,Hassanal Bolkiah,Hassanal Bolkiah,Brunei Darussalam,WHERE Actor1Name='HASSANAL BOLKIAH' AND Actor1CountryCode='BRN' ,,This twitter account is controlled by a spokesman for the sultan Brunei Darussalam
-@Khamenei_ar,2247047317,الإمام الخامنئي,Ayatollah Ali Khamenei,Iran,WHERE Actor1Name='AYATOLLAH KHAMENEI' AND Actor1CountryCode = 'IRN',,الموقع الإعلامی لمکتب حفظ و نشر آثار سماحة آية الله العظمى السيد علي الخامنئي
-@Mehdi_Jomaa,2246134207,Mehdi Jomaa,Mehdi Jomaa,Tunisia,,,مهدي جمعة رئيس الحكومة التونسية - Mehdi Jomaa Chef du gouvernement tunisien
-@FlorenceGuillau,2244362226,Florence Guillaume,Florence Guillaume,Haiti,,,
-@MargvelashviliG,2243475914,President Of Georgia,Giorgi Margvelashvili,Georgia,,,"President of Georgia Giorgi Margvelashvili was elected on October 27, 2013 with more than 62% of the vote"
-@GovernmentGeo,2228188470,GeorgianGovernment,,Georgia,,,Official Twitter Channel of Georgian Government
-@SushilKoiralaNC,2224100184,Sushil Koirala,Sushil Koirala,Nepal,,,37th Prime Minister of Nepal and President of @NepaliCongress Party.
-@govSlovenia,2193752173,Slovenian Government,Miro Cerar,Slovenia,,,Official English language Twitter account of the Government of the Republic of Slovenia. | Slovenski profil @vladaRS
-@SkerritR,2168930017,Roosevelt Skerrit,Roosevelt Skerrit,Dominica,WHERE Actor1Name = 'ROOSEVELT SKERRIT' AND Actor1CountryCode = 'DMA',,Prime Minister of the Commonwealth of Dominica
-@PresYameen,1951275630,Abdulla Yameen,Abdulla Yameen,Maldives,,,"The Official Twitter of the President of the Republic of Maldives, His Excellency Abdulla Yameen Abdul Gayoom"
-@Yatsenyuk_AP,1896985040,Arseniy Yatsenyuk,Arseniy Yatsenyuk,Ukraine,WHERE Actor1CountryCode = 'UKR' AND Actor1Name='ARSENIY YATSENYUK',,Прем’єр-міністр України.
-@FijiGovernment,1674155761,Fiji Government,Frank Bainimarama,Fiji,WHERE Actor1CountryCode = 'FJI' AND Actor1Name CONTAINS 'Bainimarama',,The official twitter account of the Fijian Government
-@maduro_en,1660469318,Nicolás Maduro,Nicolás Maduro,Venezuela,WHERE Actor1Name='NICOLAS MADURO MOROS' AND Actor1CountryCode='VEN',,President of the Bolivarian Republic of Venezuela. Son of Chávez. Building the Homeland with revolutionary efficiency. English translation of @NicolasMaduro
-@MiroCerar,1655801280,dr. Miro Cerar,Miro Cerar,Slovenia,,,Prime Minister of the Republic of Slovenia / Uradni račun predsednika Vlade Republike Slovenije dr. Mira Cerarja in predsednika stranke SMC. Zanj tvita ekipa.
-@MonarchieBe,1626202080,Belgian Royal Palace,King Philippe,Belgium,,,"Officieel Twitter-kanaal van het Koninklijk Paleis, België - Compte Twitter officiel du Palais Royal, Belgique"
-@PMOComms,1623929238,PMOCOMMS,Abdiweli Sheikh Ahmed,Somalia,,,Only Official Account for the Somali Prime Minister  Communications Office (2014)
-@casacivilbr,1623608509,Casa Civil,Dilma Rousseff,Brazil,WHERE Actor1Name = 'Dilma Rousseff' AND Actor1CountryCode = 'bra',,Perfil oficial da Casa Civil da Presidência da República
-@MZemanOficialni,1618506558,Miloš Zeman,Miloš Zeman,Czech Republic,WHERE Actor1Name='MILOS ZEMAN' AND Actor1CountryCode = 'CZE',,
-@PSCU_Digital,1595205038,PSCU Kenya Digital,Uhuru Kenyatta,Kenya,WHERE Actor1Name='UHURU KENYATTA' AND Actor1CountryCode = 'KEN',,Embracing the digital age! The Home of Presidential and Government News
-@RamiHamdalla,1494909290,Rami Hamdallah,Rami Hamdallah,Palestine,,,Office Page of Prime Minister Dr. Rami Hamdallah
-@Malaysia_Gov,1491523212,Malaysia Government,Abdul Halim,Malaysia,WHERE Actor1Name='SULTAN ABDUL HALIM MUADZAM SHAH' AND Actor1CountryCode = 'mys',,Malaysia is a federal constitutional monarchy consisting of 13 States and 3 Federal Territories. RTs do not equal endorsement.
-@IurieLeanca,1479879036,Iurie Leancă,Iurie Leancă,Moldova,WHERE Actor1Name='IURIE LEANCA' AND Actor1CountryCode = 'mda',,"Contul oficial de Twitter al Prim-ministrului Republicii Moldova.
-Profil administrat de către Iurie Leancă şi echipa @PLDMoldova."
-@presedinte_md,1472196571,Nicolae Timofti,Nicolae Timofti,Moldova,,,Președintele Republicii Moldova / The President                                 of Republic of Moldova
-@PrimatureRDC,1446574225,PrimatureRDC,Augustin Matata Ponyo,Democratic Republic of the Congo,WHERE Actor1Name='MATATA PONYO MAPON' AND Actor1CountryCode = 'COD',,Compte twitter officiel de la Primature de la République Démocratique du Congo / Facebook: http://goo.gl/FMTxy
-@HassanRouhani,1404590618,Hassan Rouhani,Hassan Rouhani,Iran,,,Iranian President's Sole English Account ¦ Persian @Rouhani_ir ¦ media@rouhani.ir
-@RHCJO,1362191299,RHC,Abdullah II,Jordan,WHERE Actor1Name='Abdullah II' AND Actor1CountryCode = 'JOR',,"الديوان الملكي الهاشمي - The Royal Hashemite Court.
- تغريدات جلالة الملك عبدالله الثاني تنتهي بـ
-Tweets from His Majesty King Abdullah II are signed #ABH"
-@Presidency_Sy,1353802260,Syrian Presidency,Bashar al-Assad,Syria,WHERE Actor1Name='BASHAR AL ASSAD' AND Actor1CountryCode = 'syr',,"This is the official Twitter account for the Presidency of the Syrian Arab Republic, offering updates on Presidential news and events."
-@LibyaInterimGov,1319832283,الحكومة المؤقتة,,Libya,,,Libya Interim Government الحكومة الليبية المؤقتة
-@IstanaRakyat,1316012929,Istana untuk Rakyat,Joko Widodo,Indonesia,,,Istura adalah Akun resmi Istana untuk Rakyat. Sebuah wahana komunikasi dan berbagi informasi dari Istana Kepresidenan untuk mendekatkan rakyat dengan istananya.
-@Ibrahim_Mahlab,1307285048,ابراهيم محلب,Ibrahim Mahlab,Egypt,,,"Ibrahim Mahlab, Egypt's prime minister الحساب الرسمي"
-@PrensaMichelle,1300716044,Prensa Michelle,Michelle Bachelet,Chile,"WHERE Actor1Name contains ""Bachelet"" AND Actor1CountryCode=""CHL""",,"Este es el canal oficial del Departamento de Prensa de la Presidenta Electa, Michelle Bachelet."
-@MPMCTweeter,1278739753,MPMC Tweeter,Tuilaepa Aiono Sailele Malielegaoi,Samoa,WHERE Actor1Name= 'TUILAEPA SAILELE MALIELEGAOI' AND Actor1CountryCode = 'WSM',,Ministry of Prime Minister & Cabinet for Samoa
-@IsaMustafaRKS,1254508717,Isa Mustafa,Isa Mustafa,Kosovo,,,Kryeministër i Republikës së Kosovës / Prime Minister of the Republic of Kosovo
-@ZeljkoBiH,1218056936,Željko Komšić,Željko Komšić,Bosnia and Herzegovina,,,Član Predsjedništva BiH
-@CYpresidency,1165728211,Προεδρία της ΚΔ,Nicos Anastasiades,Cyprus,,,"Προεδρία της Κυπριακής Δημοκρατίας/ 
-Presidency of the Republic of Cyprus/
-Kıbrıs Cumhuriyeti Cumhurbaşkanlığı;
-see also @AnastasiadesCY"
-@Presidencia_HN,1145775630,Casa Presidencial,Juan Orlando Hernández,Honduras,,,Cuenta Oficial de la Casa Presidencial de Honduras.
-@SomaliPM,1144935463,@SomaliPM,,,,,"Official Twitter account of the Somalia Prime Minister His Excellency
-Omar Abdirashid Ali Sharmarke. Re-tweet doesn't mean endorsement. Views are my own."
-@brunei_pmo,1120940742,Brunei PMO,,,,,The Official twitter account of Prime Minister's Office of Brunei Darussalam.
-@SassouCG,1106069527,Denis Sassou Nguesso,Denis Sassou Nguesso,Republic of the Congo,,,Compte Twitter Officiel du Président de la République du #Congo
-@pmoffice_mn,1091577991,PM's office,,,,,Ерөнхий сайдын ажлын алба
-@HRHPSalman,1072915220,سلمان بن عبدالعزيز,,,,,الحساب الرسمي لصاحب السمو الملكي الأمير / سلمان بن عبدالعزيز آل سعود ، ولي العهد نائب رئيس مجلس الوزراء وزير الدفاع في المملكة العربية السعودية
-@ebkoroma,1069973798,Ernest Bai Koroma,,,,,"I am Ernest Bai Koroma, President of the Republic of Sierra Leone. I became President of Sierra Leone in 2007 and I was re-elected for a second term - Nov. 2012"
-@StateHouseSey,1057428702,SeychellesStateHouse,,,,,The Office of the President of the Republic of Seychelles presents news concerning President James Michel and Seychelles national news.
-@EgyPresidency,1055385086,Egyptian Presidency,Abdel Fattah el-Sisi,Egypt,,,Follow us for the latest news about the Egyptian Presidency
-@uredprh,1049824686,Ured predsjednika RH,,,,,Službeni twitter account ureda Predsjednika Republike Hrvatske.
-@samoagovt,1016451774,Government of Samoa,,,,,Official Page of the Press Secretariat of the Government of Samoa | Tweets by Press Secretariat staffer @Renate_Rivers |
-@IsraeliPM_heb,1015176121,ראש ממשלת ישראל,,,,,"החשבון הרשמי של משרד ראש הממשלה בעברית
-http://www.pmo.gov.il"
-@Israelipm_ar,1009434428,بنيامين نتنياهو,,,,,الحساب الرسمي بالعربية لرئيس الوزراء الاسرائيلي
-@kyrgyzpresident,992876924,Президент КР,Almazbek Atambayev,Kyrgyzstan,WHERE Actor1Name='ALMAZ ATAMBAYEV' AND Actor1CountryCode='KGZ',,Официальные новости.Аппарат Президента Кыргызской Республики Алмазбека Атамбаева.Расмий жаңылыктар.Кыргыз Республикасынын Президентинин Аппараты.
-@press_president,975960930,Press Office,,,,,"Follow @PresidentAM_eng, @PresidentAM_rus and @PresidentAM_arm for updates"
-@PresidentAM_rus,975934998,President.am Press,,,,,Пресс служба Президента Республики Армения
-@PresidentAM_eng,975927512,President.am Press,,,,,Press Office of the President of the Republic of Armenia
-@Daniel_k_Duncan,965823858,Daniel Kablan DUNCAN,,,,,
-@Pontifex_pt,965741665,Papa Francisco,,,,,Bem-vindo ao Twitter oficial de Sua Santidade Papa Francisco
-@Pontifex_ar,965706379,البابا فرنسيس,,,,,أهلاً بكم في الصفحة الرسمية تويتر لقداسة البابا فرنسيس
-@Pontifex_ln,965704518,Papa Franciscus,,,,,Tuus adventus in paginam publicam Papae Francisci breviloquentis optatissimus est.
-@Palazzo_Chigi,963938472,Palazzo_Chigi,,,,,Profilo ufficiale della Presidenza del Consiglio dei Ministri. Governo italiano.
-@ts_elbegdorj,963395250,President's Office,,,,,"Монгол Улсын Ерөнхийлөгчийн Тамгын газар |
-Office of the President of Mongolia"
-@Grybauskaite_LT,961974776,Dalia Grybauskaitė,,,,,President of the Republic of Lithuania
-@gouvernementFR,951480480,Gouvernement,,,,,Twitter officiel du Gouvernement français.
-@somaligov_,950484104,SOMALI   GOVERMENT,,,,,
-@TheVillaSomalia,950313240,Villa Somalia,,,,,This is the official Twitter of Villa Somalia.
-@PMNawazSharif,937710709,Mian Nawaz Sharif,,,,,PM Nawaz Sharif on Twitter
-@PresidentKosovo,933003422,Atifete Jahjaga,,,,,President of the Republic of Kosovo
-@PutinRF_Eng,932196612,Vladimir Putin,Vladimir Putin,Russia,WHERE (Actor1Name='VLADIMIR PUTIN' or Actor1Name='VLADIMIR VLADIMIROVICH PUTIN') AND Actor1CountryCode='RUS',,The official twitter channel for President of the Russian Federation. Tweets from the President are signed #VP
-@ortcomkzE,927294824,ortcomkzE,,,,,Central Communications Office for the President of Kazakhstan
-@ortcomkz,926894935,ortcomkz,,,,,СЦК создана для улучшения взаимодействия между государственными органами и СМИ
-@KoupakiOfficiel,923449368,Pascal I. Koupaki,,,,,:: Compte Officiel de Pascal I. Koupaki :: Economiste et homme politique béninois. Premier Ministre du #BENIN de 2011 à 2013
-@GovCyprus,886930609,Cyprus Portal,,,,,Official twitter account of the Web Portal of the Rep. of Cyprus Inappropriate comments will be blocked
-@rubirivlin,886335560,ראובן (רובי) ריבלין,,,,,
-@Al_Kasbah,881162107,Alkasbah,,,,,رئاسة الحكومة  - http://www.alkasbah.tn
-@vladaOCDrs,857883481,Kancelarija za OCD,,,,,Kancelarija za saradnju sa civilnim društvom Vlade Republike Srbije. Stvaramo podsticajno okruženje za #OCDrs (organizacije civilnog društva u Srbiji)
-@KhaledBahah,851181762,Khaled Bahah,,,,,Permanent Representative of Yemen to the United Nation
-@MoussaMara2,850685436,Moussa Mara,,,,,"Premier Ministre du Mali, Expert Comptable de Formation, Président du parti Politique YELEMA(LE CHANGEMENT)."
-@PRepublicaTL,845048838,Taur Matan Ruak,,,,,
-@zasagmn,806124644,zasag,,,,,МОНГОЛ УЛСЫН ЕРӨНХИЙ САЙД Н.АЛТАНХУЯГИЙН ТЭРГҮҮЛСЭН ШИНЭЧЛЭЛИЙН ЗАСГИЙН ГАЗАР
-@StateHouseSL,782308724,State House,,,,,"Office of the President of Sierra Leone. Tweets by @CommsUnitSL managed by @jaraski. 
-http://www.facebook.com/StateHouseSL"
-@ChefGov_ma,748291920,عبد الإله ابن كيران,,,,,رئيس الحكومة
-@BgPresidency,737550788,Bulgarian Presidency,,,,,Administration of the Bulgarian President - Press Office/Администрация на Президента
-@QuirinaleStampa,732819391,Quirinale Uff Stampa,,,,,Twitter ufficiale dell'Ufficio Stampa della Presidenza della Repubblica.
-@JDMahama,726748106,John Dramani Mahama,,,,,"Official account of H.E. John Dramani Mahama, President of the Republic of Ghana, run by staff. Tweets by H.E. are signed– JM. http://www.presidency.gov.gh"
-@AkordaPress,635586094,Пресс-служба Акорды,,,,,Қазақстан Республикасы Президентінің Баспасөз қызметі               Press Office of The President of the Republic of Kazakhstan
-@Pravitelstvo_RF,634725546,Правительство России,,,,,Новости о Председателе Правительства России и Правительстве России. Английская версия аккаунта - @GovernmentRF
-@BorutPahor,634463033,Borut Pahor,Borut Pahor,Slovenia,,,"Uradni račun predsednika Republike Slovenije Boruta Pahorja. Tvita ekipa, tviti PRS označeni z BP/Official channel of the President of the Republic of Slovenia"
-@GovernmentRF,633794939,Government of Russia,Dmitry Medvedev,Russia,WHERE Actor1Name='DMITRIY MEDVEDEV' AND Actor1CountryCode='RUS',,"Follow news on the work of the Prime Minister and the Russian Government in English. For tweets in Russian, follow @Pravitelstvo_RF"
-@GeorgianGovernm,632907601,Georgian Government,,,,,
-@MahamadouIssouf,623290235,Mahamadou Issoufou,,,,,Président de la république du Niger
-@Matignon,621874680,Matignon,,,,,"Bienvenue sur le compte officiel du Premier ministre français, chef du gouvernement. Compte géré par le cabinet. Suivez aussi @gouvernementFR"
-@Straujuma,619870515,Laimdota Straujuma,,,,,Latvijas Republikas Ministru prezidente / Prime Minister of the Republic of Latvia
-@VBevanda,611770712,Vjekoslav Bevanda,,,,,
-@KBZayed,611109758,خليفة بن زايد,,,,,"شاركنا حبك للقائد { مبادرة } . *باذن الله عندما يصل عدد المتابعين لـ مليون سنقدمه كـ هدية لـ رئيس الدولة .
-http://instagram.com/KBZayed 
-kik : H.kbzayed"
-@primatureci,606309435,Le Premier Ministre,,,,,
-@SerbianGov,603524800,Serbian Government,,,,,"Official Twitter account of the Government of the Republic of Serbia in English. We welcome your suggestions, questions ..."
-@emansionliberia,603417503,Executive Mansion,,,,,The official Twitter page of the President of the Republic of Liberia
-@Sekhoutoureya,600418108,Présidence de Guinée,,,,,Bienvenue sur le compte Twitter officiel de la Présidence de la République de Guinée.
-@SalamTammam,599985251,Tammam Salam,,,,,The official twitter account of the Prime Minister of Lebanon Tammam Salam
-@MaldivesPO,594963354,President's Office,,,,,News and updates from the President’s Office about the changes\developments made by the government of Maldives. Comments & messages received maybe archived.
-@PrensaHC,594051718,PrensaHC,,,,,Cuenta oficial del equipo de prensa del Presidente Constitucional de la República del Paraguay @Horacio_Cartes.
-@predsednikrs,589069254,Томислав Николић,,,,,Званична презентација председника Републике Србије на Твитеру. Твитови председника почињу са ТН:
-@presidenciaCV,580037845,Jorge Carlos Fonseca,,,,,"Bio: President of the Republic of Cape Verde.
-https://wdv24e.s.cld.pt"
-@IlvesToomas,579747564,toomas hendrik ilves,,,,,vaata kodukalt/look at my homepage
-@presstj,579483133,presstj,,,,,
-@HadiPresident,570223846,عبدربه  منصور هادي,,,,,
-@AnastasiadesCY,568981074,Nicos Anastasiades,,,,,"Νίκος Αναστασιάδης, Πρόεδρος της Κυπριακής Δημοκρατίας/ President of the Republic of Cyprus; see also @CYpresidency"
-@SaintLuciaGov,547314961,St. Lucia Government,,,,,Government of Saint Lucia Twitter Account
-@PresidentAM_arm,545885877,President.am Press,,,,,Հայաստանի Հանրապետության Նախագահի մամլո ծառայություն
-@PMTCHAD,532423452,Primature du Tchad,,,,,Compte Twitter Officiel de la Primature de la République du Tchad.
-@Nicolae_Timofti,528997120,Nicolae Timofti,,,,,Președintele Republicii Moldova
-@Pontifex_es,525264466,Papa Francisco,,,,,Bienvenido al Twitter oficial de Su Santidad Papa Francisco
-@StateHousePress,525120064,StateHouse PressZM,,,,,The State House Press Office is one of the offices of Five Special Assistants attending to the President of Zambia.
-@luisguillermosr,524571803,Luis Guillermo Solís,,,,,Primer Servidor de la República de Costa Rica 2014 - 2018
-@jammehofficial,523491641,Prof. Yahya Jammeh,,,,,President of the Republic of The Gambia
-@Pontifex_de,523150102,Papst Franziskus,,,,,Willkommen auf der offiziellen Twitter-Seite Seiner Heiligkeit Papst Franziskus
-@Pontifex_pl,522122949,Papież Franciszek,,,,,Witamy na oficjalnej stronie Twitter Jego Świątobliwości Papieża Franciszka
-@Pontifex_fr,500713106,Pape François,,,,,Bienvenue sur la page Twitter officielle du Pape François
-@Pontifex_it,500711588,Papa Francesco,,,,,Benvenuti alla pagina Twitter ufficiale di Sua Santità Papa Francesco
-@Pontifex,500704345,Pope Francis,,,,,Welcome to the official Twitter page of His Holiness Pope Francis
-@GuatemalaGob,495102115,Gobierno Guatemala,,,,,Noticias e información del Gobierno de Guatemala.
-@BaldwinSpencer,484178775,Baldwin Spencer,,,,,
-@BdiPresidence,482242599,Burundi | Présidence,,,,,
-@GvtMonaco,472167838,Gouvernement Monaco,,,,,Bienvenue sur le compte officiel du Gouvernement de la Principauté de Monaco
-@PMOIndia,471741741,PMO India,,,,,Office of the Prime Minister of India
-@MBZNews,471010707,أخبار محمد بن زايد,,,,,حساب تويتر الرسمي لأخبار سمو الشيخ محمد بن زايد آل نهيان The official twitter account for the news of HH Mohamed bin Zayed Al Nahyan
-@AbeShinzo,468122115,安倍晋三,,,,,衆議院議員安倍晋三（あべしんぞう）の公式twitterです
-@micwebTonga,467314261,micwebTonga,,,,,Tonga Government Portal website/ Prime Minister Office/ Ministry of Information and Communications
-@presidenceTN,455895084,تونس - الرئاسة,,,,,الحساب الخاص برئاسة الجمهورية التونسية على تويتر
-@SaikhanbilegCh,454739210,Saikhanbileg,,,,,"Улсын Их Хурлын гишүүн, УИХ дахь АН-ын бүлгийн ахлагч"
-@VladaCG,450605189,Vlada Crne Gore,,,,,"Zvanični nalog Vlade Crne Gore. Zvanične informacije.
-#CrnaGora"
-@VladaRH,444097675,Vlada R. Hrvatske,,,,,Vlada RH - službeni Twitter račun. Government of the Republic of Croatia - official Twitter account. Pravila korištenja: http://bit.ly/1syf0Qk
-@PrimatureRwanda,440647714,Primature,,,,,The Office of the Prime Minister of Rwanda
-@PSimpsonMiller,440460647,Portia SimpsonMiller,,,,,Portia Simpson-Miller is the leader of the People's National Party and Jamaica's first female Prime Minister.
-@PutinRF,438133358,Владимир Путин,,,,,Официальный аккаунт поддержки Президента Российской Федерации Владимира Путина. Личные сообщения отмечены #ВП
-@A_Davutoglu_ar,434882299,Ahmet Davutoğlu,,,,,"الصفحة الرسمية لرئيس الوزراء التركي ورئيس حزب العدالة والتنمية أحمد داوود أوغلو على موقع تويتر 
-Türkçe:@Ahmet_Davutoglu  -  English: @A_Davutoglu_eng"
-@A_Davutoglu_eng,434829567,Ahmet Davutoğlu,,,,,Prime Minister of Republic of Turkey - Chairman of AK PARTY
-@TaaviRoivas,422049167,Taavi Rõivas,,,,,"Peaminister, liberaal, spordifänn"
-@mincombolivia,415816193,Min. de Comunicacion,,,,,El Ministerio de Comunicación fue creado mediante Decreto Supremo N° 0793 del 15 de febrero de 2011.
-@ARG_AFG,413756746,ارګ,,,,,This is an Official Account of Presidential Palace of Afghanistan
-@kantei,412940784,首相官邸,,,,,本アカウントは首相官邸の公式アカウントです。首相官邸（災害情報）ツイッターに加えて、日々の情報も国民の皆様に発信します。首相官邸ＨＰに掲載される総理についての更新情報などを中心にお届けします。
-@UgandaMediaCent,398537661,Uganda Media Centre,,,,,The Government of Uganda's Official centre for Public Communications
-@DonaldRamotar,397237197,Donald Ramotar,,,,,Presidential Candidate People's Progressive Party
-@UAEGover,395556077,UAE Government,,,,,مشروع توحيد دولة الإمارات العربية المتحده الكترونيا
-@FijiPM,395425451,JV Bainimarama,,,,,"The office of Josaia Voreqe Bainimarama, Prime Minister of the Republic of Fiji"
-@FijiRepublic,393086391,Republic of Fiji,,,,,
-@IBK_2013,391694893,Ibrahim B. Keita,,,,,Président de la République du #Mali. https://www.facebook.com/IBK.Officiel
-@PrimeMinisterGE,390860839,Irakli Garibashvili,,,,,Official twitter channel of the Prime Minister of Georgia
-@PresidenceMali,389486048,Presidence Mali,,,,,Fil officiel de la Présidence de la République du #Mali
-@eng_pm_kz,389272165,PM KZ,,,,,English-language twitter account of the official site of the Prime Minister of Kazakhstan @KarimMassimov_E
-@kaz_pm_kz,389265641,PM KZ,,,,,ҚР Премьер-Министрі ресми сайтының қазақ тіліндегі твиттер-аккаунты @KarimMassimov
-@PMKamla,388639092,Kamla P. Bissessar,,,,,Official Twitter page of the Prime Minister of the Republic of Trinidad and Tobago.
-@VladaMK,382673029,Влада на Македонија,,,,,"ВЛАДА НА РЕПУБЛИКА МАКЕДОНИЈА
-http://www.facebook.com/VladaMK 
-http://www.youtube.com/VladaMakedonija"
-@teamkanzler,382003842,teamkanzler,,,,,
-@SCpresidenciauy,380961080,Sec. Comunicación,,,,,Bienvenidos al twitter oficial de la Secretaría de Comunicación - Presidencia de la República Oriental del #Uruguay
-@RecepT_Erdogan,378534651,Recep Tayyip Erdogan,,,,,"رئيس الجمهورية التركية 
-http://Facebook.com/RecepTayyipErdogan …
-@RT_Erdogan"
-@rplevneliev,377940978,Росен Плевнелиев,,,,,"Страница на Росен Плевнелиев, поддържана от щаба за президентската кампания #rplevneliev2011. Туитовете от Росен са подписани с инициали РП"
-@palaismonaco,377384429,palaisprinciermonaco,,,,,"Bienvenue sur le compte officiel du Palais Princier de Monaco. 
-Ce compte est géré par son service de presse."
-@TaurMatanRuak,376198296,Taur Matan Ruak,,,,,"Former leader of independence forces, head of armed forces of new democracy of Timor-Leste. Sworn in as President Timor-Leste May 20, 2012."
-@donaldtusk,375146901,Donald Tusk,,,,,Oficjalny profil Donalda Tuska. The official profile of Donald Tusk.
-@CasaCivilPRA,373310880,Casa Civil Angola,,,,,"Bem vindo!
-A Casa Civil do Presidente da República de Angola."
-@Presidenceci,370809101,Presidenceci,,,,,Profil officiel de la Présidence de la République de
-@Munhzull,370764505,Zulaa,,,,,"Government Press Office, @1111tuv, #Mongolia"
-@PaulBiya,370585542,Paul Biya,,,,,Président de la République - President of the Republic
-@HelleThorningS,367359870,Helle Thorning,,,,,
-@jokowi_do2,366987179,Joko Widodo,,,,,Pengennya sederhana dalam kesederhanaan.
-@StateHouseKenya,364830542,State House Kenya,,,,,State House Kenya
-@Horacio_Cartes,361445173,Horacio_Cartes,,,,,Cuenta oficial del Presidente Constitucional de la República del Paraguay
-@TeLoCuentoPTY,360245371,Te Lo Cuento PTY,,,,,-Te Lo Cuento y tú me lo cuentas-
-@avucic,356450858,Александар Вучић,,,,,"Председник Српске напредне странке.
-President of the Serbian Progressive Party.
-Званична Фејсбук страница
-:: http://www.facebook.com/VucicAleksandar"
-@Jorgecfonseca,345455857,Jorge Carlos Fonseca,,,,,"Canal do Candidato a presidência da republica de Cabo Verde no twitter. Notícias, agenda, e declarações políticas."
-@marianorajoy,343447873,Mariano Rajoy Brey,,,,,"Soy presidente del Gobierno de España y presidente del PP. Bienvenidos a mi Twitter, donde me acompaña mi equipo."
-@RepSouthSudan,331878888,Gov of South Sudan,,,,,The Official Twitter account for the Government of South Sudan.
-@Kabmin_UA_r,331502948,Кабмин Украины,,,,,Официальное Twitter-представительство Кабинета Министров Украины. Информация поступает с официального веб-сайта Кабинета Министров Украины. Более детально:
-@Kabmin_UA,331491073,Кабмін України,,,,,Офіційне Twitter-представництво Кабінету Міністрів України. Інформація надходить з офіційного веб-сайту Кабінету Міністрів України. Детальніше за адресою
-@BarrowDean,322849285,Dean O. Barrow,,,,,"Born in Belize City on March 2, 1951.  First elected to the House of Representatives in 1984.  Sworn in as Prime Minister of Belize on Friday, February 8, 2008."
-@amurekezi,319286650,Murekezi Anastase,,,,,PRIME MINISTER OF RWANDA
-@adrian_hasler,316668206,Adrian Hasler,,,,,
-@Gouvci,316559637,GOUV.CI,,,,,
-@BWGovernment,316291124,Botswana Government,,,,,This is the Official Twitter Page of the Government of Botswana.
-@infopresidencia,312887235,Presidencia Colombia,,,,,"Colombia en paz, con equidad y educada - Cuenta oficial de la Presidencia de la República de Colombia - Secretaría de Prensa. http://on.fb.me/q987HO"
-@BR_Sprecher,311941092,André Simonazzi,,,,,Offizielles Twitter-Profil des Bundesratssprechers André Simonazzi. Tweets seines Teams enden mit dem Kürzel (BK).
-@MeGovernment,309032583,Govt. of Montenegro,,,,,"Official English language Twitter account of the Government of #Montenegro.
-Follow our Montenegrin account: @VladaCG"
-@HailemariamD,307850736,Hailemariam Desalegn,,,,,Deputy-Prime Minister and Foreign Minister of the Federal Democratic Republic of Ethiopia. Deputy-Chairman of @EPRDF
-@StateHouseUg,306151694,State House Uganda,,,,,The Official State House Uganda Twitter page. All Information Posted and Viewd on this page are subjected to the State House User Policy.
-@PR_Paul_Biya,301026859,President Paul Biya,,,,,"2e président du Cameroun, j'ai accédé à la présidence le 06 nov 1982 après la démission du Président A. AHIDJO. Depuis, le renouveau du Cameroun est en marche."
-@GruevskiNikola,299942973,Nikola Gruevski,,,,,Премиер на Република Македонија и лидер на ВМРО-ДПМНЕ / Prime Minister of the Republic of Macedonia and leader of VMRO-DPMNE
-@SAPresident,295663598,Jacob G. Zuma,Jacob G. Zuma,South Africa,WHERE Actor1Name='jacob zuma' AND Actor1CountryCode = 'zaf',,President of the Republic of South Africa.
-@palaisnational,292928347,Michel Martelly,,,,,"Michel Martelly, President of the Republic of Haiti - Blog about the president..."
-@FinGovernment,292291704,Finnish Government,,,,,Latest from the Finnish Government and ministries
-@statsradet,292249730,Statsrådet,,,,,De senaste nyheterna från regeringen och ministerierna
-@RepGabon,291595538,République Gabonaise,,,,,
-@RaulCastroR,291220589,Raúl Castro Ruz,,,,,"Discursos y noticias de Raúl Castro, Primer Secretario del @PartidoPCC y Presidente del Consejo de Estado y de Ministro de Cuba publicadas en @Cubadebate"
-@primeministerkz,288234254,PrimeMinister.kz,,,,,Tвиттер-аккаунт официального сайта Премьер-Министра РК
-@valtioneuvosto,283979780,valtioneuvosto,,,,,Hallituksen ja ministeriöiden tuoreimmat uutiset. Tiliä ylläpitää Valtioneuvoston viestintäosasto http://bit.ly/1yoBWsk
-@GovernmentMN,280835808,Government Mongolia,,,,,Official twitter for Government of Mongolia
-@Maroc_eGov,280678149,eGov Maroc,,,,,Compte du programme de l'eGouvernement Marocain | Priorité de #MarocNumeric2013 | Direction de l'@EconomieNumeric (MICIEN) | Contact: eGov@mcinet.gov.ma
-@GuvernulRM,278969895,Directia comunicare,,,,,
-@AzerbaijanPA,278520184,AzerbaijanPA,,,,,Prezident Administrasiyası / Azərbaycan Respublikası / Rəsmi Twitter səhifəsi - Administration of the President / Republic of Azerbaijan / Official Twitter page
-@ComunicadosHN,277030216,Comunicados Honduras,,,,,
-@EmomaliRahmon,276380526,Emomali Rahmon,,,,,The President of Republic of Tajikistan.
-@ediramaal,273410176,Edi Rama,,,,,Faqja Zyrtare e Kryeministrit të Republikës së Shqipërisë
-@trpresidency,272621942,Turkish Presidency,,,,,
-@tccankaya,272613386,T.C.Cumhurbaşkanlığı,,,,,
-@IOGpr11,272490709,Ismail Omar Guelleh,,,,,Compte officiel du candidat de l'UMP. L'équipe com partage avec vous ici la une de l'actualité de la campagne présidentielle et des tweets du candidat lui même!
-@AButkevicius,271372111,Algirdas Butkevičius,,,,,Prime Minister of the Republic of Lithuania
-@KarimMassimov_E,270839688,Karim Massimov,,,,,"Prime Minister of Kazakhstan.
-Версию на казахском и русском языках вы найдете здесь @KarimMassimov"
-@jmkikwete,269780552,Jakaya Kikwete,,,,,The President of The United Republic of Tanzania (Rais wa Jamhuri ya Muungano wa Tanzania)
-@JPN_PMO,266991549,PM's Office of Japan,,,,,This is the official English twitter account of Prime Minister's Office of Japan. Our Facebook URL is                          http://www.facebook.com/Japan.PMO
-@Kantei_Saigai,265205959,首相官邸（災害情報）,,,,,"本アカウントは首相官邸の公式アカウントです。
-首相官邸から災害関連の政府活動情報をお届けいたします。"
-@presgoodluck,262660092,Goodluck Jonathan,,,,,"The OFFICIAL Twitter account for Goodluck Jonathan, President of The Federal Republic of Nigeria."
-@Moncef_Marzouki,262125327,محمد المنصف المرزوقي,,,,,رئيس الجمهورية التونسية - Président de la République Tunisienne
-@setkabgoid,260686783,Sekretariat Kabinet,,,,,Terdepan dan terkini dalam menyampaikan berita seputar pemerintahan. Dikelola oleh Desk Informasi Sekretariat Kabinet
-@prcavacosilva,257666657,Aníbal Cavaco Silva,,,,,Twitter oficial de Aníbal Cavaco Silva
-@PresidentUA,254952852,Щоденник Президента,,,,,Twitter представництво Президента України
-@KarimMassimov,252983114,Карим Масимов,,,,,Премьер-министр Республики Казахстан English version is here @KarimMassimov_E
-@DrEnsour,249951608,د. عبدالله النسور,Abdullah Ensour,Jordan,,,Prime Minister - Hashemite Kingdom of Jordan
-@UAEmGov,245243568,حكومة دولة الامارات,,,,,الحساب الرسمي لحكومة الامارات الذكية  The Official UAE Mobile Government Account
-@elbegdorj,238480712,Цахиагийн ЭЛБЭГДОРЖ,,,,,"Tsakhiagiin ELBEGDORJ, President of Mongolia | Монгол Улсын Ерөнхийлөгч
-| МОНГОЛ УЛСЫН ТӨЛӨӨ ЗҮТГЭЕ! |"
-@kormany_hu,237292791,Kormányportál,,,,,Magyarország Kormánya hivatalos portáljának Twitter oldala
-@presidencymv,235827932,Presidency Maldives,,,,,Official twitter account of The President's Office
-@prdthailand,235124393,กรมประชาสัมพันธ์,,,,,"Thailand's Government Public Relations Department, Office of the Prime Minister. The provider of official news and information about Thailand."
-@RegSprecher,234343491,Steffen Seibert,,,,,"Hier twittert Steffen Seibert, Sprecher der Bundesregierung und Chef des Bundespresseamtes (BPA). 
-Tweets seiner Mitarbeiter/innen enden mit dem Kürzel (BPA)."
-@UrugwiroVillage,233953901,Presidency | Rwanda,,,,,Official Twitter account of the Office of the President of Rwanda.Your unique opportunity to follow the work of President Paul Kagame on a daily basis.
-@Saudiegov,233501306,سعودي,,,,,البوابة الوطنية للتعاملات الإلكترونية الحكومية
-@sigmundurdavid,231054442,Sigmundur Davíð,,,,,Forsætisráðherra Íslands / Prime Minister of Iceland
-@BoykoBorisov,229635171,Boyko Borisov,,,,,Bulgarian Prime Minister
-@PresidencyGhana,227729078,Presidency of Ghana,,,,,"His Excellency President John Mahama was born in Damongo, in the Damango-Daboya constituency of Ghana."
-@pgchristie,221961767,Perry Christie,,,,,Prime Minister and leader of the Progressive Liberal Party
-@govofvanuatu,218627408,Vanuatu Government,,,,,Vanuatu Government Online Social Network
-@TPKanslia,218184927,TPKanslia,,,,,Tasavallan presidentin kanslia / Republikens presidents kansli / Office of the President of the Republic of Finland
-@JC_Varela,216457140,Juan Carlos Varela,,,,,Presidente Constitucional de la República de Panamá.
-@MashiRafael,209780362,Rafael Correa,,,,,Presidente Constitucional de la República del Ecuador.
-@govgr,207483074,government.gov.gr,,,,,Ο επίσημος λογαριασμός της ιστοσελίδας της Ελληνικής Κυβέρνησης. (Ευθύνη διαχείρισης: Ομάδα Επικοινωνιακού Σχεδιασμού της Γ.Γ του Πρωθυπουργού)
-@KremlinRussia_E,205622130,President of Russia,,,,,Official Kremlin news
-@ADO__Solutions,198439337,ADO_Solutions,,,,,"Alassane Dramane Ouattara, Président la République de Côte d'Ivoire.
-http://www.facebook.com/AdoSolutions"
-@GMICafghanistan,197700863,GMIC Afghanistan,,,,,"The GMIC was established in 2007 to respond to the great information need of the Afghan public, media,national and international stakeholders."
-@macky_sall,197493438,Macky SALL,,,,,Page Officielle du Président de la République du Sénégal
-@eucopresident,196994616,Donald Tusk,,,,,"Twitter channel of Donald Tusk, President of the European Council. Managed by the media team."
-@presidentkoroma,192543524,Ernest Bai Koroma,,,,,President of Sierra Leone
-@CourGrandDucale,190261116,Cour Grand-Ducale,,,,,Les activités à la Cour Grand-Ducale du Luxembourg. Latest activities from the Grand-Ducal Court of Luxembourg.
-@UKenyatta,183165874,Uhuru Kenyatta,,,,,President of The Republic of Kenya.
-@B_Izetbegovic,181884541,Bakir Izetbegović,,,,,
-@Ahmet_Davutoglu,181567076,Ahmet Davutoğlu,,,,,Türkiye Cumhuriyeti Başbakanı -  Adalet ve Kalkınma Partisi Genel Başkanı
-@BurundiGov,178298916,Burundi Government,,,,,Portail des institutions de la République du Burundi
-@PresidentNoy,177746513,P-Noy,,,,,"We request everyone to now follow @noynoyaquino, the President's official Twitter account. Thank you."
-@Xavier_Bettel,173929268,Bettel Xavier,,,,,Prime Minister/President of Demokratesch Partei
-@pcmperu,173020528,Consejo de Ministros,,,,,"Presidencia del Consejo de Ministros: 
-http://www.pcm.gob.pe 
-Cuenta administrada por la Oficina de Prensa e Imagen Institucional"
-@GovPH_PCOO,172770197,PCOO,,,,,The Official Twitter Account of the Presidential Communications Operations Office of the Philippine Government
-@azpresident,171357785,İlham Əliyev,,,,,Azərbaycan Respublikasının Prezidenti İlham Əliyevin rəsmi twitter kanalı.
-@PresidenciadeHN,169572405,Presidencia Honduras,,,,,
-@JunckerEU,169426475,Jean-Claude Juncker,,,,,President of the @EU_Commission
-@kyrgyzrepublic,167019733,Kyrgyz Republic,,,,,
-@antiguagov,166231881,Antigua and Barbuda,,,,,Official Twitter page for the Government of Antigua and Barbuda
-@15StClairAve,165427807,TT Prime Minister,,,,,The Official twitter channel for the Office of the Prime Minister of Trinidad and Tobago
-@strakovka,164302135,Úřad vlády ČR,,,,,Oficiální twitter účet Úřadu vlády České republiky
-@Rigas_pils,163823223,Valsts prezidents,,,,,Oficiālais Latvijas Valsts prezidenta Twitter konts. Informācija sabiedrībai par Latvijas Valsts prezidenta un Valsts prezidenta kancelejas darbību.
-@JGoodlucktweets,163594070,Goodluck Jonathan,,,,,An Account Opened in Support of the President of the Federal Republic of Nigeria.  This is not the President.
-@ThaiKhuFah,159062306,Thai Khu Fah,,,,,ศูนย์ประชาสัมพันธ์ข่าวรัฐบาลไทย Thai Government News Center
-@KremlinRussia,158650448,Президент России,,,,,Кремль. Официальные новости
-@EU_Commission,157981564,European Commission,,,,,"The Commission's job is to represent and uphold the interests of the European Union as a whole. It is headed by 28 Commissioners, 1 per member state."
-@koninklijkhuis,156926956,Koninklijk Huis,,,,,Dit is het officiële Twitter-kanaal over het Koninklijk Huis van de Rijksvoorlichtingsdienst. This is the official Twitter account of the Dutch Royal House
-@Victor_Ponta,156221710,Victor Ponta,,,,,"Premierul Romaniei, presedintele PSD. Contul este gestionat de Echipa VP / Prime Minister of Romania, President of PSD. Account run by Victor Ponta’s Staff."
-@belizegov,155932163,Government of Belize,,,,,Government at Service of The People
-@MinPres,155507136,Minister-president,,,,,Minister-president van Nederland – Redactie door de Rijksvoorlichtingsdienst – Wij zijn benieuwd naar jullie reacties
-@PrimatureGabon,154076382,Paul BIYOGHE MBA,,,,,
-@MedvedevRussia,153812887,Дмитрий Медведев,,,,,Председатель Правительства Российской Федерации.Аккаунт на английском - @MedvedevRussiaE
-@MedvedevRussiaE,153810519,Dmitry Medvedev,,,,,"Prime Minister of Russia. For tweets in Russian, follow @MedvedevRussia"
-@CasaRosadaAR,153169998,Casa Rosada,,,,,Twitter Oficial de la Casa de Gobierno de la República Argentina  http://www.casarosada.gob.ar
-@Ollanta_HumalaT,151190865,Ollanta Humala Tasso,,,,,"Presidente Constitucional de la República del Perú. Oficial (r) del Ejército, felizmente casado y orgulloso padre de Illariy, Nayra y Samin."
-@sanchezceren,148776931,Salvador Sánchez C.,,,,,Twitter oficial de Salvador Sánchez Cerén Presidente de la República de El Salvador para el periodo 2014 - 2019
-@merrionstreet,148000327,MerrionStreet.ie,,,,,"MerrionStreet.ie - Irish Government News Service is a service provided from Government Buildings in Dublin.
-RT's not an endorsement."
-@presidenciacr,144875363,Casa Presidencial CR,,,,,"Twitter Oficial de Casa Presidencial, Costa Rica. // Official Presidence of Costa Rica's Twitter Account."
-@presidentaz,143742312,Ilham Aliyev,,,,,Official twitter channel of the President of the Republic of Azerbaijan - Ilham Aliyev.
-@agarciapadilla,141223563,Alejandro,,,,,Perfil oficial del Gobernador de Puerto Rico. Official Profile of Puerto Rico's Governor. Tuits del Gobernador son firmados -AGP
-@IsraeliPM,141084952,PM of Israel,,,,,The official Twitter account of the Office of the Prime Minister of Israel
-@atambayev,140328404,Almazbek Atambaev,,,,,Ролевой аккаунт от первого лица.
-@PresidencialVen,138901003,Prensa Presidencial,,,,,
-@CFKArgentina,138814032,Cristina Kirchner,,,,,"Cristina Fernández de Kirchner, Presidenta de la Nación Argentina. En facebook: http://www.facebook.com/CFKArgentina"
-@komorowski,138163716,Bronisław Komorowski,,,,,
-@KamlaUNC,138149098,Kamla,,,,,Official Twitter for Kamla Persad Bissessar - candidate for Prime Minister of Trinidad and Tobago
-@imprensaPR,136409743,Imprensa Presidência,,,,,Secretaria de Imprensa da Presidência da República traz informações sobre a agenda da presidenta Dilma Rousseff em todo o País.
-@EndaKennyTD,135514272,Enda Kenny,,,,,"Taoiseach, Leader of Fine Gael, husband and father."
-@GH_PARK,134732045,박근혜(Park Geun Hye),,,,,대한민국 18대 대통령 박근혜의 공식 트위터입니다.
-@bluehousekorea,132800515,대한민국 청와대,,,,,"청와대 공식 트위터 계정 / Official Cheong Wa Dae twitter account - Office of the president, the Republic of Korea"
-@PresidenciaRD,132595055,PresidenciaRD,,,,,Cuenta twitter oficial de la Presidencia de la República Dominicana.
-@KenyaGov,132444446,Kenya Government,,,,,
-@dilmabr,131574396,Dilma Rousseff,,,,,"Twitter de Dilma Rousseff, presidenta do Brasil"
-@KagutaMuseveni,126955629,Yoweri K Museveni,,,,,President of the Republic of Uganda
-@BrazilGovNews,126397246,Brazil Gov News,,,,,Official Twitter channel of SECOM with the latest news from the Brazilian Federal Government.
-@PrimeMinisterKR,125585413,국무총리실(PMO),,,,,"{국무총리실 공식 트위터}
-'통(通)하지 않으면 통(痛)한다'는 각오로 대국민 소통의 활시위를 당기겠습니다."
-@GovernAndorra,122452959,Govern d’Andorra,,,,,"El twitter del Govern d'Andorra, un espai informatiu i de servei públic per estar en contacte amb el ciutadà.
-
-Visita el nostre web:"
-@prensapalacio,122441438,Presidencia Perú,,,,,Gobierno del Perú informa.
-@Pr_Alpha_Conde,121556351,Prof. Alpha Condé,,,,,Président de la République de Guinée)
-@regierung_fl,116202030,Reg. Liechtenstein,,,,,
-@EwaKopacz,110963318,Ewa Kopacz,,,,,Polityk
-@Viktor_Orban,109712752,Orbán Viktor,,,,,
-@boikoborisov,108003653,ген. Бойко Борисов,,,,,Министър-председател на Република България
-@MichelJMartelly,106887653,Michel J. Martelly,,,,,"Michel Joseph Martelly, Prezidan Repiblik Ayiti - Président de la République d'Haïti."
-@ArmandoGuebuza,106073177,Armando Guebuza,,,,,"Presidente da República de Moçambique.
-Republic of Mozambique´s President"
-@PrimeministerGR,104298598,"Prime Minister, GR",,,,,Ο Πρωθυπουργός της Ελλάδας | Prime Minister of the Hellenic Republic.
-@md_higgins,104192882,Michael D Higgins,,,,,President of Ireland
-@David_Cameron,103065157,David Cameron,,,,,Prime Minister and Leader of the @Conservatives
-@Presidencia_Ec,101895924,Presidencia Ecuador,,,,,Cuenta Oficial de Twitter de la Presidencia de la República de Ecuador.
-@DrBoniYAYI,100540710,YAYIBONI,,,,,"Banquier et économiste de formation, Boni Yayi est à la tête de la République du Bénin depuis Avril 2006. http://www.flickr.com/people/boniyayi-bj/ …"
-@Hilaaleege,100006693,Hilaaleege,,,,,Residence of the President - Republic of Maldives
-@PresidenciaPy,99295157,Presidencia Paraguay,,,,,Cuenta oficial de la Presidencia de la República del Paraguay.
-@CharlesMichel,98639150,Charles Michel,Charles Michel,Belgium,WHERE Actor1Name = 'Charles Michel' AND Actor1CountryCode = 'bel',,Premier Ministre de Belgique / Eerste Minister van België / Premierminister von Belgien
-@forsaetisradun,96155186,Forsætisráðuneytið,,,,,"Forsætisráðuneytið, Stjórnarráðshúsinu við Lækjartorg, 101 Reykjavík. Netfang: postur@for.is, sími 545 8400 - forsaetisraduneyti.is"
-@TonyAbbottMHR,93766096,Tony Abbott,,,,,Prime Minister of Australia
-@ottoperezmolina,90978338,Otto Pérez Molina,,,,,Presidente Constitucional de la República de Guatemala.
-@presidencia_sv,88716854,Casa Presidencial,,,,,Cuenta oficial de la Presidencia de la República de El Salvador.
-@RobertFico,88427076,Robert Fico,,,,,"Predseda vlády SR, právnik, predseda strany SMER – sociálna demokracia"
-@adosolutions,86037380,Alassane D. Ouattara,,,,,"Twitter officiel Alassane Dramane Ouattara, Président la République de Côte d'Ivoire."
-@PalestinianGov,85518943,Gov. Media Center,,,,,"PGMC is responsible for managing the outflow of governmental media relations and information data collected through Arab, Israeli, and foreign media outlets."
-@RwandaGov,85346528,Government of Rwanda,,,,,The official Twitter handle of the Government of Rwanda communications@gov.rw
-@samaras_antonis,83656002,Σαμαράς Αντώνης,,,,,
-@HaiderAlAbadi,80817491,Haider Al-Abadi,,,,,Prime Minister of Iraq | Former Deputy Speaker of CoR | MP since 2006 | Former Chairman Finance Committee | Former Chairman of Economic & Investment Committee
-@lacasablanca,78138151,La Casa Blanca,,,,,Cuenta oficial de la Casa Blanca. Comentarios recibidos a través de esta página están sujetos a la Ley de Archivos Presidenciales. Vea http://wh.gov/privacidad/
-@GOVuz,75402364,GOV.UZ,,,,,The Governmental Portal of The Republic of Uzbekistan is the official state information resource of the Government of The Republic of Uzbekistan.
-@manuelvalls,70385068,Manuel Valls,,,,,Premier ministre
-@noynoyaquino,69209858,Noynoy Aquino,,,,,President of the Republic of the Philippines
-@QaTaR_,68643830,قرارات,,,,,حساب لنشر القرارات والمراسيم الأميرية ومجلس الوزراء في #قطر. لا يتبع الحساب أي جهة رسمية
-@RT_Erdogan,68034431,Recep Tayyip Erdoğan,,,,,Türkiye Cumhuriyeti Cumhurbaşkanı - President of the Republic of Turkey
-@JuanManSantos,64839766,Juan Manuel Santos,,,,,Presidente de Colombia
-@BohuslavSobotka,62798772,Bohuslav Sobotka,,,,,
-@desdelamoncloa,58417540,La Moncloa,,,,,"Secretaría de Estado de Comunicación. Ministerio de la Presidencia. Gobierno de España. 
-
-Normas de uso:  http://www.lamoncloa.gob.es/paginas/varios/RedessocialesTwitter.aspx …"
-@JuanOrlandoH,58244743,Juan Orlando H.,,,,,Cuenta oficial del Presidente de la República de Honduras. 2014 - 2018 http://www.facebook.com/juanorlandoh
-@PremierRP,57626153,Kancelaria Premiera,,,,,Oficjalny profil Kancelarii Premiera. The official twitter channel for the Office of the Polish Prime Minister Ewa Kopacz.
-@ivojosipovic,56443222,Ivo Josipović,,,,,Ja sam Ivo Josipović i Predsjednik sam Republike Hrvatske.
-@alibongoondimba,51097280,Ali Bongo,,,,,
-@govgd,50030601,Gov't of Grenada,,,,,
-@OPMJamaica,48574376,Jamaica House,,,,,Activities of the Office of the Prime Minister of Jamaica
-@osucastle,47425726,Ghana's President,,,,,News about the Ghanaian President.
-@Denzil_Douglas,47109262,Denzil Douglas,,,,,
-@ashrafghani,46376581,Ashraf Ghani,,,,,President of the Islamic Republic of Afghanistan. Personal tweets from Dr. Ashraf Ghani are signed - AG.
-@Brivibas36,45522221,Valdības māja,,,,,Ministru kabinets / Government of Latvia
-@HHShkMohd,44335525,HH Sheikh Mohammed,Mohammed bin Rashid Al Maktoum,United Arab Emirates,"WHERE Actor1Name CONTAINS ""MAKTUM"" AND Actor1CountryCode=""ARE""",,Official Tweets by His Highness Sheikh Mohammed bin Rashid Al Maktoum
-@prezydentpl,43932737,Bronisław Komorowski,Bronisław Komorowski,Poland,"WHERE Actor1Name = ""Bronislaw Komorowski"" AND Actor1CountryCode=""POL""",,Oficjalny profil Prezydenta Rzeczypospolitej Polskiej. The official twitter channel for the President of the Republic of Poland.
-@StenbockiMaja,41104145,Valitsuse uudised,Taavi Rõivas,Estonia,"WHERE Actor1CountryCode=""EST"" AND Actor1Type1Code=""GOV""",,"Vabariigi Valitsuse uudised. For tweets in English, visit @EstonianGovt"
-@EstonianGovt,40868132,Estonian Government,,,,,"News from the Estonian Government. For tweets in Estonian, visit @StenbockiMaja"
-@gobrep,39630199,Gobierno República,,,,,Actualidad del Gobierno de la República de México.
-@fico2014,39046067,ROBERT FICO,Robert Fico,Slovakia,"WHERE Actor1Name = ""ROBERT FICO"" AND Actor1CountryCode=""SVK""",,SMER  –   SOCIÁLNA  DEMOKRACIA
-@tsheringtobgay,37869117,Tshering Tobgay,Tshering Tobgay,Bhutan,"WHERE Actor1CountryCode=""BTN"" AND Actor1Type1Code=""GOV""",,PM
-@niinisto,37665086,Sauli Niinistö,,,,,Tämä on Sauli Niinistön virallinen Twitter-tili. Sauli merkkaa omat viestinsä SN
-@PaulKagame,37601149,Paul Kagame,Paul Kagame,Rwanda,"WHERE Actor1Name = ""Paul Kagame"" AND Actor1CountryCode=""RWA""",,"President of the Republic of Rwanda, write to: paulkagame@gov.rw"
-@QueenRania,36412963,Rania Al Abdullah,,,,,A mum and a wife with a really cool day job...
-@alexstubb,36048614,Alexander Stubb,Alexander Stubb,Finland,"WHERE Actor1Name = ""Alexander Stubb"" AND Actor1CountryCode=""FIN""",,Prime Minister of Finland. Chairman of Kokoomus. Eternal optimist. Sub 10h Ironman. What you tweet is what you get.
-@BritishMonarchy,36042554,BritishMonarchy,,,,,"Updates, pictures and videos from Buckingham Palace about the work and activities of The Royal Family and the institution of Monarchy."
-@Statsmin_kontor,36028993,SMK,,,,,Statsministerens kontor bistår statsministeren i å lede og samordne arbeidet i regjeringen.
-@DaniloMedina,35485571,Danilo Medina,Danilo Medina,Dominican Republic,"WHERE Actor1CountryCode=""DOM"" AND Actor1Type1Code=""GOV""",,"Presidente constitucional de la República Dominicana. Comprometido con construir un país de oportunidades y bienestar. Padre de 3 bellas hijas, esposo de Candy."
-@PresidenciaMX,34666670,Presidencia México,,,,,Oficina de la Presidencia de la República 2012 - 2018.
-@leehsienloong,34568673,Lee Hsien Loong,Lee Hsien Loong,Singapore,"WHERE Actor1Name = ""Lee Hsien Loong"" AND Actor1CountryCode=""SGP""",,"Official Twitter account of the Prime Minister of Singapore, maintained by the Prime Minister's Office. Tweets by Mr Lee are signed LHL."
-@govpt,31237480,Governo de Portugal,,,,,
-@WhiteHouse,30313925,The White House,,,,,Follow for the latest from President Obama and his administration. Tweets from the President are signed –bo. Tweets may be archived: http://wh.gov/privacy .
-@JosephMuscat_JM,29466039,Joseph Muscat,Joseph Muscat,Malta,"WHERE Actor1CountryCode=""MLT"" AND Actor1Type1Code=""GOV""",,Prime Minister and Leader of the Labour Party - Malta. This profile is run by the PL campaign team. Personal tweets by Joseph Muscat are signed -JM.
-@govtofgeorgia,29242264,Republic of Georgia,,,,,Gov. of Georgia
-@Kronprinsparet,28101138,Det kongelige hoff,,,,,Official twitter stream on behalf of Their Royal Highnesses The Crown Prince and Crown Princess of Norway
-@khamenei_ir,27966935,Khamenei.ir,Ali Khamenei,Iran,"WHERE Actor1Name CONTAINS ""Khamenei"" AND Actor1CountryCode=""IRN""",,"Follow for regular updates and news about Ayatollah Seyed Ali Khamenei, Iran's Supreme Leader ---
-Arabic Account: @khamenei_ar"
-@guv_ro,27864636,Guvernul României,,,,,Romania
-@wernerfaymann,26380221,Werner Faymann,Werner Faymann,Austria,"WHERE Actor1Name=""Werner Faymann"" AND Actor1CountryCode=""AUT""",,
-@TabareVazquez,25517917,Tabare Vazquez,Tabare Vazquez,Uruguay,"WHERE Actor1Name=""Tabare Vazquez"" AND Actor1CountryCode=""URY""",,Presidente de la Republica Oriental del Uruguay
-@GjorgeIvanov,19693272,GjorgeIvanov,Gjorge Ivanov,Macedonia,"WHERE Actor1Name CONTAINS ""Ivanov"" AND Actor1CountryCode=""MKD""",,
-@passoscoelho,19689047,Pedro Passos Coelho,,,,,"Canal do presidente do PSD no twitter. Notícias, agenda, e declarações políticas."
-@narendramodi,18839785,Narendra Modi,,,,,Prime Minister of India
-@fhollande,18814998,François Hollande,,,,,Président de la République française
-@matteorenzi,18762875,Matteo Renzi,,,,,Presidente del Consiglio dei Ministri. Segretario del PD
-@NoticiaCR,18710706,La Noticia CR,,,,,"Contacto Directo del Gobierno de Costa Rica
-https://www.facebook.com/LaNoticiaCR"
-@johnkeypm,17380167,John Key,John Key,New Zealand,"WHERE Actor1Name=""JOHN KEY"" AND Actor1CountryCode=""NZL""",,"Prime Minister of New Zealand and Leader of the NZ National Party. Authorised by John Key MP, Executive Wing, Parliament, Molesworth Street, Wellington"
-@presidencia,17311493,Presidência,Cavaco Silva,Portugal,"WHERE Actor1Name=""CAVACO SILVA"" AND Actor1CountryCode=""PRT""",,Twitter Oficial da Presidência da República Portuguesa
-@netanyahu,17061263,בנימין נתניהו,Benjamin Netanyahu,Israel,"WHERE Actor1Name CONTAINS ""NETANYAHU"" AND Actor1CountryCode=""ISR""",,"העמוד הרשמי של יו''ר הליכוד וראש הממשלה, בנימין נתניהו"
-@Elysee,16717501,Élysée,,,,,Bienvenue sur le compte officiel de la Présidence de la République française et du Palais de l'Élysée. Livetweets à suivre sur #DirectPR .
-@erna_solberg,16432083,Erna Solberg,Erna Solberg,Norway,"WHERE Actor1Name CONTAINS ""SOLBERG"" AND Actor1CountryCode=""NOR""",,"Statsminister i Norge. Jobber for et samfunn med muligheter for alle.
-For saker til forvaltningen, henvend deg til rette myndighet for saksbehandling."
-@NajibRazak,16389180,Mohd Najib Tun Razak,Mohd Najib Tun Razak,Malaysia,"WHERE Actor1Name CONTAINS ""RAZAK"" AND Actor1CountryCode=""MYS""",,"Prime Minister of Malaysia, working towards a #BetterNation"
-@premierministre,15895464,Stephen Harper,,,,,Premier ministre du Canada. Follow me in English: @pmharper
-@Rijksoverheid,15595333,Rijksoverheid,,,,,De Rijksoverheid beantwoordt uw vragen over wet- en regelgeving | ma-vr 8.00-20.00 | Geen persoonlijke gegevens | Twitterbeleid op http://rijksoverheid.nl/contact
-@Regering,15595166,Regering,,,,,
-@Number10gov,14224719,UK Prime Minister,David Cameron,United Kingdom,"WHERE Actor1Name CONTAINS ""CAMERON"" AND Actor1CountryCode=""GBR""",,"The official Twitter channel for Prime Minister David Cameron's office, based at 10 Downing Street. Read social media policy: http://bit.ly/No10-social-media …"
-@pmharper,7401202,Stephen Harper,Stephen Harper,Canada,"WHERE Actor1Name CONTAINS ""HARPER"" AND Actor1CountryCode=""CAN""",,"Prime Minister of Canada. 
-
-Suivez-moi en français à @premierministre."
-@EPN,2897441,Enrique Peña Nieto,Enrique Peña Nieto,Mexico,"WHERE Actor1CountryCode=""MEX"" AND Actor1Type1Code=""GOV""",,Presidente de los Estados Unidos Mexicanos.
-@BarackObama,813286,Barack Obama,Barack Obama,United States,WHERE (Actor1Name='Obama' OR Actor1Name='BARACK OBAMA') AND Actor1CountryCode='USA',,This account is run by Organizing for Action staff. Tweets from the President are signed -bo.
+display_country,title_and_name,title,display_name,username,twitter_official,gdelt_search
+Afghanistan,Abdullah Abdullah,Prime Minister,Abdullah Abdullah,@DrAAbdullah,,WHERE Actor1CountryCode='AFG' AND Actor1Name='FOREIGN MINISTER ABDULLAH'
+Afghanistan,Ashraf Ghani,President,Ashraf Ghani,@ashrafghani,@ARG_AFG,WHERE Actor1Name = 'ASHRAF GHANI' AND Actor1CountryCode = 'afg'
+Albania,Prime Minister - Edi Rama,Prime Minister,Edi Rama,@ediramaal,,"WHERE Actor1CountryCode = ""ALB"" AND Actor1Code = ""ALBGOV"" AND SQLDATE > 20130915 AND Actor1Name CONTAINS ""ALBANIA"""
+Albania,Bujar Nishani,President,Bujar Nishani,,,WHERE Actor1Name = 'BUJAR NISHANI' AND Actor1CountryCode = 'alb'
+Algeria,Abdelaziz Bouteflika,President,Abdelaziz Bouteflika,,,"WHERE Actor1Name = ""ABDELAZIZ BOUTEFLIKA"" AND Actor1CountryCode = ""dza"""
+Algeria,Prime Minister - Abdelmalek Sellal,Prime Minister,Abdelmalek Sellal,,,"WHERE Actor1Name = ""ABDELMALEK SELLAL"" AND Actor1CountryCode = ""dza"""
+Andorra,Head of Government - Antoni Martí,Head of Government,Antoni Martí,@GovernAndorra,,"WHERE Actor1CountryCode = ""AND"" AND Actor1Code = ""ANDGOV"" AND SQLDATE > 20110512 AND Actor1Name CONTAINS ""ANDORRA"""
+Andorra,Episcopal Co-Prince - Joan Enric Vives Sicília,Episcopal Co-Prince,Joan Enric Vives Sicília,@GovernAndorra,,
+Angola,José Eduardo dos Santos,President,José Eduardo dos Santos,@CasaCivilPRA,,WHERE Actor1Name = 'JOSE EDUARDO DOS SANTOS' AND Actor1CountryCode = 'AGO'
+Antigua and Barbuda,Prime Minister - Gaston Browne,Prime Minister,Gaston Browne,@antiguagov,,WHERE Actor1Name = 'GASTON BROWNE' AND Actor1CountryCode = 'ATG'
+Antigua and Barbuda,Governor-General - Sir Rodney Williams,Governor-General,Sir Rodney Williams,@antiguagov,,WHERE Actor1Name = 'RODNEY WILLIAMS' AND Actor1CountryCode = 'ATG'
+Argentina,Cristina Fernández de Kirchner,President,Cristina Fernández de Kirchner,@CFKArgentina,@CasaRosadaAR,WHERE Actor1Name = 'CRISTINA FERNANDEZ DE KIRCHNER' AND Actor1CountryCode = 'ARG'
+Armenia,Serzh Sargsyan,President,Serzh Sargsyan,@PresidentAM_eng,,WHERE (Actor1Name = 'SERZH SARGSIAN' OR Actor1Name = 'SERZH SARKISYAN') AND Actor1CountryCode = 'ARM'
+Armenia,Prime Minister - Hovik Abrahamyan,Prime Minister,Hovik Abrahamyan,,,
+Australia,Prime Minister - Tony Abbott,Prime Minister,Tony Abbott,@TonyAbbottMHR,,WHERE Actor1Name = 'TONY ABBOT' AND Actor1CountryCode = 'AUS'
+Australia,Governor-General - Sir Peter Cosgrove,Governor-General,Sir Peter Cosgrove,,,
+Austria,Federal Chancellor - Werner Faymann,Federal Chancellor,Werner Faymann,@wernerfaymann,,"WHERE Actor1Name=""Werner Faymann"" AND Actor1CountryCode=""AUT"""
+Austria,Heinz Fischer,Federal President,Heinz Fischer,,,
+Azerbaijan,Prime Minister - Artur Rasizade,Prime Minister,Artur Rasizade,@AzerbaijanPA,,WHERE Actor1Name = 'ARTUR RASIZADE' AND Actor1CountryCode = 'AZE'
+Azerbaijan,Ilham Aliyev,President,Ilham Aliyev,@azpresident,@presidentaz,WHERE Actor1Name = 'ILHAM ALIYEV' AND Actor1CountryCode = 'AZE'
+Bahamas,Prime Minister - Perry Christie,Prime Minister,Perry Christie,@pgchristie,,WHERE Actor1Name = 'PERRY CHRISTIE' AND Actor1CountryCode = 'BHS'
+Bahamas,Governor-General - Dame Marguerite Pindling,Governor-General,Dame Marguerite Pindling,,,
+Bahrain,Sheikh Hamad bin Isa Al Khalifa,King,Sheikh Hamad bin Isa Al Khalifa,,,"WHERE Actor1Name = 'HAMAD BIN ISA AL KHALIFA' AND Actor1CountryCode=""BHR"""
+Bahrain,Prime Minister - Prince Khalifa bin Salman Al Khalifa,Prime Minister,Prince Khalifa bin Salman Al Khalifa,,,"WHERE Actor1Name = ""KHALIFA BIN SALMAN AL KHALIFA"" AND Actor1CountryCode = ""bhr"""
+Bangladesh,Prime Minister - Sheikh Hasina,Prime Minister,Sheikh Hasina,,,"WHERE Actor1Name = ""SHEIKH HASINA WAJED"" AND Actor1CountryCode = ""bgd"""
+Bangladesh,Abdul Hamid,President,Abdul Hamid,,,
+Barbados,Prime Minister - Freundel Stuart,Prime Minister,Freundel Stuart,,,"WHERE Actor1Name = ""FREUNDEL STUART"" AND Actor1CountryCode = ""brb"""
+Barbados,Governor-General - Sir Elliott Belgrave,Governor-General,Sir Elliott Belgrave,,,
+Belarus,Prime Minister - Mikhail Myasnikovich,Prime Minister,Mikhail Myasnikovich,,,"WHERE Actor1Name = ""MIKHAIL MYASNIKOVICH"" AND Actor1CountryCode = ""BLR"""
+Belarus,President - Alexander Lukashenko,President,Alexander Lukashenko,,,
+Belgium,Prime Minister - Charles Michel,Prime Minister,Charles Michel,@CharlesMichel,,WHERE Actor1Name = 'Charles Michel' AND Actor1CountryCode = 'bel'
+Belgium,Philippe,King,Philippe,@MonarchieBe,,
+Belize,Governor-General - Sir Colville Young,Governor-General,Sir Colville Young,@belizegov,,WHERE Actor1Name = 'COLVILLE YOUNG' AND Actor1CountryCode = 'BLZ'
+Belize,Prime Minister - Dean Barrow,Prime Minister,Dean Barrow,@BarrowDean,,WHERE Actor1Name = 'DEAN BARROW' AND Actor1CountryCode = 'BLZ'
+Benin,President - Yayi Boni,President,Yayi Boni,@DrBoniYAYI,,WHERE Actor1Name = 'YAYI BONI' AND Actor1CountryCode = 'BEN'
+Bhutan,Prime Minister - Tshering Tobgay,Prime Minister,Tshering Tobgay,@tsheringtobgay,,"WHERE Actor1CountryCode=""BTN"" AND Actor1Code=""BTNGOV"" AND Actor1Name CONTAINS ""BHUTAN"""
+Bhutan,Jigme Khesar Namgyel Wangchuck,King,Jigme Khesar Namgyel Wangchuck,,,"WHERE Actor1Name CONTAINS ""Jigme Khesar Namgyel Wangchuck"" AND Actor1CountryCode = ""BTN"""
+Bolivia,President - Evo Morales,President,Evo Morales,@mincombolivia,,WHERE Actor1Name = 'EVO MORALES' AND Actor1CountryCode = 'BOL'
+Bosnia and Herzegovina,Chairman of the Council of Ministers - Vjekoslav Bevanda,Chairman of the Council of Ministers,Vjekoslav Bevanda,@VBevanda,,
+Bosnia and Herzegovina,,Member,Bakir Izetbegović,@B_Izetbegovic,,
+Bosnia and Herzegovina,High Representative - Valentin Inzko,High Representative,Valentin Inzko,,,
+Botswana,President - Ian Khama,President,Ian Khama,@BWGovernment,,WHERE Actor1Name contains 'Khama' AND Actor1CountryCode = 'BWA'
+Brazil,President - Dilma Rousseff,President,Dilma Rousseff,@dilmabr,@imprensaPR,WHERE Actor1Name = 'Dilma Rousseff' AND Actor1CountryCode = 'bra'
+Brunei,Sultan and Prime Minister - Hassanal Bolkiah,Sultan and Prime Minister,Hassanal Bolkiah,@brunei_pmo,@BdiPresidence,WHERE Actor1Name='HASSANAL BOLKIAH' AND Actor1CountryCode = 'BRN'
+Bulgaria,Prime Minister - Boyko Borisov,Prime Minister,Boyko Borisov,@BoykoBorisov,@boikoborisov,WHERE Actor1Name = 'BOYKO BORISSOV' AND Actor1CountryCode = 'bgr'
+Bulgaria,President - Rosen Plevneliev,President,Rosen Plevneliev,@BgPresidency,@rplevneliev,WHERE Actor1Name = 'ROSEN PLEVNELIEV' AND Actor1CountryCode = 'bgr'
+Burkina Faso,Head of State of the Transition - Michel Kafando,Head of State of the Transition,Michel Kafando,@MichelKafando,,WHERE Actor1Name CONTAINS 'kafando' AND Actor1CountryCode='BFA'
+Burkina Faso,Acting Prime Minister - Yacouba Isaac Zida,Acting Prime Minister,Yacouba Isaac Zida,,,
+Burundi,President - Pierre Nkurunziza,President,Pierre Nkurunziza,@BdiPresidence,@BurundiGov,WHERE Actor1Name = 'PIERRE NKURUNZIZA' AND Actor1CountryCode = 'BDI'
+Cambodia,Prime Minister - Hun Sen,Prime Minister,Hun Sen,,,"WHERE Actor1Name CONTAINS ""Hun Sen"" AND Actor1CountryCode = ""KHM"""
+Cambodia,King - Norodom Sihamoni,King,Norodom Sihamoni,,,"WHERE Actor1Name CONTAINS ""Norodom Sihamoni"" AND Actor1CountryCode = ""KHM"""
+Cameroon,President - Paul Biya,President,Paul Biya,@PaulBiya,@PR_Paul_Biya,WHERE Actor1Name = 'PAUL BIYA' AND Actor1CountryCode = 'CMR'
+Cameroon,Prime Minister - Philémon Yang,Prime Minister,Philémon Yang,,,"WHERE Actor1Name CONTAINS ""Philemon Yang"" AND Actor1CountryCode = ""cmr"""
+Canada,Prime Minister - Stephen Harper,Prime Minister,Stephen Harper,@pmharper,@premierministre,"WHERE Actor1Name = ""STEPHEN HARPER"" AND Actor1CountryCode=""CAN"""
+Canada,Governor General - David Johnston,Governor General,David Johnston,,,"WHERE Actor1Name CONTAINS ""David Johnston"" AND Actor1CountryCode = ""CAN"""
+Cape Verde,President - Jorge Carlos Fonseca,President,Jorge Carlos Fonseca,@Jorgecfonseca,@presidenciaCV,"WHERE Actor1CountryCode = ""CPV"" AND Actor1Code = ""CPVGOV"" AND SQLDATE > 20110909 AND Actor1Name CONTAINS ""CAPE VERDE"""
+Cape Verde,Prime Minister - José Maria Neves,Prime Minister,José Maria Neves,,,"WHERE Actor1Name CONTAINS ""JosE Maria Neves"" AND Actor1CountryCode = ""CPV"""
+Central African Republic,Head of State of the Transition - Catherine Samba-Panza,Head of State of the Transition,Catherine Samba-Panza,,,
+Central African Republic,Acting Prime Minister - Mahamat Kamoun,Acting Prime Minister,Mahamat Kamoun,,,
+Chad,Prime Minister - Kalzeubet Pahimi Deubet,Prime Minister,Kalzeubet Pahimi Deubet,@PMTCHAD,,"WHERE Actor1CountryCode = ""TCD"" AND Actor1Code = ""TCDGOV"" AND SQLDATE > 20131121 AND Actor1Name CONTAINS ""CHAD"""
+Chad,President - Idriss Déby,President,Idriss Déby,,,"WHERE Actor1Name = ""IDRISS DEBY"" AND Actor1CountryCode=""TCD"""
+Chile,President - Michelle Bachelet,President,Michelle Bachelet,@PrensaMichelle,,"WHERE Actor1Name contains ""Bachelet"" AND Actor1CountryCode=""CHL"""
+China,Premier of the State Council - Li Keqiang,Premier of the State Council,Li Keqiang,,,"WHERE Actor1Name = ""Li Keqiang"" AND Actor1CountryCode = ""CHN"""
+China,President - Xi Jinping,President,Xi Jinping,,,"WHERE Actor1Name CONTAINS ""Xi Jinping"" AND Actor1CountryCode = ""CHN"""
+Colombia,President - Juan Manuel Santos,President,Juan Manuel Santos,@JuanManSantos,@infopresidencia,"WHERE Actor1Name = ""JUAN MANUEL SANTOS"" AND Actor1CountryCode=""COL"""
+Comoros,President - Ikililou Dhoinine,President,Ikililou Dhoinine,,,"WHERE Actor1Name CONTAINS ""Ikililou Dhoinine"" AND Actor1CountryCode = ""COM"""
+"Congo, Democratic Republic of the",President - Joseph Kabila,President,Joseph Kabila,,,"WHERE Actor1Name = ""JOSEPH KABILA KABANGE"" AND Actor1CountryCode = ""COD"""
+"Congo, Democratic Republic of the",Prime Minister - Augustin Matata Ponyo,Prime Minister,Augustin Matata Ponyo,@Mapon_Matata,@PrimatureRDC,WHERE Actor1Name='MATATA PONYO MAPON' AND Actor1CountryCode='COD'
+"Congo, Republic of the",President - Denis Sassou Nguesso,President,Denis Sassou Nguesso,@SassouCG,,"WHERE Actor1CountryCode = 'COG' AND Actor1Code = ""COGGOV"" AND SQLDATE > 19971025 AND Actor1Name CONTAINS ""CONGO"""
+Costa Rica,President - Luis Guillermo Solís,President,Luis Guillermo Solís,@luisguillermosr,@presidenciacr,"WHERE Actor1CountryCode = 'CRI' AND Actor1Code = ""CRIGOV"" AND SQLDATE > 20140508 AND Actor1Name CONTAINS ""COSTA RICA"""
+Croatia,President - Ivo Josipović,President,Ivo Josipović,@ivojosipovic,@uredprh,"WHERE Actor1CountryCode = 'HRV' AND Actor1Code = ""HRVGOV"" AND SQLDATE > 20100219 AND Actor1Name CONTAINS ""CROATIA"""
+Croatia,Prime Minister - Zoran Milanović,Prime Minister,Zoran Milanović,,,
+Cuba,President of the Council of State and President of the Council of Ministers - Raúl Castro,President of the Council of State and President of the Council of Ministers,Raúl Castro,@RaulCastroR,,"WHERE Actor1Name = ""RAUL CASTRO"" AND Actor1CountryCode=""CUB"""
+Cyprus,President - Nicos Anastasiades,President,Nicos Anastasiades,@AnastasiadesCY,@CYpresidency,"WHERE Actor1CountryCode = 'CYP' AND Actor1Code = ""CYPGOV"" AND SQLDATE > 20130228 AND Actor1Name CONTAINS ""CYPR"""
+Czech Republic,Prime Minister - Bohuslav Sobotka,Prime Minister,Bohuslav Sobotka,@BohuslavSobotka,@strakovka,"WHERE Actor1Name = ""BOHUSLAV SOBOTKA"" AND Actor1CountryCode=""CZE"""
+Czech Republic,President - Miloš Zeman,President,Miloš Zeman,@MZemanOficialni,,WHERE Actor1Name='MILOS ZEMAN' AND Actor1CountryCode = 'CZE'
+Denmark,Prime Minister - Helle Thorning-Schmidt,Prime Minister,Helle Thorning-Schmidt,@HelleThorningS,,"WHERE Actor1CountryCode = 'DNK' AND Actor1Code = ""DNKGOV"" AND SQLDATE > 20111003 AND (Actor1Name CONTAINS ""DANISH"" OR Actor1Name CONTAINS ""DENMARK"")"
+Denmark,Queen - Margrethe II,Queen,Margrethe II,,,"WHERE Actor1Name CONTAINS ""Margrethe II"" AND Actor1CountryCode = ""DNK"""
+Djibouti,President - Ismaïl Omar Guelleh,President,Ismaïl Omar Guelleh,@IOGpr11,,"WHERE Actor1Name = ""ISMAIL OMAR GUELLEH"" AND Actor1CountryCode=""DJI"""
+Djibouti,Prime Minister - Abdoulkader Kamil Mohamed,Prime Minister,Abdoulkader Kamil Mohamed,,,
+Dominica,Prime Minister - Roosevelt Skerrit,Prime Minister,Roosevelt Skerrit,@SkerritR,,WHERE Actor1Name = 'ROOSEVELT SKERRIT' AND Actor1CountryCode = 'DMA'
+Dominica,President - Charles Savarin,President,Charles Savarin,,,"WHERE Actor1Name CONTAINS ""Charles Savarin"" AND Actor1CountryCode = ""DMA"""
+Dominican Republic,President - Danilo Medina,President,Danilo Medina,@DaniloMedina,@PresidenciaRD,"WHERE Actor1CountryCode = 'DOM' AND Actor1Code = ""DOMGOV"" AND SQLDATE > 20120816 AND Actor1Name CONTAINS ""DOMINICAN"""
+East Timor,President - Taur Matan Ruak,President,Taur Matan Ruak,@TaurMatanRuak,@PRepublicaTL,"WHERE Actor1CountryCode = 'TMP' AND Actor1Code = ""TMPGOV"" AND SQLDATE > 20120520 AND Actor1Name CONTAINS ""TIMOR"""
+East Timor,Prime Minister - Xanana Gusmão,Prime Minister,Xanana Gusmão,,,"WHERE Actor1Name CONTAINS ""Xanana Gusmao"" AND Actor1CountryCode = ""TMP"""
+Ecuador,President - Rafael Correa,President,Rafael Correa,@MashiRafael,@Presidencia_Ec,"WHERE Actor1Name = ""RAFAEL CORREA"" AND Actor1CountryCode=""ECU"""
+Egypt,President - Abdel Fattah el-Sisi,President,Abdel Fattah el-Sisi,@AlsisiOfficial,@EgyPresidency,"WHERE Actor1CountryCode = ""EGY"" AND Actor1Code = ""EGYGOV"" AND SQLDATE > 20140608 AND Actor1Name CONTAINS ""EGYPT"""
+Egypt,Prime Minister - Ibrahim Mahlab,Prime Minister,Ibrahim Mahlab,@Ibrahim_Mahlab,,
+El Salvador,President - Salvador Sánchez Cerén,President,Salvador Sánchez Cerén,@sanchezceren,@presidencia_sv,"WHERE Actor1Name = ""SALVADOR SANCHEZ CEREN"" AND Actor1CountryCode=""SLV"""
+Equatorial Guinea,President - Teodoro Obiang Nguema Mbasogo,President,Teodoro Obiang Nguema Mbasogo,,,"WHERE Actor1Name = ""TEODORO OBIANG NGUEMA MBASOGO"" AND Actor1CountryCode = ""gnq"""
+Equatorial Guinea,Prime Minister - Vicente Ehate Tomi,Prime Minister,Vicente Ehate Tomi,,,
+Eritrea,President - Isaias Afwerki,President,Isaias Afwerki,,,"WHERE Actor1Name = ""ISAIAS AFEWERKI"" AND Actor1CountryCode = ""eri"""
+Estonia,President - Toomas Hendrik Ilves,President,Toomas Hendrik Ilves,@IlvesToomas,,"WHERE Actor1Name = ""TOOMAS HENDRIK ILVES"" AND Actor1CountryCode=""EST"""
+Estonia,Prime Minister - Taavi Rõivas,Prime Minister,Taavi Rõivas,@TaaviRoivas,@EstonianGovt,
+Ethiopia,Prime Minister - Hailemariam Desalegn,Prime Minister,Hailemariam Desalegn,@HailemariamD,,"WHERE Actor1Name = ""HAILEMARIAM DESALEGN"" AND Actor1CountryCode=""ETH"""
+Ethiopia,President - Mulatu Teshome,President,Mulatu Teshome,,,
+Fiji,Prime Minister - Frank Bainimarama,Prime Minister,Frank Bainimarama,@FijiPM,@FijiGovernment,WHERE Actor1CountryCode = 'FJI' AND Actor1Name CONTAINS 'Bainimarama'
+Fiji,President - Ratu Epeli Nailatikau,President,Ratu Epeli Nailatikau,@FijiRepublic,,"WHERE Actor1Name = ""EPELI NAILATIKAU"" AND Actor1CountryCode=""FJI"""
+Finland,Prime Minister - Alexander Stubb,Prime Minister,Alexander Stubb,@alexstubb,@FinGovernment,"WHERE Actor1Name = ""Alexander Stubb"" AND Actor1CountryCode=""FIN"""
+Finland,President - Sauli Niinistö,President,Sauli Niinistö,@niinisto,@TPKanslia,"WHERE Actor1Name = ""SAULI NIINISTO"" AND Actor1CountryCode=""FIN"""
+France,President - François Hollande,President,François Hollande,@fhollande,@French_Gov,"WHERE Actor1CountryCode = ""FRA"" AND Actor1Code = ""FRAGOV"" AND SQLDATE > 20120515 AND (Actor1Name CONTAINS ""FRANCE"" OR Actor1Name CONTAINS ""FRENCH"")"
+France,Prime Minister - Manuel Valls,Prime Minister,Manuel Valls,@manuelvalls,@Matignon,
+Gabon,President - Ali Bongo Ondimba,President,Ali Bongo Ondimba,@alibongoondimba,@RepGabon,"WHERE Actor1Name = ""ALI BONGO ONDIMBA"" AND Actor1CountryCode=""GAB"""
+Gabon,Prime Minister - Daniel Ona Ondo,Prime Minister,Daniel Ona Ondo,@GouvGabon,@PrimatureGabon,"WHERE Actor1Name=""ALI BONGO ONDIMBA"" AND Actor1CountryCode='GAB'"
+"Gambia, The",President - Yahya Jammeh,President,Yahya Jammeh,@jammehofficial,,"WHERE Actor1Name = ""YAHYA JAMMEH"" AND Actor1CountryCode=""GMB"""
+Georgia,Prime Minister - Irakli Garibashvili,Prime Minister,Irakli Garibashvili,@PrimeMinisterGE,@govtofgeorgia,
+Georgia,President - Giorgi Margvelashvili,President,Giorgi Margvelashvili,@MargvelashviliG,,
+Germany,Federal Chancellor - Angela Merkel,Federal Chancellor,Angela Merkel,,,"WHERE Actor1Name = ""Angela Merkel"" AND Actor1CountryCode = ""DEU"""
+Germany,Federal President - Joachim Gauck,Federal President,Joachim Gauck,,,
+Ghana,President - John Dramani Mahama,President,John Dramani Mahama,@JDMahama,,WHERE (Actor1Name = 'JOHN DRAMANI MAHAMA' OR Actor1Name = 'JOHN MAHAMA') AND Actor1CountryCode = 'GHA'
+Greece,President - Karolos Papoulias,President,Karolos Papoulias,@govgr,,"WHERE Actor1Name = ""KAROLOS PAPOULIAS"" AND Actor1CountryCode=""GRC"""
+Greece,Prime Minister - Antonis Samaras,Prime Minister,Antonis Samaras,@samaras_antonis,@PrimeministerGR,
+Grenada,Prime Minister - Keith Mitchell,Prime Minister,Keith Mitchell,@govgd,,"WHERE Actor1Name = ""KEITH MITCHELL"" AND Actor1CountryCode=""GRD"""
+Grenada,Governor-General - Dame Cécile La Grenade,Governor-General,Dame Cécile La Grenade,@govgd,,
+Guatemala,President - Otto Pérez Molina,President,Otto Pérez Molina,@ottoperezmolina,@GuatemalaGob,"WHERE Actor1CountryCode = 'GTM' AND Actor1Code = ""GTMGOV"" AND SQLDATE > 20120114 AND Actor1Name CONTAINS ""GUATEMALA"""
+Guinea,President - Alpha Condé,President,Alpha Condé,@Pr_Alpha_Conde,@Sekhoutoureya,"WHERE Actor1CountryCode = ""GIN"" AND Actor1Code = ""GINGOV"" AND SQLDATE > 20101221 AND Actor1Name CONTAINS ""GUINEA"""
+Guinea,Prime Minister - Mohamed Said Fofana,Prime Minister,Mohamed Said Fofana,,,"WHERE Actor1Name CONTAINS ""Mohamed Said Fofana"" AND Actor1CountryCode = ""GIN"""
+Guinea-Bissau,Prime Minister - Domingos Simões Pereira,Prime Minister,Domingos Simões Pereira,,,
+Guinea-Bissau,President - José Mário Vaz,President,José Mário Vaz,,,
+Guyana,President - Donald Ramotar,President,Donald Ramotar,@DonaldRamotar,,"WHERE Actor1CountryCode = ""GUY"" AND Actor1Code = ""GUYGOV"" AND SQLDATE > 20111203 AND Actor1Name CONTAINS ""GUYAN"""
+Guyana,Prime Minister - Sam Hinds,Prime Minister,Sam Hinds,,,"WHERE Actor1Name CONTAINS ""Sam Hinds"" AND Actor1CountryCode = ""GUY"""
+Haiti,President - Michel Martelly,President,Michel Martelly,@MichelJMartelly,@palaisnational,"WHERE Actor1CountryCode = ""HTI"" AND Actor1Code = ""HTIGOV"" AND SQLDATE > 20110514 AND Actor1Name CONTAINS ""HAITI"""
+Haiti,Acting Prime Minister - Florence Duperval Guillaume,Acting Prime Minister,Florence Duperval Guillaume,@FlorenceGuillau,,
+Honduras,President - Juan Orlando Hernández,President,Juan Orlando Hernández,@JuanOrlandoH,@Presidencia_HN,"WHERE Actor1CountryCode = 'HND' AND Actor1Code = ""HNDGOV"" AND SQLDATE > 20140127 AND Actor1Name CONTAINS ""HONDURA"""
+Hungary,Prime Minister - Viktor Orbán,Prime Minister,Viktor Orbán,@Viktor_Orban,@kormany_hu,"WHERE Actor1Name = ""VIKTOR ORBAN"" AND Actor1CountryCode=""HUN"""
+Hungary,President - János Áder,President,János Áder,,,
+Iceland,Prime Minister - Sigmundur Davíð Gunnlaugsson,Prime Minister,Sigmundur Davíð Gunnlaugsson,@sigmundurdavid,@forsaetisradun,"WHERE Actor1CountryCode = ""ISL"" AND Actor1Code = ""ISLGOV"" AND SQLDATE > 20130523 AND Actor1Name CONTAINS ""ICELAND"""
+Iceland,President - Ólafur Ragnar Grímsson,President,Ólafur Ragnar Grímsson,,,"WHERE Actor1Name CONTAINS ""Olafur Ragnar GrImsson"" AND Actor1CountryCode = ""ISL"""
+India,President - Pranab Mukherjee,President,Pranab Mukherjee,@RashtrapatiBhvn,,"WHERE Actor1Name=""Pranab Mukherjee"" AND Actor1CountryCode='IND'"
+India,Prime Minister - Narendra Modi,Prime Minister,Narendra Modi,@narendramodi,@PMOIndia,
+Indonesia,President - Joko Widodo,President,Joko Widodo,@jokowi_do2,@IstanaRakyat,"WHERE Actor1CountryCode = 'IDN' AND Actor1Code = ""IDNGOV"" AND SQLDATE > 20141020 AND Actor1Name CONTAINS ""INDONESIA"""
+Iran,Supreme Leader - Ayatollah Ali Khamenei,Supreme Leader,Ayatollah Ali Khamenei,@Khamenei_ar,,WHERE Actor1Name='AYATOLLAH KHAMENEI' AND Actor1CountryCode = 'IRN'
+Iran,President - Hassan Rouhani,President,Hassan Rouhani,@HassanRouhani,,
+Iraq,Prime Minister - Haider Al-Abadi,Prime Minister,Haider Al-Abadi,@HaiderAlAbadi,,"WHERE Actor1CountryCode = ""IRQ"" AND Actor1Code = ""IRQGOV"" AND SQLDATE > 20140908 AND Actor1Name CONTAINS ""IRAQ"""
+Iraq,President - Fuad Masum,President,Fuad Masum,,,
+Ireland,Taoiseach - Enda Kenny,Taoiseach,Enda Kenny,@EndaKennyTD,@merrionstreet,"WHERE Actor1CountryCode = ""IRL"" AND Actor1Code = ""IRLGOV"" AND SQLDATE > 20110309 AND (Actor1Name CONTAINS ""IRISH"" OR Actor1Name CONTAINS ""IRELAND"" )"
+Ireland,President - Michael D. Higgins,President,Michael D. Higgins,@md_higgins,,
+Israel,Prime Minister - Benjamin Netanyahu,Prime Minister,Benjamin Netanyahu,@netanyahu,@IsraeliPM,"WHERE Actor1Name CONTAINS ""NETANYAHU"" AND Actor1CountryCode=""ISR"""
+Israel,President - Reuven Rivlin,President,Reuven Rivlin,@rubirivlin,@PresidentRuvi,"WHERE Actor1Name=""REUVEN RIVLIN"" AND Actor1CountryCode='ISR'"
+Italy,President - Giorgio Napolitano,President,Giorgio Napolitano,@Palazzo_Chigi,@QuirinaleStampa,WHERE Actor1Name = 'GIORGIO NAPOLITANO' AND Actor1CountryCode = 'ITA'
+Italy,President of the Council of Ministers - Matteo Renzi,President of the Council of Ministers,Matteo Renzi,@matteorenzi,,
+Ivory Coast,Prime Minister - Daniel Kablan Duncan,Prime Minister,Daniel Kablan Duncan,@Daniel_k_Duncan,@Gouvci,WHERE Actor1Name = 'DANIEL KABLAN DUNCAN' AND Actor1CountryCode = 'CIV'
+Ivory Coast,President - Alassane Ouattara,President,Alassane Ouattara,@adosolutions,@ADO__Solutions,"WHERE Actor1Name = ""ALASSANE OUATTARA"" AND Actor1CountryCode=""CIV"""
+Jamaica,Prime Minister - Portia Simpson-Miller,Prime Minister,Portia Simpson-Miller,@PSimpsonMiller,@OPMJamaica,"WHERE Actor1Name = ""PORTIA SIMPSON MILLER"" AND Actor1CountryCode=""JAM"""
+Jamaica,Governor-General - Sir Patrick Allen,Governor-General,Sir Patrick Allen,,,
+Japan,Emperor - Akihito,Emperor,Akihito,,,"WHERE Actor1Name CONTAINS ""Akihito"" AND Actor1CountryCode = ""JPN"""
+Japan,Prime Minister - Shinzō Abe,Prime Minister,Shinzō Abe,@JPN_PMO,@AbeShinzo,WHERE Actor1Name='Shinzo Abe' AND Actor1CountryCode='JPN'
+Jordan,King - Abdullah II,King,Abdullah II,@RHCJO,,WHERE Actor1Name='Abdullah II' AND Actor1CountryCode = 'JOR'
+Jordan,Prime Minister - Abdullah Ensour,Prime Minister,Abdullah Ensour,@DrEnsour,,
+Kazakhstan,Prime Minister - Karim Masimov,Prime Minister,Karim Masimov,@KarimMassimov_E,@kaz_pm_kz,WHERE Actor1Name = 'KARIM MASIMOV' AND Actor1CountryCode = 'KAZ'
+Kazakhstan,President - Nursultan Nazarbayev,President,Nursultan Nazarbayev,@ortcomkzE,@kaz_pm_kz,WHERE Actor1Name = 'NURSULTAN NAZARBAYEV' AND Actor1CountryCode = 'KAZ'
+Kenya,President - Uhuru Kenyatta,President,Uhuru Kenyatta,@UKenyatta,@KenyaGov,WHERE Actor1Name='UHURU KENYATTA' AND Actor1CountryCode = 'KEN'
+Kiribati,President - Anote Tong,President,Anote Tong,,,"WHERE Actor1Name = ""ANOTE TONG"" AND Actor1CountryCode=""KIR"""
+Kuwait,Emir - Sheikh Sabah Al-Ahmad Al-Jaber Al-Sabah,Emir,Sheikh Sabah Al-Ahmad Al-Jaber Al-Sabah,,,"WHERE Actor1Name CONTAINS ""Ahmad"" AND Actor1Name CONTAINS ""JABIR"" AND Actor1CountryCode = ""kwt"""
+Kuwait,Prime Minister - Sheikh Jaber Al-Mubarak Al-Hamad Al-Sabah,Prime Minister,Sheikh Jaber Al-Mubarak Al-Hamad Al-Sabah,,,"WHERE Actor1Name CONTAINS ""Mubarak"" AND Actor1Name CONTAINS ""JABIR"" AND Actor1CountryCode = ""kwt"""
+Kyrgyzstan,President - Almazbek Atambayev,President,Almazbek Atambayev,@atambayev,@kyrgyzpresident,WHERE Actor1Name='ALMAZ ATAMBAYEV' AND Actor1CountryCode='KGZ'
+Kyrgyzstan,Prime Minister - Djoomart Otorbaev,Prime Minister,Djoomart Otorbaev,@kyrgyzrepublic,,
+Laos,President - Choummaly Sayasone,President,Choummaly Sayasone,,,"WHERE Actor1Name = ""CHOUMMALY SAYASONE"" AND Actor1CountryCode = ""lao"""
+Laos,Prime Minister - Thongsing Thammavong,Prime Minister,Thongsing Thammavong,,,"WHERE Actor1Name = ""THONGSING THAMMAVONG"" AND Actor1CountryCode = ""lao"""
+Latvia,President - Andris Bērziņš,President,Andris Bērziņš,@Rigas_pils,,"WHERE Actor1Name = ""ANDRIS BERZINS"" AND Actor1CountryCode=""LVA"""
+Latvia,Prime Minister - Laimdota Straujuma,Prime Minister,Laimdota Straujuma,@Straujuma,@Brivibas36,
+Lebanon,Acting President and President of the Council of Ministers - Tammam Salam,Acting President and President of the Council of Ministers,Tammam Salam,@SalamTammam,,WHERE Actor1Name = 'TAMMAM SALAM' AND Actor1CountryCode = 'lbn'
+Lesotho,King - Letsie III,King,Letsie III,,,"WHERE Actor1Name = ""LETSIE III"" AND Actor1CountryCode = ""lso"""
+Lesotho,Prime Minister - Tom Thabane,Prime Minister,Tom Thabane,,,"WHERE Actor1Name CONTAINS ""Thabane"" AND Actor1CountryCode = ""lso"""
+Liberia,President - Ellen Johnson Sirleaf,President,Ellen Johnson Sirleaf,@emansionliberia,,WHERE Actor1Name = 'Ellen Johnson Sirleaf' AND Actor1CountryCode = 'lbr'
+Libya,Prime Minister - disputed,Prime Minister,disputed,@LibyaInterimGov,,"WHERE Actor1CountryCode = 'LBY' AND Actor1Code = ""LBYGOV"" AND SQLDATE > 20120808 AND Actor1Name CONTAINS ""LIBYA"""
+Libya,Head of state - disputed,Head of state,disputed,,,
+Liechtenstein,Sovereign Prince - Hans-Adam II,Sovereign Prince,Hans-Adam II,@regierung_fl,,"WHERE Actor1Name = ""HANS ADAM II"" AND Actor1CountryCode=""LIE"""
+Liechtenstein,Regent - Hereditary Prince Alois,Regent,Hereditary Prince Alois,@regierung_fl,,"WHERE Actor1Name = ""PRINCE ALOIS"" AND Actor1CountryCode=""LIE"""
+Liechtenstein,Head of Government - Adrian Hasler,Head of Government,Adrian Hasler,@adrian_hasler,,
+Lithuania,Prime Minister - Algirdas Butkevičius,Prime Minister,Algirdas Butkevičius,@AButkevicius,,WHERE Actor1Name='ALGIRDAS BUTKEVICIUS' AND Actor1CountryCode = 'LTU'
+Lithuania,President - Dalia Grybauskaitė,President,Dalia Grybauskaitė,@Grybauskaite_LT,,WHERE Actor1Name='DALIA GRYBAUSKAITE' AND Actor1CountryCode = 'LTU'
+Luxembourg,Grand Duke - Henri,Grand Duke,Henri,@CourGrandDucale,,"WHERE Actor1Name = ""DUKE HENRI"" AND Actor1CountryCode=""LUX"""
+Luxembourg,Prime Minister - Xavier Bettel,Prime Minister,Xavier Bettel,@Xavier_Bettel,,
+Macedonia,President - Gjorge Ivanov,President,Gjorge Ivanov,@GjorgeIvanov,,"WHERE Actor1Name CONTAINS ""Ivanov"" AND Actor1CountryCode=""MKD"""
+Macedonia,President of the Government - Nikola Gruevski,President of the Government,Nikola Gruevski,@GruevskiNikola,@VladaMK,
+Madagascar,President - Hery Rajaonarimampianina,President,Hery Rajaonarimampianina,@PresidenceMada,,"WHERE Actor1Name=""HERY RAJAONARIMAMPIANINA"" and Actor1CountryCode='MDG'"
+Madagascar,Prime Minister - Roger Kolo,Prime Minister,Roger Kolo,@Kolo_Roger,,
+Malawi,President - Peter Mutharika,President,Peter Mutharika,@ProfMutharika,,"WHERE Actor1Name=""PETER MUTHARIKA"" AND Actor1CountryCode='MWI'"
+Malaysia,Prime Minister - Najib Razak,Prime Minister,Najib Razak,@NajibRazak,,"WHERE Actor1Name CONTAINS ""RAZAK"" AND Actor1CountryCode=""MYS"""
+Malaysia,Yang di-Pertuan Agong - Abdul Halim,Yang di-Pertuan Agong,Abdul Halim,@Malaysia_Gov,,WHERE Actor1Name='SULTAN ABDUL HALIM MUADZAM SHAH' AND Actor1CountryCode = 'mys'
+Maldives,President - Abdulla Yameen,President,Abdulla Yameen,@PresYameen,,"WHERE Actor1CountryCode = 'MDV' AND Actor1Code = ""MDVGOV"" AND SQLDATE > 20131117 AND Actor1Name CONTAINS ""MALDIVE"""
+Mali,President - Ibrahim Boubacar Keïta,President,Ibrahim Boubacar Keïta,@PresidenceMali,@IBK_2013,WHERE Actor1Name = 'IBRAHIM BOUBACAR KEITA' AND Actor1CountryCode = 'mli'
+Mali,Prime Minister - Moussa Mara,Prime Minister,Moussa Mara,@MoussaMara2,,
+Malta,Prime Minister - Joseph Muscat,Prime Minister,Joseph Muscat,@JosephMuscat_JM,,"WHERE Actor1CountryCode=""MLT"" AND Actor1Type1Code=""GOV"""
+Malta,President - Marie Louise Coleiro Preca,President,Marie Louise Coleiro Preca,,,
+Marshall Islands,President - Christopher Loeak,President,Christopher Loeak,,,
+Mauritania,President - Mohamed Ould Abdel Aziz,President,Mohamed Ould Abdel Aziz,,,"WHERE Actor1Name = ""MOHAMED OULD ABDEL AZIZ"""
+Mauritania,Prime Minister - Yahya Ould Hademine,Prime Minister,Yahya Ould Hademine,,,
+Mauritius,Prime Minister - Sir Anerood Jugnauth,Prime Minister,Sir Anerood Jugnauth,,,"WHERE Actor1Name = ""ANEROOD JUGNAUTH"" AND Actor1CountryCode = ""mus"""
+Mauritius,President - Rajkeswur Purryag,President,Rajkeswur Purryag,,,
+Mexico,President - Enrique Peña Nieto,President,Enrique Peña Nieto,@EPN,@PresidenciaMX,"WHERE Actor1CountryCode=""MEX"" AND Actor1Code=""MEXGOV"" AND SQLDATE > 20121201"
+Micronesia,President - Manny Mori,President,Manny Mori,,,"WHERE Actor1Name CONTAINS ""Mori"" AND Actor1CountryCode = ""fsm"""
+Moldova,Prime Minister - Iurie Leancă,Prime Minister,Iurie Leancă,@IurieLeanca,@GuvernulRM,WHERE Actor1Name='IURIE LEANCA' AND Actor1CountryCode = 'mda'
+Moldova,President - Nicolae Timofti,President,Nicolae Timofti,@Nicolae_Timofti,@presedinte_md,
+Monaco,Sovereign Prince - Albert II,Sovereign Prince,Albert II,@palaismonaco,,"WHERE Actor1Name = ""ALBERT"" AND Actor1CountryCode=""MCO"""
+Monaco,Minister of State - Michel Roger,Minister of State,Michel Roger,@GvtMonaco,,
+Mongolia,President - Tsakhiagiin Elbegdorj,President,Tsakhiagiin Elbegdorj,@elbegdorj,@ts_elbegdorj,WHERE Actor1Name='TSAKHIA ELBEGDORJ' AND Actor1CountryCode = 'MNG'
+Mongolia,Prime Minister of Mongolia - Chimediin Saikhanbileg,Prime Minister of Mongolia,Chimediin Saikhanbileg,@pmoffice_mn,@SaikhanbilegCh,
+Montenegro,President - Filip Vujanović,President,Filip Vujanović,@VladaCG,,
+Montenegro,Prime Minister - Milo Đukanović,Prime Minister,Milo Đukanović,@MeGovernment,,
+Morocco,Prime Minister - Abdelilah Benkirane,Prime Minister,Abdelilah Benkirane,@ChefGov_ma,@Maroc_eGov,"WHERE Actor1CountryCode = 'MAR' AND Actor1Code = ""MARGOV"" AND SQLDATE > 20111129 AND Actor1Name CONTAINS ""MOROCC"""
+Morocco,King - Mohammed VI,King,Mohammed VI,,,"WHERE Actor1Name = ""Mohammed VI"" AND Actor1CountryCode=""MAR"""
+Mozambique,President - Armando Guebuza,President,Armando Guebuza,@ArmandoGuebuza,,"WHERE Actor1Name = ""ARMANDO GUEBUZA"" AND Actor1CountryCode=""MOZ"""
+Mozambique,Prime Minister - Alberto Vaquina,Prime Minister,Alberto Vaquina,,,
+Myanmar,President - Thein Sein,President,Thein Sein,,,"WHERE Actor1Name = ""Thein Sein"" AND Actor1CountryCode = ""MMR"""
+Namibia,President - Hifikepunye Pohamba,President,Hifikepunye Pohamba,,,"WHERE Actor1Name CONTAINS ""Hifikepunye Pohamba"" AND Actor1CountryCode = ""NAM"""
+Namibia,Prime Minister - Hage Geingob,Prime Minister,Hage Geingob,@hagegeingob,,"WHERE Actor1Name=""HAGE GEINGOB"" AND Actor1CountryCode='NAM'"
+Nauru,President - Baron Waqa,President,Baron Waqa,@NauruBwiema,,
+Nepal,Prime Minister - Sushil Koirala,Prime Minister,Sushil Koirala,@SushilKoiralaNC,,"WHERE Actor1CountryCode = 'NPL' AND Actor1Code = ""NPLGOV"" AND SQLDATE > 20140211 AND Actor1Name CONTAINS ""NEPAL"""
+Nepal,President - Ram Baran Yadav,President,Ram Baran Yadav,,,"WHERE Actor1Name CONTAINS ""Ram Baran Yadav"" AND Actor1CountryCode = ""NPL"""
+Netherlands,Prime Minister - Mark Rutte,Prime Minister,Mark Rutte,@Rijksoverheid,@MinPres,"WHERE Actor1Name = ""MARK RUTTE"" AND Actor1CountryCode=""NLD"""
+Netherlands,King - Willem-Alexander,King,Willem-Alexander,@koninklijkhuis,,
+New Zealand,Prime Minister - John Key,Prime Minister,John Key,@johnkeypm,,"WHERE Actor1Name=""JOHN KEY"" AND Actor1CountryCode=""NZL"""
+New Zealand,Governor-General - Sir Jerry Mateparae,Governor-General,Sir Jerry Mateparae,,,
+Nicaragua,President - Daniel Ortega,President,Daniel Ortega,,,"WHERE Actor1Name CONTAINS ""Daniel Ortega"" AND Actor1CountryCode = ""NIC"""
+Niger,President - Mahamadou Issoufou,President,Mahamadou Issoufou,@MahamadouIssouf,,WHERE Actor1Name = 'MAHAMADOU ISSOUFOU' AND Actor1CountryCode = 'ner'
+Niger,Prime Minister - Brigi Rafini,Prime Minister,Brigi Rafini,,,
+Nigeria,President - Goodluck Jonathan,President,Goodluck Jonathan,@presgoodluck,,WHERE Actor1Name = 'GOODLUCK JONATHAN' AND Actor1CountryCode = 'nga'
+North Korea,Chairman of the Presidium of the Supreme People's Assembly - Kim Yong-nam,Chairman of the Presidium of the Supreme People's Assembly,Kim Yong-nam,,,"WHERE Actor1Name CONTAINS ""Kim Yong NAM"" AND Actor1CountryCode = ""prk"""
+North Korea,Premier of the Cabinet - Pak Pong-ju,Premier of the Cabinet,Pak Pong-ju,,,"WHERE Actor1Name CONTAINS ""Pak Pong ju"" AND Actor1CountryCode = ""prk"""
+North Korea,Supreme Leader - Kim Jong-un,Supreme Leader,Kim Jong-un,,,
+Norway,King - Harald V,King,Harald V,,,"WHERE Actor1Name CONTAINS ""Harald V"" AND Actor1CountryCode = ""NOR"""
+Norway,Prime Minister - Erna Solberg,Prime Minister,Erna Solberg,@erna_solberg,@Statsmin_kontor,"WHERE Actor1Name CONTAINS ""SOLBERG"" AND Actor1CountryCode=""NOR"""
+Oman,Sultan and Prime Minister - Qaboos bin Said al Said,Sultan and Prime Minister,Qaboos bin Said al Said,,,"WHERE Actor1Name = ""QABOOS BIN SAID AL SAID"" AND Actor1CountryCode = ""OMN"""
+Pakistan,Prime Minister - Nawaz Sharif,Prime Minister,Nawaz Sharif,@PMNawazSharif,,WHERE Actor1Name = 'Nawaz Sharif' AND Actor1CountryCode = 'PAK'
+Pakistan,President - Mamnoon Hussain,President,Mamnoon Hussain,,,
+Palau,President - Tommy Remengesau,President,Tommy Remengesau,@TommyRemengesau,,"WHERE Actor1Name=""TOMMY REMENGESAU"" OR Actor1Name=""THOMAS REMENGESAU"""
+Palestine,President - Mahmoud Abbas,President,Mahmoud Abbas,@PalestinianGov,,WHERE Actor1Name = 'Mahmoud Abbas' AND Actor1CountryCode = 'pse'
+Palestine,Prime Minister - Rami Hamdallah,Prime Minister,Rami Hamdallah,@RamiHamdalla,,
+Panama,President - Juan Carlos Varela,President,Juan Carlos Varela,@JC_Varela,@TeLoCuentoPTY,"WHERE Actor1Name = ""JUAN CARLOS VARELA"" AND Actor1CountryCode=""PAN"""
+Papua New Guinea,Governor-General - Sir Michael Ogio,Governor-General,Sir Michael Ogio,,,"WHERE Actor1Name = ""MICHAEL OGIO"" AND Actor1CountryCode = ""png"""
+Papua New Guinea,Prime Minister - Peter O'Neill,Prime Minister,Peter O'Neill,,,"WHERE Actor1Name = ""PETER ONEILL"" AND Actor1CountryCode = ""png"""
+Paraguay,President - Horacio Cartes,President,Horacio Cartes,@Horacio_Cartes,@PrensaHC,"WHERE Actor1CountryCode = 'PRY' AND Actor1Code = ""PRYGOV"" AND SQLDATE > 20130815 AND Actor1Name CONTAINS ""PARAGUAY"""
+Peru,President of the Council of Ministers - Ana Jara,President of the Council of Ministers,Ana Jara,@pcmperu,,"WHERE Actor1CountryCode = ""PER"" AND Actor1Code = ""PERGOV"" AND SQLDATE > 20140722 AND Actor1Name CONTAINS ""PERU"""
+Peru,President - Ollanta Humala,President,Ollanta Humala,@Ollanta_HumalaT,@prensapalacio,
+Philippines,President - Benigno Aquino III,President,Benigno Aquino III,@noynoyaquino,@GovPH_PCOO,"WHERE Actor1CountryCode = 'PHL' AND Actor1Code = ""PHLGOV"" AND SQLDATE > 20100630 AND Actor1Name CONTAINS ""PHILIPPIN"""
+Poland,President - Bronisław Komorowski,President,Bronisław Komorowski,@komorowski,,"WHERE Actor1Name = ""Bronislaw Komorowski"" AND Actor1CountryCode=""POL"""
+Poland,President of the Council of Ministers - Ewa Kopacz,President of the Council of Ministers,Ewa Kopacz,@EwaKopacz,@PremierRP,"WHERE Actor1Name = ""EWA KOPACZ"" AND Actor1CountryCode=""POL"""
+Portugal,President - Aníbal Cavaco Silva,President,Aníbal Cavaco Silva,@prcavacosilva,,"WHERE (Actor1Name = ""CAVACO SILVA"" OR Actor1Name = ""ANIBAL CAVACO SILVA"") AND Actor1CountryCode=""PRT"""
+Portugal,Prime Minister - Pedro Passos Coelho,Prime Minister,Pedro Passos Coelho,@passoscoelho,@govpt,
+Qatar,Prime Minister - Sheikh Abdullah bin Nasser bin Khalifa Al Thani,Prime Minister,Sheikh Abdullah bin Nasser bin Khalifa Al Thani,@QaTaR_,,"WHERE Actor1CountryCode = ""QAT"" AND Actor1Code = ""QATGOV"" AND SQLDATE > 20130626 AND Actor1Name CONTAINS ""QATAR"""
+Qatar,Emir - Sheikh Tamim bin Hamad Al Thani,Emir,Sheikh Tamim bin Hamad Al Thani,,,
+Romania,Prime Minister - Victor Ponta,Prime Minister,Victor Ponta,@Victor_Ponta,@guv_ro,
+Romania,President - Klaus Iohannis,President,Klaus Iohannis,@KlausIohannis,,
+Russia,President - Vladimir Putin,President,Vladimir Putin,@PutinRF_Eng,@PutinRF,WHERE (Actor1Name='VLADIMIR PUTIN' or Actor1Name='VLADIMIR VLADIMIROVICH PUTIN') AND Actor1CountryCode='RUS'
+Russia,Chairman of the Government - Dmitry Medvedev,Chairman of the Government,Dmitry Medvedev,@MedvedevRussiaE,,WHERE Actor1Name='DMITRIY MEDVEDEV' AND Actor1CountryCode='RUS'
+Rwanda,President - Paul Kagame,President,Paul Kagame,@PaulKagame,@UrugwiroVillage,"WHERE Actor1Name = ""Paul Kagame"" AND Actor1CountryCode=""RWA"""
+Rwanda,Prime Minister - Anastase Murekezi,Prime Minister,Anastase Murekezi,@amurekezi,@PrimatureRwanda,
+Saint Kitts and Nevis,Prime Minister - Denzil Douglas,Prime Minister,Denzil Douglas,@Denzil_Douglas,@skngov,WHERE Actor1Code='KNAGOV' AND Actor1CountryCode='KNA' AND Actor1Name='DENZIL DOUGLAS'
+Saint Kitts and Nevis,Queen - Elizabeth II,Queen,Elizabeth II,,,WHERE Actor1Name CONTAINS 'QUEEN ELIZABETH II' AND Actor1CountryCode = 'kna'
+Saint Kitts and Nevis,Governor-General - Sir Edmund Lawrence,Governor-General,Sir Edmund Lawrence,,,
+Saint Lucia,Prime Minister - Kenny Anthony,Prime Minister,Kenny Anthony,@SaintLuciaGov,,"WHERE Actor1Name = ""KENNY ANTHONY"" AND Actor1CountryCode=""LCA"""
+Saint Lucia,Governor-General - Dame Pearlette Louisy,Governor-General,Dame Pearlette Louisy,,,"WHERE Actor1Name CONTAINS ""Louisy"" AND Actor1CountryCode = ""LCA"""
+Saint Vincent and the Grenadines,Governor-General - Sir Frederick Ballantyne,Governor-General,Sir Frederick Ballantyne,,,"WHERE Actor1Name = ""FREDERICK NATHANIEL BALLANTYN"" AND Actor1CountryCode = ""VCT"""
+Saint Vincent and the Grenadines,Prime Minister - Ralph Gonsalves,Prime Minister,Ralph Gonsalves,,,"WHERE Actor1Name CONTAINS ""Gonsalves"" AND Actor1CountryCode = ""VCT"" AND Actor1Name CONTAINS ""RALPH"""
+Samoa,Prime Minister - Tuilaepa Aiono Sailele Malielegaoi,Prime Minister,Tuilaepa Aiono Sailele Malielegaoi,@MPMCTweeter,,WHERE Actor1Name= 'TUILAEPA SAILELE MALIELEGAOI' AND Actor1CountryCode = 'WSM'
+Samoa,O le Ao o le Malo - Tufuga Efi,O le Ao o le Malo,Tufuga Efi,,,
+San Marino,Captain Regent - Gianfranco Terenzi,Captain Regent,Gianfranco Terenzi,,,"WHERE Actor1Name CONTAINS ""Terenzi"" AND Actor1CountryCode = ""SMR"""
+San Marino,Captain Regent - Guerrino Zanotti,Captain Regent,Guerrino Zanotti,,,
+São Tomé and Príncipe,Prime Minister - Patrice Trovoada,Prime Minister,Patrice Trovoada,,,"WHERE Actor1Name = ""PATRICE TROVOADA"" AND Actor1CountryCode = ""STP"""
+São Tomé and Príncipe,President - Manuel Pinto da Costa,President,Manuel Pinto da Costa,,,
+Saudi Arabia,King and Prime Minister - Abdullah,King and Prime Minister,Abdullah,@Saudiegov,,WHERE Actor1Name = 'Abdullah' AND Actor1CountryCode = 'SAU'
+Senegal,President - Macky Sall,President,Macky Sall,@macky_sall,,"WHERE Actor1Name = ""MACKY SALL"" AND Actor1CountryCode=""SEN"""
+Senegal,Prime Minister - Mohamed Dionne,Prime Minister,Mohamed Dionne,,,
+Serbia,President of the Government - Aleksandar Vučić,President of the Government,Aleksandar Vučić,@avucic,,"WHERE Actor1CountryCode=""SRB"" AND Actor1Code=""SCGSRBGOV"" AND SQLDATE > 20140427"
+Serbia,President - Tomislav Nikolić,President,Tomislav Nikolić,@PresidencySrb,,
+Seychelles,President - James Michel,President,James Michel,@StateHouseSey,,WHERE Actor1Name = 'JAMES MICHEL' AND Actor1CountryCode = 'SYC'
+Sierra Leone,President - Ernest Bai Koroma,President,Ernest Bai Koroma,@ebkoroma,@presidentkoroma,WHERE Actor1Name = 'Ernest Bai Koroma' AND Actor1CountryCode = 'sle'
+Singapore,Prime Minister - Lee Hsien Loong,Prime Minister,Lee Hsien Loong,@leehsienloong,,"WHERE Actor1Name = ""Lee Hsien Loong"" AND Actor1CountryCode=""SGP"""
+Singapore,President - Tony Tan,President,Tony Tan,,,"WHERE Actor1Name = ""TONY TAN KENG YAM"" AND Actor1CountryCode = ""sgp"""
+Slovakia,Prime Minister - Robert Fico,Prime Minister,Robert Fico,@fico2014,@RobertFico,"WHERE Actor1Name = ""ROBERT FICO"" AND Actor1CountryCode=""SVK"""
+Slovakia,President - Andrej Kiska,President,Andrej Kiska,@Andrej_Kiska,,
+Slovenia,President of the Government - Miro Cerar,President of the Government,Miro Cerar,@MiroCerar,,"WHERE (Actor1Name = ""SLOVENES"" OR Actor1Name = ""SLOVENSKA"") AND SQLDATE > 20140918"
+Slovenia,President - Borut Pahor,President,Borut Pahor,@BorutPahor,,
+Solomon Islands,Governor-General - Sir Frank Kabui,Governor-General,Sir Frank Kabui,,,"WHERE Actor1Name = ""FRANK OFAGIORO KABUI"" AND Actor1CountryCode = ""SLB"""
+Solomon Islands,Prime Minister - Manasseh Sogavare,Prime Minister,Manasseh Sogavare,,,"WHERE Actor1Name = ""MANASSEH SOGAVARE"" AND Actor1CountryCode = ""SLB"""
+Somalia,Prime Minister - Abdiweli Sheikh Ahmed,Prime Minister,Abdiweli Sheikh Ahmed,@PMOComms,,"WHERE Actor1CountryCode = ""SOM"" AND Actor1Code = ""SOMGOV"" AND SQLDATE > 20141224 AND Actor1Name CONTAINS ""SOMALI"""
+Somalia,President - Hassan Sheikh Mohamud,President,Hassan Sheikh Mohamud,,,
+South Africa,President - Jacob Zuma,President,Jacob Zuma,@SAPresident,,WHERE Actor1Name='jacob zuma' AND Actor1CountryCode = 'zaf'
+South Korea,President - Park Geun-hye,President,Park Geun-hye,@GH_PARK,@PrimeMinisterKR,"WHERE Actor1CountryCode=""KOR"" AND Actor1Code=""KORGOV"" AND SQLDATE > 20130225 AND Actor1Name CONTAINS ""KOREA"""
+South Korea,Prime Minister - Jung Hong-won,Prime Minister,Jung Hong-won,,,
+South Sudan,President - Salva Kiir Mayardit,President,Salva Kiir Mayardit,@RepSouthSudan,,"WHERE Actor1Name = ""SALVA KIIR MAYARDIT"""
+Spain,President of the Government - Mariano Rajoy,President of the Government,Mariano Rajoy,@marianorajoy,@desdelamoncloa,"WHERE Actor1Name CONTAINS ""MARIANO RAJOY BREY"" AND Actor1CountryCode = ""ESP"""
+Spain,King - Felipe VI,King,Felipe VI,@CasaReal,,
+Sri Lanka,President - Mahinda Rajapaksa,President,Mahinda Rajapaksa,@MaithreepalaS,,WHERE Actor1Name CONTAINS 'Sirisena' AND Actor1CountryCode='LKA'
+Sri Lanka,Prime Minister - D. M. Jayaratne,Prime Minister,D. M. Jayaratne,,,"WHERE Actor1Name CONTAINS ""Jayaratne"" AND Actor1CountryCode = ""lka"""
+Sudan,President - Omar al-Bashir,President,Omar al-Bashir,,,"WHERE Actor1Name CONTAINS ""AL BASHIR"" AND Actor1CountryCode = ""SDN"""
+Suriname,President - Dési Bouterse,President,Dési Bouterse,,,"WHERE Actor1Name = ""DESI BOUTERSE"" AND Actor1CountryCode=""SUR"""
+Swaziland,Prime Minister - Barnabas Sibusiso Dlamini,Prime Minister,Barnabas Sibusiso Dlamini,,,"WHERE Actor1Name = ""BARNABAS SIBUSISO DLAMINI"" AND Actor1CountryCode = ""SWZ"""
+Swaziland,King - Mswati III,King,Mswati III,,,"WHERE Actor1Name = ""MSWATI III"" AND Actor1CountryCode = ""SWZ"""
+Sweden,Prime Minister - Stefan Löfven,Prime Minister,Stefan Löfven,@statsradet,,"WHERE Actor1CountryCode = 'SWE' AND Actor1Code = ""SWEGOV"" AND SQLDATE > 20141003 AND Actor1Name CONTAINS ""SWEDEN"""
+Sweden,King - Carl XVI Gustaf,King,Carl XVI Gustaf,,,"WHERE Actor1Name =""CARL XVI GUSTAF"" AND Actor1CountryCode = ""SWE"""
+Switzerland,"Doris Leuthard (Member), Eveline Widmer-Schlumpf (Member), Ueli Maurer (Member), Didier Burkhalter (President),Simonetta Sommaruga (Vice President), Johann Schneider-Ammann (Member), Alain Berset (Member)",President,Didier Burkhalter,,,"WHERE Actor1Name = ""Didier Burkhalter"" AND Actor1CountryCode = ""CHE"""
+Switzerland,"Doris Leuthard (Member), Eveline Widmer-Schlumpf (Member), Ueli Maurer (Member), Didier Burkhalter (President),Simonetta Sommaruga (Vice President), Johann Schneider-Ammann (Member), Alain Berset (Member)",Member,Doris Leuthard,,,"WHERE Actor1Name = ""DORIS LEUTHARD"" AND Actor1CountryCode = ""CHE"""
+Switzerland,"Doris Leuthard (Member), Eveline Widmer-Schlumpf (Member), Ueli Maurer (Member), Didier Burkhalter (President),Simonetta Sommaruga (Vice President), Johann Schneider-Ammann (Member), Alain Berset (Member)",Member,Eveline Widmer-Schlumpf,,,"WHERE Actor1Name = ""EVELINE WIDMER SCHLUMPF"" AND Actor1CountryCode = ""CHE"""
+Switzerland,"Doris Leuthard (Member), Eveline Widmer-Schlumpf (Member), Ueli Maurer (Member), Didier Burkhalter (President),Simonetta Sommaruga (Vice President), Johann Schneider-Ammann (Member), Alain Berset (Member)",Member,Johann Schneider-Ammann,,,"WHERE Actor1Name = ""Johann Schneider Ammann"" AND Actor1CountryCode = ""CHE"""
+Switzerland,"Doris Leuthard (Member), Eveline Widmer-Schlumpf (Member), Ueli Maurer (Member), Didier Burkhalter (President),Simonetta Sommaruga (Vice President), Johann Schneider-Ammann (Member), Alain Berset (Member)",Vice President,Simonetta Sommaruga,,,"WHERE Actor1Name = ""Simonetta Sommaruga"" AND Actor1CountryCode = ""CHE"""
+Switzerland,"Doris Leuthard (Member), Eveline Widmer-Schlumpf (Member), Ueli Maurer (Member), Didier Burkhalter (President),Simonetta Sommaruga (Vice President), Johann Schneider-Ammann (Member), Alain Berset (Member)",Member,Ueli Maurer,,,"WHERE Actor1Name = ""Ueli Maurer"" AND Actor1CountryCode = ""CHE"""
+Switzerland,"Doris Leuthard (Member), Eveline Widmer-Schlumpf (Member), Ueli Maurer (Member), Didier Burkhalter (President),Simonetta Sommaruga (Vice President), Johann Schneider-Ammann (Member), Alain Berset (Member)",Member,Alain Berset,,,
+Syria,President - Bashar al-Assad,President,Bashar al-Assad,@Presidency_Sy,,WHERE Actor1Name='BASHAR AL ASSAD' AND Actor1CountryCode = 'syr'
+Syria,Prime Minister - Wael Nader Al-Halqi,Prime Minister,Wael Nader Al-Halqi,,,
+Tajikistan,President - Emomalii Rahmon,President,Emomalii Rahmon,@EmomaliRahmon,@presstj,"WHERE Actor1Name CONTAINS ""Rahmon"" AND Actor1CountryCode = ""tjk"""
+Tajikistan,Prime Minister - Kokhir Rasulzoda,Prime Minister,Kokhir Rasulzoda,,,
+Tanzania,Prime Minister - Mizengo Pinda,Prime Minister,Mizengo Pinda,,,"WHERE Actor1Name = ""MIZENGO PINDA"" AND Actor1CountryCode = ""tza"""
+Tanzania,President - Jakaya Kikwete,President,Jakaya Kikwete,@jmkikwete,,"WHERE Actor1Name CONTAINS ""Kikwete"" AND Actor1CountryCode=""TZA"""
+Thailand,King - Bhumibol Adulyadej,King,Bhumibol Adulyadej,,,"WHERE Actor1Name CONTAINS ""Adulyadej"" AND Actor1CountryCode = ""tha"""
+Thailand,Prime Minister - Prayuth Chan-ocha,Prime Minister,Prayuth Chan-ocha,@prdthailand,,
+Togo,President - Faure Gnassingbé,President,Faure Gnassingbé,,,"WHERE Actor1Name = ""FAURE GNASSINGBE"" AND Actor1CountryCode = ""tgo"""
+Togo,Prime Minister - Kwesi Ahoomey-Zunu,Prime Minister,Kwesi Ahoomey-Zunu,,,
+Tonga,Prime Minister - Sialeʻataongo Tuʻivakanō,Prime Minister,Sialeʻataongo Tuʻivakanō,@micwebTonga,,"WHERE Actor1CountryCode = ""TON"" AND Actor1Code = ""TONGOV"" AND SQLDATE > 20141230 AND Actor1Name CONTAINS ""TONGA"""
+Tonga,King - Tupou VI,King,Tupou VI,,,"WHERE Actor1Name CONTAINS ""Tupou v"" AND Actor1CountryCode = ""ton"""
+Trinidad and Tobago,Prime Minister - Kamla Persad-Bissessar,Prime Minister,Kamla Persad-Bissessar,@KamlaUNC,@PMKamla,"WHERE Actor1Name = ""KAMLA PERSAD BISSESSAR"" AND Actor1CountryCode=""TTO"""
+Trinidad and Tobago,President - Anthony Carmona,President,Anthony Carmona,,,
+Tunisia,Head of Government - Mehdi Jomaa,Head of Government,Mehdi Jomaa,@Mehdi_Jomaa,,"WHERE Actor1CountryCode = 'TUN' AND Actor1Code = ""TUNGOV"" AND SQLDATE > 20140129 AND Actor1Name CONTAINS ""TUNISIA"""
+Tunisia,President - Moncef Marzouki,President,Moncef Marzouki,@Moncef_Marzouki,@presidenceTN,
+Turkey,Prime Minister - Ahmet Davutoğlu,Prime Minister,Ahmet Davutoğlu,@A_Davutoglu_eng,@Ahmet_Davutoglu,"WHERE Actor1Name = ""AHMET DAVUTOGLU"" AND Actor1CountryCode=""TUR"""
+Turkey,President - Recep Tayyip Erdoğan,President,Recep Tayyip Erdoğan,@RT_Erdogan,@trpresidency,"WHERE Actor1Name = ""RECEP TAYYIP ERDOGAN"" AND Actor1CountryCode=""TUR"""
+Turkmenistan,President - Gurbanguly Berdimuhamedow,President,Gurbanguly Berdimuhamedow,,,"WHERE Actor1Name CONTAINS ""GURBANGULY BERDIMUHAMEDOW"" AND Actor1CountryCode = ""TKM"""
+Tuvalu,Governor-General - Sir Iakoba Italeli,Governor-General,Sir Iakoba Italeli,,,"WHERE Actor1Name CONTAINS ""Italeli"" AND Actor1CountryCode = ""tuv"""
+Tuvalu,Prime Minister - Enele Sopoaga,Prime Minister,Enele Sopoaga,,,
+Uganda,President - Yoweri Museveni,President,Yoweri Museveni,@KagutaMuseveni,,"WHERE Actor1Name = ""Yoweri Museveni"" AND Actor1CountryCode = ""UGA"""
+Uganda,Prime Minister - Ruhakana Rugunda,Prime Minister,Ruhakana Rugunda,@RuhakanaRugunda,@StateHouseUg,"WHERE Actor1Name=""RUHAKANA RUGUNDA"" AND Actor1CountryCode='UGA'"
+Ukraine,Prime Minister - Arseniy Yatsenyuk,Prime Minister,Arseniy Yatsenyuk,@Yatsenyuk_AP,,WHERE Actor1CountryCode = 'UKR' AND Actor1Name='ARSENIY YATSENYUK'
+Ukraine,President - Petro Poroshenko,President,Petro Poroshenko,@poroshenko,@APUkraine,"WHERE Actor1Name CONTAINS ""Petro Poroshenko"" AND Actor1CountryCode = ""UKR"""
+United Arab Emirates,Prime Minister - Sheikh Mohammed bin Rashid Al Maktoum,Prime Minister,Sheikh Mohammed bin Rashid Al Maktoum,@HHShkMohd,@UAEGover,"WHERE Actor1Name CONTAINS ""MAKTUM"" AND Actor1CountryCode=""ARE"""
+United Arab Emirates,President - Sheikh Khalifa bin Zayed Al Nahyan,President,Sheikh Khalifa bin Zayed Al Nahyan,@KBZayed,@MBZNews,
+United Kingdom,Prime Minister - David Cameron,Prime Minister,David Cameron,@David_Cameron,,"WHERE Actor1Name CONTAINS ""CAMERON"" AND Actor1CountryCode=""GBR"""
+United Kingdom,Queen - Elizabeth II,Queen,Elizabeth II,,,
+United States,President - Barack Obama,President,Barack Obama,@BarackObama,,WHERE (Actor1Name='Obama' OR Actor1Name='BARACK OBAMA') AND Actor1CountryCode='USA'
+Uruguay,President-elect - Tabaré Vázquez,President-elect,Tabaré Vázquez,@TabareVazquez,@SCpresidenciauy,"WHERE Actor1Name=""Tabare Vazquez"" AND Actor1CountryCode=""URY"""
+Uruguay,President - José Mujica,President,José Mujica,@SCpresidenciauy,,
+Uzbekistan,President - Islam Karimov,President,Islam Karimov,@GOVuz,,"WHERE Actor1Name = ""ISLAM KARIMOV"" AND Actor1CountryCode=""UZB"""
+Uzbekistan,Prime Minister - Shavkat Mirziyoyev,Prime Minister,Shavkat Mirziyoyev,@GOVuz,,"WHERE Actor1Name = ""SHAVKAT MIRZIYOYEV"" AND Actor1CountryCode=""UZB"""
+Vanuatu,Prime Minister - Joe Natuman,Prime Minister,Joe Natuman,@govofvanuatu,,"WHERE Actor1Name = ""JOE NATUMAN"" AND Actor1CountryCode=""VUT"""
+Vanuatu,President - Baldwin Lonsdale,President,Baldwin Lonsdale,@govofvanuatu,,
+Vatican City,Sovereign - Pope Francis,Sovereign,Pope Francis,@Pontifex,,WHERE Actor1Name CONTAINS 'POPE' AND SQLDATE > 20130313
+Vatican City,President of the Governorate - Cardinal Giuseppe Bertello,President of the Governorate,Cardinal Giuseppe Bertello,,,
+Venezuela,President - Nicolás Maduro,President,Nicolás Maduro,@maduro_en,@PresidencialVen,WHERE Actor1Name='NICOLAS MADURO MOROS' AND Actor1CountryCode='VEN'
+Vietnam,Prime Minister - Nguyễn Tấn Dũng,Prime Minister,Nguyễn Tấn Dũng,,,"WHERE Actor1Name = ""NGUYEN TAN DUNG"" AND Actor1CountryCode=""VNM"""
+Vietnam,President - Trương Tấn Sang,President,Trương Tấn Sang,,,
+Yemen,President - Abd Rabbuh Mansur Hadi,President,Abd Rabbuh Mansur Hadi,@HadiPresident,,"WHERE Actor1Name = ""ABD AL RAB MANSUR AL HADI"" AND Actor1CountryCode=""YEM"""
+Yemen,Prime Minister - Khaled Bahah,Prime Minister,Khaled Bahah,@KhaledBahah,,
+Zambia,Acting President - Guy Scott,Acting President,Guy Scott,@StateHousePress,,"WHERE Actor1CountryCode = 'ZMB' AND Actor1Code = ""ZMBGOV"" AND SQLDATE > 20141029 AND Actor1Name CONTAINS ""ZAMBIA"""
+Zimbabwe,President - Robert Mugabe,President,Robert Mugabe,,,"WHERE Actor1Name = ""ROBERT MUGABE"" AND Actor1CountryCode=""ZWE"""

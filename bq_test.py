@@ -18,6 +18,7 @@ from bigquery import get_client
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 import matplotlib.dates as mdates
+#from matplotlib import lines
 
 import statsmodels.api as sm
 from statsmodels.tsa import *
@@ -37,7 +38,7 @@ with open('config/settings.json') as json_data:
 client = get_client(settings['PROJECT_ID'], service_account=settings['SERVICE_ACCOUNT'], private_key=settings['KEY'], readonly=True)
 
 #twitter
-#twitter = Twython(settings['APP_KEY'], settings['APP_SECRET'], settings['OAUTH_TOKEN'], settings['OAUTH_TOKEN_SECRET'])
+twitter = Twython(settings['APP_KEY'], settings['APP_SECRET'], settings['OAUTH_TOKEN'], settings['OAUTH_TOKEN_SECRET'])
 
 # Font variables
 FONT_LOCATION = 'assets/AkzidenzGrotesk/AkzidenzGroteskBE-Regular.otf'
@@ -53,9 +54,10 @@ GS_PATH = 'assets/goldstein_suggestions.tsv'
 # Time variables
 tomorrow = str(dt.date.today())
 twoweeksago = str(dt.date.today() - dt.timedelta(days = 14))
+lastweek = dt.datetime.today() - dt.timedelta(days = 7)
 nextweek = dt.date.today() + dt.timedelta(days = 8)
 
-leaders = pd.read_csv('test.csv')
+leaders = pd.read_csv('everyone.csv')
 
 ##############################################################
 
@@ -123,19 +125,31 @@ def open_files(pattern='*.csv'):
 
         print 'Analyzing ' + f
 
-        try:
-            display_name = os.path.basename(f).replace('.csv', '').replace('_', ' ')
-            leader = leaders[(leaders.display_name == display_name)]
-            perform_analysis(f, gsCodes, leader)
-        except:
-            print 'Could not analyze ' + f
-            continue
+        display_name = os.path.basename(f).replace('.csv', '').replace('_', ' ')
+        leader = leaders[(leaders.display_name == display_name)]
+        perform_analysis(f, gsCodes, leader)
+        #try:
+            #display_name = os.path.basename(f).replace('.csv', '').replace('_', ' ')
+            #leader = leaders[(leaders.display_name == display_name)]
+            #perform_analysis(f, gsCodes, leader)
+        #except:
+            #print 'Could not analyze ' + f
+            #continue
 
 
 ##############################################################
 
 def perform_analysis(data, gsCodes, leader):
     df = pd.read_csv(data, index_col='SQLDATE', parse_dates=True)
+    if len(df) < 100:
+        print 'skipped', data
+        return False
+
+    d = df.tail(1).index[0]
+    last_entry = dt.datetime(d.year, d.month, d.day)
+    if last_entry <= lastweek:
+        print 'skipped', data
+        return False
 
     name = leader['display_name'].values[0]
     country = leader['display_country'].values[0]
@@ -205,7 +219,7 @@ def perform_analysis(data, gsCodes, leader):
     image = compose.draw(name=name, country=country, suggestion=gsDescription, prediction=prediction_text, graph_file=graph_file)
     final_image = 'images/' + name + '_' + tomorrow + '.png'
     image.save(final_image, 'PNG')
-    #send_tweet(leader['username'].values[0], gsDescription, final_image)
+    send_tweet(leader['username'].values[0], gsDescription, final_image)
 
 ##############################################################
 
@@ -226,7 +240,8 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
     plt.rcParams['xtick.major.pad'] = '18'
     # plt.rcParams['ylabel.major.pad'] = '18'
 
-    fig = plt.figure(figsize = (13.5, 4))
+    #fig = plt.figure(figsize = (13.5, 4))
+    fig = plt.figure(figsize = (3.51*4, 4))
     ax = fig.add_subplot(111)
     ax.set_frame_on(False)
     ax.yaxis.labelpad = 18
@@ -279,6 +294,7 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
             dashes = [12, 4],
             linewidth = 5.0,
             label = 'prediction',
+            zorder = 11,
             legend = False,
             grid = False)
 
@@ -301,8 +317,8 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
     # red horizontal line
     plt.axhline(
             y = 12,
-            xmin = -0.075,
-            xmax = 0.975,
+            xmin = -0.085,
+            xmax = 0.976,
             clip_on = False,
             alpha = 1.0,
             linewidth = 4.0,
@@ -311,10 +327,11 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
     # tiny verticle line
     plt.axvline(
             x = startdate - dt.timedelta(days = 18),
+            #x = startdate,
             ymin = 1.1,
             ymax = 1.15,
             clip_on = False,
-            alpha = 1.0,
+            alpha = 0.0,
             linewidth = 4.0,
             color = red)
 
@@ -329,6 +346,12 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
             alpha = 1.0,
             linewidth = 5.0,
             color = green)
+
+    # below is an alternate way to drawy lines
+    #ax2 = plt.axes([0,0,1,1], axisbg=(1,1,1,0))
+    #x,y = np.array([[0.0, 1.0], [0.0, 0.0]])
+    #line = lines.Line2D(x, y, lw=5., color='r', alpha=0.4)
+    #ax2.add_line(line)
 
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%b\n%Y'))
 
@@ -352,10 +375,11 @@ def image_name(name):
     return IMG_PATH + name + '_prediction.png'
 
 def send_tweet(username, suggestion, filename):
-    message = "Dear {}, here is your suggested action for the week: {}".format(username, suggestion)
+    message = "Dear {}, this week we suggest you: {}".format(username, suggestion)
+    message = message[0:117]
     photo = open(filename, 'rb')
     try:
-        twitter.update_status(status=message, media=photo)
+        twitter.update_status_with_media(status=message, media=photo)
         print 'TWEETED: ' + message
     except:
         print 'Failed to tweet to ' + username
@@ -364,19 +388,24 @@ def send_tweet(username, suggestion, filename):
 ##############################################################
 
 def main():
-    # import pickle
-    # with open('data.pkl') as f:
-    #     data = pickle.load(f)
-    # graph_file = draw_graph(data['plot_sample'], data['prediction'], data['predicts'], data['suggestion'], data['name'], data['gsDescription'], data['leader'])
+    #import pickle
+    #with open('data.pkl') as f:
+        #data = pickle.load(f)
 
-    open_files('Ali_Bongo_Ondimba.csv')
-    #image = compose.draw(name=name, country=country, suggestion=gsDescription, prediction=prediction_text, graph_file=graph_file)
+    #graph_file = draw_graph(data['plot_sample'], data['prediction'], data['predicts'], data['suggestion'], data['name'], data['gsDescription'], data['leader'])
+    #image = compose.draw(name=data['name'], country='A fake country', suggestion="Something shorter", prediction='just testing', graph_file=graph_file)
+    #final_image = 'images/' + 'testing' + '_' + tomorrow + '.png'
+    #image.save(final_image, 'PNG')
+
+    #open_files('Frank_Bainimarama.csv')
     #image = compose.draw(name = "Ellen Johnson Sirleaf", country = "Liberia", prediction = "Make a denial", suggestion = "Make a symbolic statement", graph_file = "graphs/Ali Bongo Ondimba_prediction.png")
     #final_image = 'images/' + 'testing' + '_' + tomorrow + '.png'
     #image.save(final_image, 'PNG')
 
-    #get_leaders_from_bigquery()
-    #open_files()
+    #send_tweet('@brianclifton1', 'just testing', 'images/Benjamin Netanyahu_2015-01-17.png')
+
+    get_leaders_from_bigquery()
+    open_files()
 
 
 
