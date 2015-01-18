@@ -56,6 +56,7 @@ tomorrow = str(dt.date.today())
 twoweeksago = str(dt.date.today() - dt.timedelta(days = 14))
 lastweek = dt.datetime.today() - dt.timedelta(days = 7)
 nextweek = dt.date.today() + dt.timedelta(days = 8)
+day_index = dt.datetime.today().weekday()
 
 leaders = pd.read_csv('everyone.csv')
 
@@ -121,7 +122,19 @@ def open_files(pattern='*.csv'):
 
     gsCodes = pd.read_csv(GS_PATH, index_col='code', sep='\t')
 
-    for f in glob.glob(CSV_PATH + pattern):
+    files = glob.glob(CSV_PATH + pattern)
+
+    with open('to_delete.txt') as f:
+        to_delete = [l.strip() for l in f.readlines()]
+
+    files = [f for f in files if f not in to_delete]
+
+    total = len(files)
+    files_per_day = total/7
+    start = day_index * files_per_day
+    end = start + files_per_day
+
+    for f in files[start:end]:
 
         print 'Analyzing ' + f
 
