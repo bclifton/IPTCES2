@@ -125,16 +125,13 @@ def open_files(pattern='*.csv'):
 
         print 'Analyzing ' + f
 
-        display_name = os.path.basename(f).replace('.csv', '').replace('_', ' ')
-        leader = leaders[(leaders.display_name == display_name)]
-        perform_analysis(f, gsCodes, leader)
-        #try:
-            #display_name = os.path.basename(f).replace('.csv', '').replace('_', ' ')
-            #leader = leaders[(leaders.display_name == display_name)]
-            #perform_analysis(f, gsCodes, leader)
-        #except:
-            #print 'Could not analyze ' + f
-            #continue
+        try:
+            display_name = os.path.basename(f).replace('.csv', '').replace('_', ' ')
+            leader = leaders[(leaders.display_name == display_name)]
+            perform_analysis(f, gsCodes, leader)
+        except:
+            print 'Could not analyze ' + f
+            continue
 
 
 ##############################################################
