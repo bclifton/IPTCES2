@@ -11,13 +11,14 @@ def draw(name, country, prediction, suggestion, graph_file):
     regular_fontpath = 'assets/AkzidenzGrotesk/AkzidGroBEReg'
     bold_fontpath = 'assets/AkzidenzGrotesk/AkzidGroBEBol'
 
-    canvas = Image.new('RGBA', size, (0,0,0))
+    canvas = Image.new('RGBA', size, (35, 31, 32))
     draw = ImageDraw.Draw(canvas)
 
     ###############################
     # Dear ______
     ###############################
     reg = ImageFont.truetype(filename=regular_fontpath, size=80)
+    smaller = ImageFont.truetype(filename=regular_fontpath, size=75)
     bold = ImageFont.truetype(filename=bold_fontpath, size=80)
 
     sentence = ["Dear ", name + " ", "of ", country, ","]
@@ -69,8 +70,7 @@ def draw(name, country, prediction, suggestion, graph_file):
     canvas.paste(graph, mask=graph, box=(margin, y))
 
     red = (224, 86, 74)
-    #draw.rectangle([margin + 20, y+20, graphsize[0]+margin+20, y+30], fill=red)
-    draw.rectangle([margin+66, y+14, margin+76, y+47], fill=red)
+    draw.rectangle([margin+66, y+13, margin+76, y+44], fill=red)
 
     ###############################
     # Suggestion Label
@@ -79,7 +79,7 @@ def draw(name, country, prediction, suggestion, graph_file):
     #draw.text((margin, y), "To alleviate the Global Crisis, we suggest that you:", font=reg, fill=(255, 255, 255))
     #draw.text((margin, y), "Instead, we suggest that you:", font=reg, fill=(255, 255, 255))
     #draw.text((margin, y), "To produce global equilibrium, we suggest that you:", font=reg, fill=(255, 255, 255))
-    draw.text((margin, y), "To produce global equilibrium, we instead suggest that you:", font=reg, fill=(255, 255, 255))
+    draw.text((margin, y), "To produce global equilibrium, we instead suggest that you:", font=smaller, fill=(255, 255, 255))
 
     ###############################
     # Suggestion text

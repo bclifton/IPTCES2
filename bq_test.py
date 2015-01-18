@@ -215,8 +215,8 @@ def perform_analysis(data, gsCodes, leader):
 
     suggestion = round(((predicts - 1) * -1), 1)
 
-    gsDescription   = random.choice(gsCodes.loc[suggestion].values[0].split(';'))
-    prediction_text = random.choice(gsCodes.loc[predicts].values[0].split(';'))
+    gsDescription   = random.choice(gsCodes.loc[suggestion].values[0].split(';')).strip()
+    prediction_text = random.choice(gsCodes.loc[predicts].values[0].split(';')).strip()
 
     print '==================='
     print name + "'s Forecast: ", predicts, prediction_text
