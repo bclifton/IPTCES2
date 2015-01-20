@@ -8,8 +8,8 @@ def draw(name, country, prediction, suggestion, graph_file):
     #graphsize = (1968, 560)
     graphsize = (1968, 680)
 
-    regular_fontpath = 'assets/AkzidenzGrotesk/AkzidGroBEReg'
-    bold_fontpath = 'assets/AkzidenzGrotesk/AkzidGroBEBol'
+    regular_fontpath = 'assets/AkzidenzGrotesk/AkzidenzGroteskBE-Regular.ttf'
+    bold_fontpath = 'assets/AkzidenzGrotesk/AkzidenzGroteskBE-Bold.ttf'
 
     canvas = Image.new('RGBA', size, (35, 31, 32))
     draw = ImageDraw.Draw(canvas)
