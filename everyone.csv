@@ -5,12 +5,12 @@ Albania,Prime Minister - Edi Rama,Prime Minister,Edi Rama,@ediramaal,,"WHERE Act
 Albania,Bujar Nishani,President,Bujar Nishani,,,WHERE Actor1Name = 'BUJAR NISHANI' AND Actor1CountryCode = 'alb'
 Algeria,Abdelaziz Bouteflika,President,Abdelaziz Bouteflika,,,"WHERE Actor1Name = ""ABDELAZIZ BOUTEFLIKA"" AND Actor1CountryCode = ""dza"""
 Algeria,Prime Minister - Abdelmalek Sellal,Prime Minister,Abdelmalek Sellal,,,"WHERE Actor1Name = ""ABDELMALEK SELLAL"" AND Actor1CountryCode = ""dza"""
-Andorra,Head of Government - Antoni Martí,Head of Government,Antoni Martí,@GovernAndorra,,"WHERE Actor1CountryCode = ""AND"" AND Actor1Code = ""ANDGOV"" AND SQLDATE > 20110512 AND Actor1Name CONTAINS ""ANDORRA"""
-Andorra,Episcopal Co-Prince - Joan Enric Vives Sicília,Episcopal Co-Prince,Joan Enric Vives Sicília,@GovernAndorra,,
-Angola,José Eduardo dos Santos,President,José Eduardo dos Santos,@CasaCivilPRA,,WHERE Actor1Name = 'JOSE EDUARDO DOS SANTOS' AND Actor1CountryCode = 'AGO'
+Andorra,Head of Government - Antoni Marti,Head of Government,Antoni Marti,@GovernAndorra,,"WHERE Actor1CountryCode = ""AND"" AND Actor1Code = ""ANDGOV"" AND SQLDATE > 20110512 AND Actor1Name CONTAINS ""ANDORRA"""
+Andorra,Episcopal Co-Prince - Joan Enric Vives Sicilia,Episcopal Co-Prince,Joan Enric Vives Sicilia,@GovernAndorra,,
+Angola,Jose Eduardo dos Santos,President,Jose Eduardo dos Santos,@CasaCivilPRA,,WHERE Actor1Name = 'JOSE EDUARDO DOS SANTOS' AND Actor1CountryCode = 'AGO'
 Antigua and Barbuda,Prime Minister - Gaston Browne,Prime Minister,Gaston Browne,@antiguagov,,WHERE Actor1Name = 'GASTON BROWNE' AND Actor1CountryCode = 'ATG'
 Antigua and Barbuda,Governor-General - Sir Rodney Williams,Governor-General,Sir Rodney Williams,@antiguagov,,WHERE Actor1Name = 'RODNEY WILLIAMS' AND Actor1CountryCode = 'ATG'
-Argentina,Cristina Fernández de Kirchner,President,Cristina Fernández de Kirchner,@CFKArgentina,@CasaRosadaAR,WHERE Actor1Name = 'CRISTINA FERNANDEZ DE KIRCHNER' AND Actor1CountryCode = 'ARG'
+Argentina,Cristina Fernandez de Kirchner,President,Cristina Fernandez de Kirchner,@CFKArgentina,@CasaRosadaAR,WHERE Actor1Name = 'CRISTINA FERNANDEZ DE KIRCHNER' AND Actor1CountryCode = 'ARG'
 Armenia,Serzh Sargsyan,President,Serzh Sargsyan,@PresidentAM_eng,,WHERE (Actor1Name = 'SERZH SARGSIAN' OR Actor1Name = 'SERZH SARKISYAN') AND Actor1CountryCode = 'ARM'
 Armenia,Prime Minister - Hovik Abrahamyan,Prime Minister,Hovik Abrahamyan,,,
 Australia,Prime Minister - Tony Abbott,Prime Minister,Tony Abbott,@TonyAbbottMHR,,WHERE Actor1Name = 'TONY ABBOT' AND Actor1CountryCode = 'AUS'
@@ -22,7 +22,7 @@ Azerbaijan,Ilham Aliyev,President,Ilham Aliyev,@azpresident,@presidentaz,WHERE A
 Bahamas,Prime Minister - Perry Christie,Prime Minister,Perry Christie,@pgchristie,,WHERE Actor1Name = 'PERRY CHRISTIE' AND Actor1CountryCode = 'BHS'
 Bahamas,Governor-General - Dame Marguerite Pindling,Governor-General,Dame Marguerite Pindling,,,
 Bahrain,Sheikh Hamad bin Isa Al Khalifa,King,Sheikh Hamad bin Isa Al Khalifa,,,"WHERE Actor1Name = 'HAMAD BIN ISA AL KHALIFA' AND Actor1CountryCode=""BHR"""
-Bahrain,Prime Minister - Prince Khalifa bin Salman Al Khalifa,Prime Minister,Prince Khalifa bin Salman Al Khalifa,,,"WHERE Actor1Name = ""KHALIFA BIN SALMAN AL KHALIFA"" AND Actor1CountryCode = ""bhr"""
+Bahrain,Prime Minister - Prince Khalifa bin Salman Al Khalifa,Prime Minister,Prince Khalifa bin Salman Al Khalifa,@eGovBahrain,,"WHERE Actor1Name = ""KHALIFA BIN SALMAN AL KHALIFA"" AND Actor1CountryCode = ""bhr"""
 Bangladesh,Prime Minister - Sheikh Hasina,Prime Minister,Sheikh Hasina,,,"WHERE Actor1Name = ""SHEIKH HASINA WAJED"" AND Actor1CountryCode = ""bgd"""
 Bangladesh,Abdul Hamid,President,Abdul Hamid,,,
 Barbados,Prime Minister - Freundel Stuart,Prime Minister,Freundel Stuart,,,"WHERE Actor1Name = ""FREUNDEL STUART"" AND Actor1CountryCode = ""brb"""
@@ -38,7 +38,7 @@ Bhutan,Prime Minister - Tshering Tobgay,Prime Minister,Tshering Tobgay,@tshering
 Bhutan,Jigme Khesar Namgyel Wangchuck,King,Jigme Khesar Namgyel Wangchuck,,,"WHERE Actor1Name CONTAINS ""Jigme Khesar Namgyel Wangchuck"" AND Actor1CountryCode = ""BTN"""
 Bolivia,President - Evo Morales,President,Evo Morales,@mincombolivia,,WHERE Actor1Name = 'EVO MORALES' AND Actor1CountryCode = 'BOL'
 Bosnia and Herzegovina,Chairman of the Council of Ministers - Vjekoslav Bevanda,Chairman of the Council of Ministers,Vjekoslav Bevanda,@VBevanda,,
-Bosnia and Herzegovina,,Member,Bakir Izetbegović,@B_Izetbegovic,,
+Bosnia and Herzegovina,,Member,Bakir Izetbegovic,@B_Izetbegovic,,
 Bosnia and Herzegovina,High Representative - Valentin Inzko,High Representative,Valentin Inzko,,,
 Botswana,President - Ian Khama,President,Ian Khama,@BWGovernment,,WHERE Actor1Name contains 'Khama' AND Actor1CountryCode = 'BWA'
 Brazil,President - Dilma Rousseff,President,Dilma Rousseff,@dilmabr,@imprensaPR,WHERE Actor1Name = 'Dilma Rousseff' AND Actor1CountryCode = 'bra'
@@ -51,15 +51,15 @@ Burundi,President - Pierre Nkurunziza,President,Pierre Nkurunziza,@BdiPresidence
 Cambodia,Prime Minister - Hun Sen,Prime Minister,Hun Sen,,,"WHERE Actor1Name CONTAINS ""Hun Sen"" AND Actor1CountryCode = ""KHM"""
 Cambodia,King - Norodom Sihamoni,King,Norodom Sihamoni,,,"WHERE Actor1Name CONTAINS ""Norodom Sihamoni"" AND Actor1CountryCode = ""KHM"""
 Cameroon,President - Paul Biya,President,Paul Biya,@PaulBiya,@PR_Paul_Biya,WHERE Actor1Name = 'PAUL BIYA' AND Actor1CountryCode = 'CMR'
-Cameroon,Prime Minister - Philémon Yang,Prime Minister,Philémon Yang,,,"WHERE Actor1Name CONTAINS ""Philemon Yang"" AND Actor1CountryCode = ""cmr"""
+Cameroon,Prime Minister - Philemon Yang,Prime Minister,Philemon Yang,,,"WHERE Actor1Name CONTAINS ""Philemon Yang"" AND Actor1CountryCode = ""cmr"""
 Canada,Prime Minister - Stephen Harper,Prime Minister,Stephen Harper,@pmharper,@premierministre,"WHERE Actor1Name = ""STEPHEN HARPER"" AND Actor1CountryCode=""CAN"""
 Canada,Governor General - David Johnston,Governor General,David Johnston,,,"WHERE Actor1Name CONTAINS ""David Johnston"" AND Actor1CountryCode = ""CAN"""
 Cape Verde,President - Jorge Carlos Fonseca,President,Jorge Carlos Fonseca,@Jorgecfonseca,@presidenciaCV,"WHERE Actor1CountryCode = ""CPV"" AND Actor1Code = ""CPVGOV"" AND SQLDATE > 20110909 AND Actor1Name CONTAINS ""CAPE VERDE"""
-Cape Verde,Prime Minister - José Maria Neves,Prime Minister,José Maria Neves,,,"WHERE Actor1Name CONTAINS ""JosE Maria Neves"" AND Actor1CountryCode = ""CPV"""
+Cape Verde,Prime Minister - Jose Maria Neves,Prime Minister,Jose Maria Neves,,,"WHERE Actor1Name CONTAINS ""JosE Maria Neves"" AND Actor1CountryCode = ""CPV"""
 Central African Republic,Head of State of the Transition - Catherine Samba-Panza,Head of State of the Transition,Catherine Samba-Panza,,,
 Central African Republic,Acting Prime Minister - Mahamat Kamoun,Acting Prime Minister,Mahamat Kamoun,,,
 Chad,Prime Minister - Kalzeubet Pahimi Deubet,Prime Minister,Kalzeubet Pahimi Deubet,@PMTCHAD,,"WHERE Actor1CountryCode = ""TCD"" AND Actor1Code = ""TCDGOV"" AND SQLDATE > 20131121 AND Actor1Name CONTAINS ""CHAD"""
-Chad,President - Idriss Déby,President,Idriss Déby,,,"WHERE Actor1Name = ""IDRISS DEBY"" AND Actor1CountryCode=""TCD"""
+Chad,President - Idriss Deby,President,Idriss Deby,,,"WHERE Actor1Name = ""IDRISS DEBY"" AND Actor1CountryCode=""TCD"""
 Chile,President - Michelle Bachelet,President,Michelle Bachelet,@PrensaMichelle,,"WHERE Actor1Name contains ""Bachelet"" AND Actor1CountryCode=""CHL"""
 China,Premier of the State Council - Li Keqiang,Premier of the State Council,Li Keqiang,,,"WHERE Actor1Name = ""Li Keqiang"" AND Actor1CountryCode = ""CHN"""
 China,President - Xi Jinping,President,Xi Jinping,,,"WHERE Actor1Name CONTAINS ""Xi Jinping"" AND Actor1CountryCode = ""CHN"""
@@ -68,65 +68,65 @@ Comoros,President - Ikililou Dhoinine,President,Ikililou Dhoinine,,,"WHERE Actor
 "Congo, Democratic Republic of the",President - Joseph Kabila,President,Joseph Kabila,,,"WHERE Actor1Name = ""JOSEPH KABILA KABANGE"" AND Actor1CountryCode = ""COD"""
 "Congo, Democratic Republic of the",Prime Minister - Augustin Matata Ponyo,Prime Minister,Augustin Matata Ponyo,@Mapon_Matata,@PrimatureRDC,WHERE Actor1Name='MATATA PONYO MAPON' AND Actor1CountryCode='COD'
 "Congo, Republic of the",President - Denis Sassou Nguesso,President,Denis Sassou Nguesso,@SassouCG,,"WHERE Actor1CountryCode = 'COG' AND Actor1Code = ""COGGOV"" AND SQLDATE > 19971025 AND Actor1Name CONTAINS ""CONGO"""
-Costa Rica,President - Luis Guillermo Solís,President,Luis Guillermo Solís,@luisguillermosr,@presidenciacr,"WHERE Actor1CountryCode = 'CRI' AND Actor1Code = ""CRIGOV"" AND SQLDATE > 20140508 AND Actor1Name CONTAINS ""COSTA RICA"""
-Croatia,President - Ivo Josipović,President,Ivo Josipović,@ivojosipovic,@uredprh,"WHERE Actor1CountryCode = 'HRV' AND Actor1Code = ""HRVGOV"" AND SQLDATE > 20100219 AND Actor1Name CONTAINS ""CROATIA"""
-Croatia,Prime Minister - Zoran Milanović,Prime Minister,Zoran Milanović,,,
+Costa Rica,President - Luis Guillermo Solis,President,Luis Guillermo Solis,@luisguillermosr,@presidenciacr,"WHERE Actor1CountryCode = 'CRI' AND Actor1Code = ""CRIGOV"" AND SQLDATE > 20140508 AND Actor1Name CONTAINS ""COSTA RICA"""
+Croatia,President - Ivo Josipovic,President,Ivo Josipovic,@ivojosipovic,@uredprh,"WHERE Actor1CountryCode = 'HRV' AND Actor1Code = ""HRVGOV"" AND SQLDATE > 20100219 AND Actor1Name CONTAINS ""CROATIA"""
+Croatia,Prime Minister - Zoran Milanovic,Prime Minister,Zoran Milanovic,,,
 Cuba,President of the Council of State and President of the Council of Ministers - Raúl Castro,President of the Council of State and President of the Council of Ministers,Raúl Castro,@RaulCastroR,,"WHERE Actor1Name = ""RAUL CASTRO"" AND Actor1CountryCode=""CUB"""
 Cyprus,President - Nicos Anastasiades,President,Nicos Anastasiades,@AnastasiadesCY,@CYpresidency,"WHERE Actor1CountryCode = 'CYP' AND Actor1Code = ""CYPGOV"" AND SQLDATE > 20130228 AND Actor1Name CONTAINS ""CYPR"""
 Czech Republic,Prime Minister - Bohuslav Sobotka,Prime Minister,Bohuslav Sobotka,@BohuslavSobotka,@strakovka,"WHERE Actor1Name = ""BOHUSLAV SOBOTKA"" AND Actor1CountryCode=""CZE"""
-Czech Republic,President - Miloš Zeman,President,Miloš Zeman,@MZemanOficialni,,WHERE Actor1Name='MILOS ZEMAN' AND Actor1CountryCode = 'CZE'
+Czech Republic,President - Milos Zeman,President,Milos Zeman,@MZemanOficialni,,WHERE Actor1Name='MILOS ZEMAN' AND Actor1CountryCode = 'CZE'
 Denmark,Prime Minister - Helle Thorning-Schmidt,Prime Minister,Helle Thorning-Schmidt,@HelleThorningS,,"WHERE Actor1CountryCode = 'DNK' AND Actor1Code = ""DNKGOV"" AND SQLDATE > 20111003 AND (Actor1Name CONTAINS ""DANISH"" OR Actor1Name CONTAINS ""DENMARK"")"
 Denmark,Queen - Margrethe II,Queen,Margrethe II,,,"WHERE Actor1Name CONTAINS ""Margrethe II"" AND Actor1CountryCode = ""DNK"""
-Djibouti,President - Ismaïl Omar Guelleh,President,Ismaïl Omar Guelleh,@IOGpr11,,"WHERE Actor1Name = ""ISMAIL OMAR GUELLEH"" AND Actor1CountryCode=""DJI"""
+Djibouti,President - Ismail Omar Guelleh,President,Ismail Omar Guelleh,@IOGpr11,,"WHERE Actor1Name = ""ISMAIL OMAR GUELLEH"" AND Actor1CountryCode=""DJI"""
 Djibouti,Prime Minister - Abdoulkader Kamil Mohamed,Prime Minister,Abdoulkader Kamil Mohamed,,,
 Dominica,Prime Minister - Roosevelt Skerrit,Prime Minister,Roosevelt Skerrit,@SkerritR,,WHERE Actor1Name = 'ROOSEVELT SKERRIT' AND Actor1CountryCode = 'DMA'
 Dominica,President - Charles Savarin,President,Charles Savarin,,,"WHERE Actor1Name CONTAINS ""Charles Savarin"" AND Actor1CountryCode = ""DMA"""
 Dominican Republic,President - Danilo Medina,President,Danilo Medina,@DaniloMedina,@PresidenciaRD,"WHERE Actor1CountryCode = 'DOM' AND Actor1Code = ""DOMGOV"" AND SQLDATE > 20120816 AND Actor1Name CONTAINS ""DOMINICAN"""
 East Timor,President - Taur Matan Ruak,President,Taur Matan Ruak,@TaurMatanRuak,@PRepublicaTL,"WHERE Actor1CountryCode = 'TMP' AND Actor1Code = ""TMPGOV"" AND SQLDATE > 20120520 AND Actor1Name CONTAINS ""TIMOR"""
-East Timor,Prime Minister - Xanana Gusmão,Prime Minister,Xanana Gusmão,,,"WHERE Actor1Name CONTAINS ""Xanana Gusmao"" AND Actor1CountryCode = ""TMP"""
+East Timor,Prime Minister - Xanana Gusmao,Prime Minister,Xanana Gusmao,,,"WHERE Actor1Name CONTAINS ""Xanana Gusmao"" AND Actor1CountryCode = ""TMP"""
 Ecuador,President - Rafael Correa,President,Rafael Correa,@MashiRafael,@Presidencia_Ec,"WHERE Actor1Name = ""RAFAEL CORREA"" AND Actor1CountryCode=""ECU"""
 Egypt,President - Abdel Fattah el-Sisi,President,Abdel Fattah el-Sisi,@AlsisiOfficial,@EgyPresidency,"WHERE Actor1CountryCode = ""EGY"" AND Actor1Code = ""EGYGOV"" AND SQLDATE > 20140608 AND Actor1Name CONTAINS ""EGYPT"""
 Egypt,Prime Minister - Ibrahim Mahlab,Prime Minister,Ibrahim Mahlab,@Ibrahim_Mahlab,,
-El Salvador,President - Salvador Sánchez Cerén,President,Salvador Sánchez Cerén,@sanchezceren,@presidencia_sv,"WHERE Actor1Name = ""SALVADOR SANCHEZ CEREN"" AND Actor1CountryCode=""SLV"""
+El Salvador,President - Salvador Sanchez Ceren,President,Salvador Sanchez Ceren,@sanchezceren,@presidencia_sv,"WHERE Actor1Name = ""SALVADOR SANCHEZ CEREN"" AND Actor1CountryCode=""SLV"""
 Equatorial Guinea,President - Teodoro Obiang Nguema Mbasogo,President,Teodoro Obiang Nguema Mbasogo,,,"WHERE Actor1Name = ""TEODORO OBIANG NGUEMA MBASOGO"" AND Actor1CountryCode = ""gnq"""
 Equatorial Guinea,Prime Minister - Vicente Ehate Tomi,Prime Minister,Vicente Ehate Tomi,,,
 Eritrea,President - Isaias Afwerki,President,Isaias Afwerki,,,"WHERE Actor1Name = ""ISAIAS AFEWERKI"" AND Actor1CountryCode = ""eri"""
 Estonia,President - Toomas Hendrik Ilves,President,Toomas Hendrik Ilves,@IlvesToomas,,"WHERE Actor1Name = ""TOOMAS HENDRIK ILVES"" AND Actor1CountryCode=""EST"""
-Estonia,Prime Minister - Taavi Rõivas,Prime Minister,Taavi Rõivas,@TaaviRoivas,@EstonianGovt,
+Estonia,Prime Minister - Taavi Roivas,Prime Minister,Taavi Roivas,@TaaviRoivas,@EstonianGovt,
 Ethiopia,Prime Minister - Hailemariam Desalegn,Prime Minister,Hailemariam Desalegn,@HailemariamD,,"WHERE Actor1Name = ""HAILEMARIAM DESALEGN"" AND Actor1CountryCode=""ETH"""
 Ethiopia,President - Mulatu Teshome,President,Mulatu Teshome,,,
 Fiji,Prime Minister - Frank Bainimarama,Prime Minister,Frank Bainimarama,@FijiPM,@FijiGovernment,WHERE Actor1CountryCode = 'FJI' AND Actor1Name CONTAINS 'Bainimarama'
 Fiji,President - Ratu Epeli Nailatikau,President,Ratu Epeli Nailatikau,@FijiRepublic,,"WHERE Actor1Name = ""EPELI NAILATIKAU"" AND Actor1CountryCode=""FJI"""
 Finland,Prime Minister - Alexander Stubb,Prime Minister,Alexander Stubb,@alexstubb,@FinGovernment,"WHERE Actor1Name = ""Alexander Stubb"" AND Actor1CountryCode=""FIN"""
-Finland,President - Sauli Niinistö,President,Sauli Niinistö,@niinisto,@TPKanslia,"WHERE Actor1Name = ""SAULI NIINISTO"" AND Actor1CountryCode=""FIN"""
-France,President - François Hollande,President,François Hollande,@fhollande,@French_Gov,"WHERE Actor1CountryCode = ""FRA"" AND Actor1Code = ""FRAGOV"" AND SQLDATE > 20120515 AND (Actor1Name CONTAINS ""FRANCE"" OR Actor1Name CONTAINS ""FRENCH"")"
+Finland,President - Sauli Niinisto,President,Sauli Niinisto,@niinisto,@TPKanslia,"WHERE Actor1Name = ""SAULI NIINISTO"" AND Actor1CountryCode=""FIN"""
+France,President - Francois Hollande,President,Francois Hollande,@fhollande,@French_Gov,"WHERE Actor1CountryCode = ""FRA"" AND Actor1Code = ""FRAGOV"" AND SQLDATE > 20120515 AND (Actor1Name CONTAINS ""FRANCE"" OR Actor1Name CONTAINS ""FRENCH"")"
 France,Prime Minister - Manuel Valls,Prime Minister,Manuel Valls,@manuelvalls,@Matignon,
 Gabon,President - Ali Bongo Ondimba,President,Ali Bongo Ondimba,@alibongoondimba,@RepGabon,"WHERE Actor1Name = ""ALI BONGO ONDIMBA"" AND Actor1CountryCode=""GAB"""
 Gabon,Prime Minister - Daniel Ona Ondo,Prime Minister,Daniel Ona Ondo,@GouvGabon,@PrimatureGabon,"WHERE Actor1Name=""ALI BONGO ONDIMBA"" AND Actor1CountryCode='GAB'"
 "Gambia, The",President - Yahya Jammeh,President,Yahya Jammeh,@jammehofficial,,"WHERE Actor1Name = ""YAHYA JAMMEH"" AND Actor1CountryCode=""GMB"""
 Georgia,Prime Minister - Irakli Garibashvili,Prime Minister,Irakli Garibashvili,@PrimeMinisterGE,@govtofgeorgia,
 Georgia,President - Giorgi Margvelashvili,President,Giorgi Margvelashvili,@MargvelashviliG,,
-Germany,Federal Chancellor - Angela Merkel,Federal Chancellor,Angela Merkel,,,"WHERE Actor1Name = ""Angela Merkel"" AND Actor1CountryCode = ""DEU"""
+Germany,Federal Chancellor - Angela Merkel,Federal Chancellor,Angela Merkel,@Kanzlerin,,"WHERE Actor1Name = ""Angela Merkel"" AND Actor1CountryCode = ""DEU"""
 Germany,Federal President - Joachim Gauck,Federal President,Joachim Gauck,,,
 Ghana,President - John Dramani Mahama,President,John Dramani Mahama,@JDMahama,,WHERE (Actor1Name = 'JOHN DRAMANI MAHAMA' OR Actor1Name = 'JOHN MAHAMA') AND Actor1CountryCode = 'GHA'
 Greece,President - Karolos Papoulias,President,Karolos Papoulias,@govgr,,"WHERE Actor1Name = ""KAROLOS PAPOULIAS"" AND Actor1CountryCode=""GRC"""
 Greece,Prime Minister - Antonis Samaras,Prime Minister,Antonis Samaras,@samaras_antonis,@PrimeministerGR,
 Grenada,Prime Minister - Keith Mitchell,Prime Minister,Keith Mitchell,@govgd,,"WHERE Actor1Name = ""KEITH MITCHELL"" AND Actor1CountryCode=""GRD"""
-Grenada,Governor-General - Dame Cécile La Grenade,Governor-General,Dame Cécile La Grenade,@govgd,,
-Guatemala,President - Otto Pérez Molina,President,Otto Pérez Molina,@ottoperezmolina,@GuatemalaGob,"WHERE Actor1CountryCode = 'GTM' AND Actor1Code = ""GTMGOV"" AND SQLDATE > 20120114 AND Actor1Name CONTAINS ""GUATEMALA"""
-Guinea,President - Alpha Condé,President,Alpha Condé,@Pr_Alpha_Conde,@Sekhoutoureya,"WHERE Actor1CountryCode = ""GIN"" AND Actor1Code = ""GINGOV"" AND SQLDATE > 20101221 AND Actor1Name CONTAINS ""GUINEA"""
+Grenada,Governor-General - Dame Cecile La Grenade,Governor-General,Dame Cecile La Grenade,@govgd,,
+Guatemala,President - Otto Perez Molina,President,Otto Perez Molina,@ottoperezmolina,@GuatemalaGob,"WHERE Actor1CountryCode = 'GTM' AND Actor1Code = ""GTMGOV"" AND SQLDATE > 20120114 AND Actor1Name CONTAINS ""GUATEMALA"""
+Guinea,President - Alpha Conde,President,Alpha Conde,@Pr_Alpha_Conde,@Sekhoutoureya,"WHERE Actor1CountryCode = ""GIN"" AND Actor1Code = ""GINGOV"" AND SQLDATE > 20101221 AND Actor1Name CONTAINS ""GUINEA"""
 Guinea,Prime Minister - Mohamed Said Fofana,Prime Minister,Mohamed Said Fofana,,,"WHERE Actor1Name CONTAINS ""Mohamed Said Fofana"" AND Actor1CountryCode = ""GIN"""
-Guinea-Bissau,Prime Minister - Domingos Simões Pereira,Prime Minister,Domingos Simões Pereira,,,
-Guinea-Bissau,President - José Mário Vaz,President,José Mário Vaz,,,
+Guinea-Bissau,Prime Minister - Domingos Simoes Pereira,Prime Minister,Domingos Simoes Pereira,,,
+Guinea-Bissau,President - Jose Mario Vaz,President,Jose Mario Vaz,,,
 Guyana,President - Donald Ramotar,President,Donald Ramotar,@DonaldRamotar,,"WHERE Actor1CountryCode = ""GUY"" AND Actor1Code = ""GUYGOV"" AND SQLDATE > 20111203 AND Actor1Name CONTAINS ""GUYAN"""
 Guyana,Prime Minister - Sam Hinds,Prime Minister,Sam Hinds,,,"WHERE Actor1Name CONTAINS ""Sam Hinds"" AND Actor1CountryCode = ""GUY"""
 Haiti,President - Michel Martelly,President,Michel Martelly,@MichelJMartelly,@palaisnational,"WHERE Actor1CountryCode = ""HTI"" AND Actor1Code = ""HTIGOV"" AND SQLDATE > 20110514 AND Actor1Name CONTAINS ""HAITI"""
 Haiti,Acting Prime Minister - Florence Duperval Guillaume,Acting Prime Minister,Florence Duperval Guillaume,@FlorenceGuillau,,
-Honduras,President - Juan Orlando Hernández,President,Juan Orlando Hernández,@JuanOrlandoH,@Presidencia_HN,"WHERE Actor1CountryCode = 'HND' AND Actor1Code = ""HNDGOV"" AND SQLDATE > 20140127 AND Actor1Name CONTAINS ""HONDURA"""
-Hungary,Prime Minister - Viktor Orbán,Prime Minister,Viktor Orbán,@Viktor_Orban,@kormany_hu,"WHERE Actor1Name = ""VIKTOR ORBAN"" AND Actor1CountryCode=""HUN"""
-Hungary,President - János Áder,President,János Áder,,,
-Iceland,Prime Minister - Sigmundur Davíð Gunnlaugsson,Prime Minister,Sigmundur Davíð Gunnlaugsson,@sigmundurdavid,@forsaetisradun,"WHERE Actor1CountryCode = ""ISL"" AND Actor1Code = ""ISLGOV"" AND SQLDATE > 20130523 AND Actor1Name CONTAINS ""ICELAND"""
-Iceland,President - Ólafur Ragnar Grímsson,President,Ólafur Ragnar Grímsson,,,"WHERE Actor1Name CONTAINS ""Olafur Ragnar GrImsson"" AND Actor1CountryCode = ""ISL"""
+Honduras,President - Juan Orlando Hernandez,President,Juan Orlando Hernandez,@JuanOrlandoH,@Presidencia_HN,"WHERE Actor1CountryCode = 'HND' AND Actor1Code = ""HNDGOV"" AND SQLDATE > 20140127 AND Actor1Name CONTAINS ""HONDURA"""
+Hungary,Prime Minister - Viktor Orban,Prime Minister,Viktor Orban,@Viktor_Orban,@kormany_hu,"WHERE Actor1Name = ""VIKTOR ORBAN"" AND Actor1CountryCode=""HUN"""
+Hungary,President - Janos ader,President,Janos Ader,,,
+Iceland,Prime Minister - Sigmundur Davio Gunnlaugsson,Prime Minister,Sigmundur Davio Gunnlaugsson,@sigmundurdavid,@forsaetisradun,"WHERE Actor1CountryCode = ""ISL"" AND Actor1Code = ""ISLGOV"" AND SQLDATE > 20130523 AND Actor1Name CONTAINS ""ICELAND"""
+Iceland,President - Olafur Ragnar Grimsson,President,Olafur Ragnar Grimsson,,,"WHERE Actor1Name CONTAINS ""Olafur Ragnar GrImsson"" AND Actor1CountryCode = ""ISL"""
 India,President - Pranab Mukherjee,President,Pranab Mukherjee,@RashtrapatiBhvn,,"WHERE Actor1Name=""Pranab Mukherjee"" AND Actor1CountryCode='IND'"
 India,Prime Minister - Narendra Modi,Prime Minister,Narendra Modi,@narendramodi,@PMOIndia,
 Indonesia,President - Joko Widodo,President,Joko Widodo,@jokowi_do2,@IstanaRakyat,"WHERE Actor1CountryCode = 'IDN' AND Actor1Code = ""IDNGOV"" AND SQLDATE > 20141020 AND Actor1Name CONTAINS ""INDONESIA"""
@@ -145,7 +145,7 @@ Ivory Coast,President - Alassane Ouattara,President,Alassane Ouattara,@adosoluti
 Jamaica,Prime Minister - Portia Simpson-Miller,Prime Minister,Portia Simpson-Miller,@PSimpsonMiller,@OPMJamaica,"WHERE Actor1Name = ""PORTIA SIMPSON MILLER"" AND Actor1CountryCode=""JAM"""
 Jamaica,Governor-General - Sir Patrick Allen,Governor-General,Sir Patrick Allen,,,
 Japan,Emperor - Akihito,Emperor,Akihito,,,"WHERE Actor1Name CONTAINS ""Akihito"" AND Actor1CountryCode = ""JPN"""
-Japan,Prime Minister - Shinzō Abe,Prime Minister,Shinzō Abe,@JPN_PMO,@AbeShinzo,WHERE Actor1Name='Shinzo Abe' AND Actor1CountryCode='JPN'
+Japan,Prime Minister - Shinzo Abe,Prime Minister,Shinzo Abe,@JPN_PMO,@AbeShinzo,WHERE Actor1Name='Shinzo Abe' AND Actor1CountryCode='JPN'
 Jordan,King - Abdullah II,King,Abdullah II,@RHCJO,,WHERE Actor1Name='Abdullah II' AND Actor1CountryCode = 'JOR'
 Jordan,Prime Minister - Abdullah Ensour,Prime Minister,Abdullah Ensour,@DrEnsour,,
 Kazakhstan,Prime Minister - Karim Masimov,Prime Minister,Karim Masimov,@KarimMassimov_E,@kaz_pm_kz,WHERE Actor1Name = 'KARIM MASIMOV' AND Actor1CountryCode = 'KAZ'
@@ -158,19 +158,19 @@ Kyrgyzstan,President - Almazbek Atambayev,President,Almazbek Atambayev,@atambaye
 Kyrgyzstan,Prime Minister - Djoomart Otorbaev,Prime Minister,Djoomart Otorbaev,@kyrgyzrepublic,,
 Laos,President - Choummaly Sayasone,President,Choummaly Sayasone,,,"WHERE Actor1Name = ""CHOUMMALY SAYASONE"" AND Actor1CountryCode = ""lao"""
 Laos,Prime Minister - Thongsing Thammavong,Prime Minister,Thongsing Thammavong,,,"WHERE Actor1Name = ""THONGSING THAMMAVONG"" AND Actor1CountryCode = ""lao"""
-Latvia,President - Andris Bērziņš,President,Andris Bērziņš,@Rigas_pils,,"WHERE Actor1Name = ""ANDRIS BERZINS"" AND Actor1CountryCode=""LVA"""
+Latvia,President - Andris Berzins,President,Andris Berzins,@Rigas_pils,,"WHERE Actor1Name = ""ANDRIS BERZINS"" AND Actor1CountryCode=""LVA"""
 Latvia,Prime Minister - Laimdota Straujuma,Prime Minister,Laimdota Straujuma,@Straujuma,@Brivibas36,
 Lebanon,Acting President and President of the Council of Ministers - Tammam Salam,Acting President and President of the Council of Ministers,Tammam Salam,@SalamTammam,,WHERE Actor1Name = 'TAMMAM SALAM' AND Actor1CountryCode = 'lbn'
 Lesotho,King - Letsie III,King,Letsie III,,,"WHERE Actor1Name = ""LETSIE III"" AND Actor1CountryCode = ""lso"""
 Lesotho,Prime Minister - Tom Thabane,Prime Minister,Tom Thabane,,,"WHERE Actor1Name CONTAINS ""Thabane"" AND Actor1CountryCode = ""lso"""
 Liberia,President - Ellen Johnson Sirleaf,President,Ellen Johnson Sirleaf,@emansionliberia,,WHERE Actor1Name = 'Ellen Johnson Sirleaf' AND Actor1CountryCode = 'lbr'
-Libya,Prime Minister - disputed,Prime Minister,disputed,@LibyaInterimGov,,"WHERE Actor1CountryCode = 'LBY' AND Actor1Code = ""LBYGOV"" AND SQLDATE > 20120808 AND Actor1Name CONTAINS ""LIBYA"""
+Libya,Prime Minister - disputed,Prime Minister,Abdullah al-Thani,@LibyaInterimGov,,"WHERE Actor1CountryCode = 'LBY' AND Actor1Code = ""LBYGOV"" AND SQLDATE > 20120808 AND Actor1Name CONTAINS ""LIBYA"""
 Libya,Head of state - disputed,Head of state,disputed,,,
 Liechtenstein,Sovereign Prince - Hans-Adam II,Sovereign Prince,Hans-Adam II,@regierung_fl,,"WHERE Actor1Name = ""HANS ADAM II"" AND Actor1CountryCode=""LIE"""
 Liechtenstein,Regent - Hereditary Prince Alois,Regent,Hereditary Prince Alois,@regierung_fl,,"WHERE Actor1Name = ""PRINCE ALOIS"" AND Actor1CountryCode=""LIE"""
 Liechtenstein,Head of Government - Adrian Hasler,Head of Government,Adrian Hasler,@adrian_hasler,,
-Lithuania,Prime Minister - Algirdas Butkevičius,Prime Minister,Algirdas Butkevičius,@AButkevicius,,WHERE Actor1Name='ALGIRDAS BUTKEVICIUS' AND Actor1CountryCode = 'LTU'
-Lithuania,President - Dalia Grybauskaitė,President,Dalia Grybauskaitė,@Grybauskaite_LT,,WHERE Actor1Name='DALIA GRYBAUSKAITE' AND Actor1CountryCode = 'LTU'
+Lithuania,Prime Minister - Algirdas Butkevicius,Prime Minister,Algirdas Butkevicius,@AButkevicius,,WHERE Actor1Name='ALGIRDAS BUTKEVICIUS' AND Actor1CountryCode = 'LTU'
+Lithuania,President - Dalia Grybauskaite,President,Dalia Grybauskaite,@Grybauskaite_LT,,WHERE Actor1Name='DALIA GRYBAUSKAITE' AND Actor1CountryCode = 'LTU'
 Luxembourg,Grand Duke - Henri,Grand Duke,Henri,@CourGrandDucale,,"WHERE Actor1Name = ""DUKE HENRI"" AND Actor1CountryCode=""LUX"""
 Luxembourg,Prime Minister - Xavier Bettel,Prime Minister,Xavier Bettel,@Xavier_Bettel,,
 Macedonia,President - Gjorge Ivanov,President,Gjorge Ivanov,@GjorgeIvanov,,"WHERE Actor1Name CONTAINS ""Ivanov"" AND Actor1CountryCode=""MKD"""
@@ -181,7 +181,7 @@ Malawi,President - Peter Mutharika,President,Peter Mutharika,@ProfMutharika,,"WH
 Malaysia,Prime Minister - Najib Razak,Prime Minister,Najib Razak,@NajibRazak,,"WHERE Actor1Name CONTAINS ""RAZAK"" AND Actor1CountryCode=""MYS"""
 Malaysia,Yang di-Pertuan Agong - Abdul Halim,Yang di-Pertuan Agong,Abdul Halim,@Malaysia_Gov,,WHERE Actor1Name='SULTAN ABDUL HALIM MUADZAM SHAH' AND Actor1CountryCode = 'mys'
 Maldives,President - Abdulla Yameen,President,Abdulla Yameen,@PresYameen,,"WHERE Actor1CountryCode = 'MDV' AND Actor1Code = ""MDVGOV"" AND SQLDATE > 20131117 AND Actor1Name CONTAINS ""MALDIVE"""
-Mali,President - Ibrahim Boubacar Keïta,President,Ibrahim Boubacar Keïta,@PresidenceMali,@IBK_2013,WHERE Actor1Name = 'IBRAHIM BOUBACAR KEITA' AND Actor1CountryCode = 'mli'
+Mali,President - Ibrahim Boubacar Keita,President,Ibrahim Boubacar Keita,@PresidenceMali,@IBK_2013,WHERE Actor1Name = 'IBRAHIM BOUBACAR KEITA' AND Actor1CountryCode = 'mli'
 Mali,Prime Minister - Moussa Mara,Prime Minister,Moussa Mara,@MoussaMara2,,
 Malta,Prime Minister - Joseph Muscat,Prime Minister,Joseph Muscat,@JosephMuscat_JM,,"WHERE Actor1CountryCode=""MLT"" AND Actor1Type1Code=""GOV"""
 Malta,President - Marie Louise Coleiro Preca,President,Marie Louise Coleiro Preca,,,
@@ -190,16 +190,16 @@ Mauritania,President - Mohamed Ould Abdel Aziz,President,Mohamed Ould Abdel Aziz
 Mauritania,Prime Minister - Yahya Ould Hademine,Prime Minister,Yahya Ould Hademine,,,
 Mauritius,Prime Minister - Sir Anerood Jugnauth,Prime Minister,Sir Anerood Jugnauth,,,"WHERE Actor1Name = ""ANEROOD JUGNAUTH"" AND Actor1CountryCode = ""mus"""
 Mauritius,President - Rajkeswur Purryag,President,Rajkeswur Purryag,,,
-Mexico,President - Enrique Peña Nieto,President,Enrique Peña Nieto,@EPN,@PresidenciaMX,"WHERE Actor1CountryCode=""MEX"" AND Actor1Code=""MEXGOV"" AND SQLDATE > 20121201"
+Mexico,President - Enrique Pena Nieto,President,Enrique Pena Nieto,@EPN,@PresidenciaMX,"WHERE Actor1CountryCode=""MEX"" AND Actor1Code=""MEXGOV"" AND SQLDATE > 20121201"
 Micronesia,President - Manny Mori,President,Manny Mori,,,"WHERE Actor1Name CONTAINS ""Mori"" AND Actor1CountryCode = ""fsm"""
-Moldova,Prime Minister - Iurie Leancă,Prime Minister,Iurie Leancă,@IurieLeanca,@GuvernulRM,WHERE Actor1Name='IURIE LEANCA' AND Actor1CountryCode = 'mda'
+Moldova,Prime Minister - Iurie Leanca,Prime Minister,Iurie Leanca,@IurieLeanca,@GuvernulRM,WHERE Actor1Name='IURIE LEANCA' AND Actor1CountryCode = 'mda'
 Moldova,President - Nicolae Timofti,President,Nicolae Timofti,@Nicolae_Timofti,@presedinte_md,
 Monaco,Sovereign Prince - Albert II,Sovereign Prince,Albert II,@palaismonaco,,"WHERE Actor1Name = ""ALBERT"" AND Actor1CountryCode=""MCO"""
 Monaco,Minister of State - Michel Roger,Minister of State,Michel Roger,@GvtMonaco,,
 Mongolia,President - Tsakhiagiin Elbegdorj,President,Tsakhiagiin Elbegdorj,@elbegdorj,@ts_elbegdorj,WHERE Actor1Name='TSAKHIA ELBEGDORJ' AND Actor1CountryCode = 'MNG'
 Mongolia,Prime Minister of Mongolia - Chimediin Saikhanbileg,Prime Minister of Mongolia,Chimediin Saikhanbileg,@pmoffice_mn,@SaikhanbilegCh,
-Montenegro,President - Filip Vujanović,President,Filip Vujanović,@VladaCG,,
-Montenegro,Prime Minister - Milo Đukanović,Prime Minister,Milo Đukanović,@MeGovernment,,
+Montenegro,President - Filip Vujanovic,President,Filip Vujanovic,@VladaCG,,
+Montenegro,Prime Minister - Milo Dukanovic,Prime Minister,Milo Dukanovic,@MeGovernment,,
 Morocco,Prime Minister - Abdelilah Benkirane,Prime Minister,Abdelilah Benkirane,@ChefGov_ma,@Maroc_eGov,"WHERE Actor1CountryCode = 'MAR' AND Actor1Code = ""MARGOV"" AND SQLDATE > 20111129 AND Actor1Name CONTAINS ""MOROCC"""
 Morocco,King - Mohammed VI,King,Mohammed VI,,,"WHERE Actor1Name = ""Mohammed VI"" AND Actor1CountryCode=""MAR"""
 Mozambique,President - Armando Guebuza,President,Armando Guebuza,@ArmandoGuebuza,,"WHERE Actor1Name = ""ARMANDO GUEBUZA"" AND Actor1CountryCode=""MOZ"""
@@ -236,9 +236,9 @@ Paraguay,President - Horacio Cartes,President,Horacio Cartes,@Horacio_Cartes,@Pr
 Peru,President of the Council of Ministers - Ana Jara,President of the Council of Ministers,Ana Jara,@pcmperu,,"WHERE Actor1CountryCode = ""PER"" AND Actor1Code = ""PERGOV"" AND SQLDATE > 20140722 AND Actor1Name CONTAINS ""PERU"""
 Peru,President - Ollanta Humala,President,Ollanta Humala,@Ollanta_HumalaT,@prensapalacio,
 Philippines,President - Benigno Aquino III,President,Benigno Aquino III,@noynoyaquino,@GovPH_PCOO,"WHERE Actor1CountryCode = 'PHL' AND Actor1Code = ""PHLGOV"" AND SQLDATE > 20100630 AND Actor1Name CONTAINS ""PHILIPPIN"""
-Poland,President - Bronisław Komorowski,President,Bronisław Komorowski,@komorowski,,"WHERE Actor1Name = ""Bronislaw Komorowski"" AND Actor1CountryCode=""POL"""
+Poland,President - Bronislaw Komorowski,President,Bronislaw Komorowski,@komorowski,,"WHERE Actor1Name = ""Bronislaw Komorowski"" AND Actor1CountryCode=""POL"""
 Poland,President of the Council of Ministers - Ewa Kopacz,President of the Council of Ministers,Ewa Kopacz,@EwaKopacz,@PremierRP,"WHERE Actor1Name = ""EWA KOPACZ"" AND Actor1CountryCode=""POL"""
-Portugal,President - Aníbal Cavaco Silva,President,Aníbal Cavaco Silva,@prcavacosilva,,"WHERE (Actor1Name = ""CAVACO SILVA"" OR Actor1Name = ""ANIBAL CAVACO SILVA"") AND Actor1CountryCode=""PRT"""
+Portugal,President - Anibal Cavaco Silva,President,Anibal Cavaco Silva,@prcavacosilva,,"WHERE (Actor1Name = ""CAVACO SILVA"" OR Actor1Name = ""ANIBAL CAVACO SILVA"") AND Actor1CountryCode=""PRT"""
 Portugal,Prime Minister - Pedro Passos Coelho,Prime Minister,Pedro Passos Coelho,@passoscoelho,@govpt,
 Qatar,Prime Minister - Sheikh Abdullah bin Nasser bin Khalifa Al Thani,Prime Minister,Sheikh Abdullah bin Nasser bin Khalifa Al Thani,@QaTaR_,,"WHERE Actor1CountryCode = ""QAT"" AND Actor1Code = ""QATGOV"" AND SQLDATE > 20130626 AND Actor1Name CONTAINS ""QATAR"""
 Qatar,Emir - Sheikh Tamim bin Hamad Al Thani,Emir,Sheikh Tamim bin Hamad Al Thani,,,
@@ -259,13 +259,13 @@ Samoa,Prime Minister - Tuilaepa Aiono Sailele Malielegaoi,Prime Minister,Tuilaep
 Samoa,O le Ao o le Malo - Tufuga Efi,O le Ao o le Malo,Tufuga Efi,,,
 San Marino,Captain Regent - Gianfranco Terenzi,Captain Regent,Gianfranco Terenzi,,,"WHERE Actor1Name CONTAINS ""Terenzi"" AND Actor1CountryCode = ""SMR"""
 San Marino,Captain Regent - Guerrino Zanotti,Captain Regent,Guerrino Zanotti,,,
-São Tomé and Príncipe,Prime Minister - Patrice Trovoada,Prime Minister,Patrice Trovoada,,,"WHERE Actor1Name = ""PATRICE TROVOADA"" AND Actor1CountryCode = ""STP"""
-São Tomé and Príncipe,President - Manuel Pinto da Costa,President,Manuel Pinto da Costa,,,
+Sao Tome and Principe,Prime Minister - Patrice Trovoada,Prime Minister,Patrice Trovoada,,,"WHERE Actor1Name = ""PATRICE TROVOADA"" AND Actor1CountryCode = ""STP"""
+Sao Tome and Principe,President - Manuel Pinto da Costa,President,Manuel Pinto da Costa,,,
 Saudi Arabia,King and Prime Minister - Abdullah,King and Prime Minister,Abdullah,@Saudiegov,,WHERE Actor1Name = 'Abdullah' AND Actor1CountryCode = 'SAU'
 Senegal,President - Macky Sall,President,Macky Sall,@macky_sall,,"WHERE Actor1Name = ""MACKY SALL"" AND Actor1CountryCode=""SEN"""
 Senegal,Prime Minister - Mohamed Dionne,Prime Minister,Mohamed Dionne,,,
-Serbia,President of the Government - Aleksandar Vučić,President of the Government,Aleksandar Vučić,@avucic,,"WHERE Actor1CountryCode=""SRB"" AND Actor1Code=""SCGSRBGOV"" AND SQLDATE > 20140427"
-Serbia,President - Tomislav Nikolić,President,Tomislav Nikolić,@PresidencySrb,,
+Serbia,President of the Government - Aleksandar Vucic,President of the Government,Aleksandar Vucic,@avucic,,"WHERE Actor1CountryCode=""SRB"" AND Actor1Code=""SCGSRBGOV"" AND SQLDATE > 20140427"
+Serbia,President - Tomislav Nikolic,President,Tomislav Nikolic,@PresidencySrb,,
 Seychelles,President - James Michel,President,James Michel,@StateHouseSey,,WHERE Actor1Name = 'JAMES MICHEL' AND Actor1CountryCode = 'SYC'
 Sierra Leone,President - Ernest Bai Koroma,President,Ernest Bai Koroma,@ebkoroma,@presidentkoroma,WHERE Actor1Name = 'Ernest Bai Koroma' AND Actor1CountryCode = 'sle'
 Singapore,Prime Minister - Lee Hsien Loong,Prime Minister,Lee Hsien Loong,@leehsienloong,,"WHERE Actor1Name = ""Lee Hsien Loong"" AND Actor1CountryCode=""SGP"""
@@ -287,12 +287,12 @@ Spain,King - Felipe VI,King,Felipe VI,@CasaReal,,
 Sri Lanka,President - Mahinda Rajapaksa,President,Mahinda Rajapaksa,@MaithreepalaS,,WHERE Actor1Name CONTAINS 'Sirisena' AND Actor1CountryCode='LKA'
 Sri Lanka,Prime Minister - D. M. Jayaratne,Prime Minister,D. M. Jayaratne,,,"WHERE Actor1Name CONTAINS ""Jayaratne"" AND Actor1CountryCode = ""lka"""
 Sudan,President - Omar al-Bashir,President,Omar al-Bashir,,,"WHERE Actor1Name CONTAINS ""AL BASHIR"" AND Actor1CountryCode = ""SDN"""
-Suriname,President - Dési Bouterse,President,Dési Bouterse,,,"WHERE Actor1Name = ""DESI BOUTERSE"" AND Actor1CountryCode=""SUR"""
+Suriname,President - Desi Bouterse,President,Desi Bouterse,,,"WHERE Actor1Name = ""DESI BOUTERSE"" AND Actor1CountryCode=""SUR"""
 Swaziland,Prime Minister - Barnabas Sibusiso Dlamini,Prime Minister,Barnabas Sibusiso Dlamini,,,"WHERE Actor1Name = ""BARNABAS SIBUSISO DLAMINI"" AND Actor1CountryCode = ""SWZ"""
 Swaziland,King - Mswati III,King,Mswati III,,,"WHERE Actor1Name = ""MSWATI III"" AND Actor1CountryCode = ""SWZ"""
-Sweden,Prime Minister - Stefan Löfven,Prime Minister,Stefan Löfven,@statsradet,,"WHERE Actor1CountryCode = 'SWE' AND Actor1Code = ""SWEGOV"" AND SQLDATE > 20141003 AND Actor1Name CONTAINS ""SWEDEN"""
+Sweden,Prime Minister - Stefan Lofven,Prime Minister,Stefan Lofven,@statsradet,,"WHERE Actor1CountryCode = 'SWE' AND Actor1Code = ""SWEGOV"" AND SQLDATE > 20141003 AND Actor1Name CONTAINS ""SWEDEN"""
 Sweden,King - Carl XVI Gustaf,King,Carl XVI Gustaf,,,"WHERE Actor1Name =""CARL XVI GUSTAF"" AND Actor1CountryCode = ""SWE"""
-Switzerland,"Doris Leuthard (Member), Eveline Widmer-Schlumpf (Member), Ueli Maurer (Member), Didier Burkhalter (President),Simonetta Sommaruga (Vice President), Johann Schneider-Ammann (Member), Alain Berset (Member)",President,Didier Burkhalter,,,"WHERE Actor1Name = ""Didier Burkhalter"" AND Actor1CountryCode = ""CHE"""
+Switzerland,"Doris Leuthard (Member), Eveline Widmer-Schlumpf (Member), Ueli Maurer (Member), Didier Burkhalter (President),Simonetta Sommaruga (Vice President), Johann Schneider-Ammann (Member), Alain Berset (Member)",President,Didier Burkhalter,@dreynders,,"WHERE Actor1Name = ""Didier Burkhalter"" AND Actor1CountryCode = ""CHE"""
 Switzerland,"Doris Leuthard (Member), Eveline Widmer-Schlumpf (Member), Ueli Maurer (Member), Didier Burkhalter (President),Simonetta Sommaruga (Vice President), Johann Schneider-Ammann (Member), Alain Berset (Member)",Member,Doris Leuthard,,,"WHERE Actor1Name = ""DORIS LEUTHARD"" AND Actor1CountryCode = ""CHE"""
 Switzerland,"Doris Leuthard (Member), Eveline Widmer-Schlumpf (Member), Ueli Maurer (Member), Didier Burkhalter (President),Simonetta Sommaruga (Vice President), Johann Schneider-Ammann (Member), Alain Berset (Member)",Member,Eveline Widmer-Schlumpf,,,"WHERE Actor1Name = ""EVELINE WIDMER SCHLUMPF"" AND Actor1CountryCode = ""CHE"""
 Switzerland,"Doris Leuthard (Member), Eveline Widmer-Schlumpf (Member), Ueli Maurer (Member), Didier Burkhalter (President),Simonetta Sommaruga (Vice President), Johann Schneider-Ammann (Member), Alain Berset (Member)",Member,Johann Schneider-Ammann,,,"WHERE Actor1Name = ""Johann Schneider Ammann"" AND Actor1CountryCode = ""CHE"""
@@ -307,16 +307,16 @@ Tanzania,Prime Minister - Mizengo Pinda,Prime Minister,Mizengo Pinda,,,"WHERE Ac
 Tanzania,President - Jakaya Kikwete,President,Jakaya Kikwete,@jmkikwete,,"WHERE Actor1Name CONTAINS ""Kikwete"" AND Actor1CountryCode=""TZA"""
 Thailand,King - Bhumibol Adulyadej,King,Bhumibol Adulyadej,,,"WHERE Actor1Name CONTAINS ""Adulyadej"" AND Actor1CountryCode = ""tha"""
 Thailand,Prime Minister - Prayuth Chan-ocha,Prime Minister,Prayuth Chan-ocha,@prdthailand,,
-Togo,President - Faure Gnassingbé,President,Faure Gnassingbé,,,"WHERE Actor1Name = ""FAURE GNASSINGBE"" AND Actor1CountryCode = ""tgo"""
+Togo,President - Faure Gnassingbe,President,Faure Gnassingbe,,,"WHERE Actor1Name = ""FAURE GNASSINGBE"" AND Actor1CountryCode = ""tgo"""
 Togo,Prime Minister - Kwesi Ahoomey-Zunu,Prime Minister,Kwesi Ahoomey-Zunu,,,
-Tonga,Prime Minister - Sialeʻataongo Tuʻivakanō,Prime Minister,Sialeʻataongo Tuʻivakanō,@micwebTonga,,"WHERE Actor1CountryCode = ""TON"" AND Actor1Code = ""TONGOV"" AND SQLDATE > 20141230 AND Actor1Name CONTAINS ""TONGA"""
+Tonga,Prime Minister - Sialeʻataongo Tuʻivakano,Prime Minister,ʻAkilisi Pohiva,@micwebTonga,,"WHERE Actor1CountryCode = ""TON"" AND Actor1Code = ""TONGOV"" AND SQLDATE > 20141230 AND Actor1Name CONTAINS ""TONGA"""
 Tonga,King - Tupou VI,King,Tupou VI,,,"WHERE Actor1Name CONTAINS ""Tupou v"" AND Actor1CountryCode = ""ton"""
 Trinidad and Tobago,Prime Minister - Kamla Persad-Bissessar,Prime Minister,Kamla Persad-Bissessar,@KamlaUNC,@PMKamla,"WHERE Actor1Name = ""KAMLA PERSAD BISSESSAR"" AND Actor1CountryCode=""TTO"""
 Trinidad and Tobago,President - Anthony Carmona,President,Anthony Carmona,,,
 Tunisia,Head of Government - Mehdi Jomaa,Head of Government,Mehdi Jomaa,@Mehdi_Jomaa,,"WHERE Actor1CountryCode = 'TUN' AND Actor1Code = ""TUNGOV"" AND SQLDATE > 20140129 AND Actor1Name CONTAINS ""TUNISIA"""
-Tunisia,President - Moncef Marzouki,President,Moncef Marzouki,@Moncef_Marzouki,@presidenceTN,
-Turkey,Prime Minister - Ahmet Davutoğlu,Prime Minister,Ahmet Davutoğlu,@A_Davutoglu_eng,@Ahmet_Davutoglu,"WHERE Actor1Name = ""AHMET DAVUTOGLU"" AND Actor1CountryCode=""TUR"""
-Turkey,President - Recep Tayyip Erdoğan,President,Recep Tayyip Erdoğan,@RT_Erdogan,@trpresidency,"WHERE Actor1Name = ""RECEP TAYYIP ERDOGAN"" AND Actor1CountryCode=""TUR"""
+Tunisia,President - Moncef Marzouki,President,Beji Caid Essebsi,@BejiCEOfficial,@presidenceTN,
+Turkey,Prime Minister - Ahmet Davutoglu,Prime Minister,Ahmet Davutoglu,@A_Davutoglu_eng,@Ahmet_Davutoglu,"WHERE Actor1Name = ""AHMET DAVUTOGLU"" AND Actor1CountryCode=""TUR"""
+Turkey,President - Recep Tayyip Erdogan,President,Recep Tayyip Erdogan,@RT_Erdogan,@trpresidency,"WHERE Actor1Name = ""RECEP TAYYIP ERDOGAN"" AND Actor1CountryCode=""TUR"""
 Turkmenistan,President - Gurbanguly Berdimuhamedow,President,Gurbanguly Berdimuhamedow,,,"WHERE Actor1Name CONTAINS ""GURBANGULY BERDIMUHAMEDOW"" AND Actor1CountryCode = ""TKM"""
 Tuvalu,Governor-General - Sir Iakoba Italeli,Governor-General,Sir Iakoba Italeli,,,"WHERE Actor1Name CONTAINS ""Italeli"" AND Actor1CountryCode = ""tuv"""
 Tuvalu,Prime Minister - Enele Sopoaga,Prime Minister,Enele Sopoaga,,,
@@ -329,18 +329,18 @@ United Arab Emirates,President - Sheikh Khalifa bin Zayed Al Nahyan,President,Sh
 United Kingdom,Prime Minister - David Cameron,Prime Minister,David Cameron,@David_Cameron,,"WHERE Actor1Name CONTAINS ""CAMERON"" AND Actor1CountryCode=""GBR"""
 United Kingdom,Queen - Elizabeth II,Queen,Elizabeth II,,,
 United States,President - Barack Obama,President,Barack Obama,@BarackObama,,WHERE (Actor1Name='Obama' OR Actor1Name='BARACK OBAMA') AND Actor1CountryCode='USA'
-Uruguay,President-elect - Tabaré Vázquez,President-elect,Tabaré Vázquez,@TabareVazquez,@SCpresidenciauy,"WHERE Actor1Name=""Tabare Vazquez"" AND Actor1CountryCode=""URY"""
-Uruguay,President - José Mujica,President,José Mujica,@SCpresidenciauy,,
+Uruguay,President-elect - Tabare Vazquez,President-elect,Tabare Vazquez,@TabareVazquez,@SCpresidenciauy,"WHERE Actor1Name=""Tabare Vazquez"" AND Actor1CountryCode=""URY"""
+Uruguay,President - Jose Mujica,President,Jose Mujica,@SCpresidenciauy,,
 Uzbekistan,President - Islam Karimov,President,Islam Karimov,@GOVuz,,"WHERE Actor1Name = ""ISLAM KARIMOV"" AND Actor1CountryCode=""UZB"""
 Uzbekistan,Prime Minister - Shavkat Mirziyoyev,Prime Minister,Shavkat Mirziyoyev,@GOVuz,,"WHERE Actor1Name = ""SHAVKAT MIRZIYOYEV"" AND Actor1CountryCode=""UZB"""
 Vanuatu,Prime Minister - Joe Natuman,Prime Minister,Joe Natuman,@govofvanuatu,,"WHERE Actor1Name = ""JOE NATUMAN"" AND Actor1CountryCode=""VUT"""
 Vanuatu,President - Baldwin Lonsdale,President,Baldwin Lonsdale,@govofvanuatu,,
 Vatican City,Sovereign - Pope Francis,Sovereign,Pope Francis,@Pontifex,,WHERE Actor1Name CONTAINS 'POPE' AND SQLDATE > 20130313
 Vatican City,President of the Governorate - Cardinal Giuseppe Bertello,President of the Governorate,Cardinal Giuseppe Bertello,,,
-Venezuela,President - Nicolás Maduro,President,Nicolás Maduro,@maduro_en,@PresidencialVen,WHERE Actor1Name='NICOLAS MADURO MOROS' AND Actor1CountryCode='VEN'
-Vietnam,Prime Minister - Nguyễn Tấn Dũng,Prime Minister,Nguyễn Tấn Dũng,,,"WHERE Actor1Name = ""NGUYEN TAN DUNG"" AND Actor1CountryCode=""VNM"""
-Vietnam,President - Trương Tấn Sang,President,Trương Tấn Sang,,,
+Venezuela,President - Nicolas Maduro,President,Nicolas Maduro,@maduro_en,@PresidencialVen,WHERE Actor1Name='NICOLAS MADURO MOROS' AND Actor1CountryCode='VEN'
+Vietnam,Prime Minister - Nguyen Tan Dung,Prime Minister,Nguyen Tan Dung,,,"WHERE Actor1Name = ""NGUYEN TAN DUNG"" AND Actor1CountryCode=""VNM"""
+Vietnam,President - Truong Tan Sang,President,Truong Tan Sang,,,
 Yemen,President - Abd Rabbuh Mansur Hadi,President,Abd Rabbuh Mansur Hadi,@HadiPresident,,"WHERE Actor1Name = ""ABD AL RAB MANSUR AL HADI"" AND Actor1CountryCode=""YEM"""
 Yemen,Prime Minister - Khaled Bahah,Prime Minister,Khaled Bahah,@KhaledBahah,,
 Zambia,Acting President - Guy Scott,Acting President,Guy Scott,@StateHousePress,,"WHERE Actor1CountryCode = 'ZMB' AND Actor1Code = ""ZMBGOV"" AND SQLDATE > 20141029 AND Actor1Name CONTAINS ""ZAMBIA"""
-Zimbabwe,President - Robert Mugabe,President,Robert Mugabe,,,"WHERE Actor1Name = ""ROBERT MUGABE"" AND Actor1CountryCode=""ZWE"""
+Zimbabwe,President - Robert Mugabe,President,Robert Mugabe,@MugabeR,,"WHERE Actor1Name = ""ROBERT MUGABE"" AND Actor1CountryCode=""ZWE"""
