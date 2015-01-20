@@ -70,7 +70,7 @@ def get_leaders_from_bigquery():
     for row in leaders.iterrows():
         leader = row[1]
 
-        if type(leader['gdelt_search']) != type('') or type(leader['display_name']) != type(''):
+        if type(leader['gdelt_search']) != type('') or type(leader['display_name']) != type('') or type(leader['username']) != type(''):
             continue
 
         filename = leader['display_name'].replace(' ', '_') + '.csv'
@@ -163,6 +163,11 @@ def perform_analysis(data, gsCodes, leader):
 
     name = leader['display_name'].values[0]
     country = leader['display_country'].values[0]
+    username = leader['username'].values[0]
+
+    if type(username) != type('') or type(name) != type('') or type(country) != type(''):
+        return False
+
 
     # These steps incorporate the number of mentions a Goldstein score is associated with, reducing the impact of error in the event encoding, making the average better reflect the event's presence in the GDELT.
     df['GoldMentions'] = df['GoldsteinScale'] * df['NumMentions']
@@ -229,7 +234,7 @@ def perform_analysis(data, gsCodes, leader):
     image = compose.draw(name=name, country=country, suggestion=gsDescription, prediction=prediction_text, graph_file=graph_file)
     final_image = 'images/' + name + '_' + tomorrow + '.png'
     image.save(final_image, 'PNG')
-    send_tweet(leader['username'].values[0], gsDescription, final_image)
+    send_tweet(username, gsDescription, final_image)
 
 ##############################################################
 
