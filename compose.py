@@ -86,19 +86,22 @@ def draw(name, country, prediction, suggestion, graph_file):
     ###############################
     sug_fontsize = 120
     sug = ImageFont.truetype(filename=bold_fontpath, size=sug_fontsize)
+    padding = (25, 25)
     fit = False
     while fit is False:
         sz = sug.getsize(suggestion)
-        if sz[0] <= graphsize[0]:
+        if sz[0] <= graphsize[0] - padding[0] *2:
             fit = True
         else:
             sug_fontsize -= 1
             sug = ImageFont.truetype(filename=bold_fontpath, size=sug_fontsize)
 
     y += 120
-    padding = (20, 10)
-    draw.rectangle([margin, y, margin+sz[0]+padding[0]*2, y+sz[1]+padding[1]*2], fill=(75, 146, 219))
+    draw.rectangle([margin, y, margin+sz[0]+padding[0]*2, y+sug_fontsize+padding[1]*2], fill=(75, 146, 219))
     draw.text((margin + padding[0], y + padding[1]), suggestion, font=sug, fill=(255, 255, 255))
+
+    print 'fontsize', sug_fontsize
+    print 'sz', sz[1]
 
 
     ###############################
@@ -111,7 +114,7 @@ def draw(name, country, prediction, suggestion, graph_file):
 
 
 if __name__ == '__main__':
-    canvas = draw(name = "Ellen Johnson Sirleaf", country = "Liberia", prediction = "Make a denial", suggestion = "Make a symbolic statement", graph_file = "assets/graph.png")
+    canvas = draw(name = "Ellen Johnson Sirleaf", country = "Liberia", prediction = "Make a denial", suggestion = "Make a symbolic statement", graph_file = "graphs/Robert Mugabe_prediction.png")
 
     #canvas.save(sys.stdout, "GIF")
     canvas.show()
