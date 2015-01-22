@@ -223,6 +223,9 @@ def perform_analysis(data, gsCodes, leader):
     gsDescription   = random.choice(gsCodes.loc[suggestion].values[0].split(';')).strip()
     prediction_text = random.choice(gsCodes.loc[predicts].values[0].split(';')).strip()
 
+    if predicts == 1.0:
+        gsDescription = "You're doing great. Stay the course."
+
     print '==================='
     print name + "'s Forecast: ", predicts, prediction_text
     print name + "'s Suggested Action: ", (predicts - 1) * -1
