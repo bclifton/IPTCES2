@@ -223,6 +223,10 @@ def perform_analysis(data, gsCodes, leader):
 
     suggestion = round(((predicts - 1) * -1), 1)
 
+    # make sure suggestion and prediction are never the same
+    if suggestion == predicts:
+        suggestion += .1
+
     gsDescription   = random.choice(gsCodes.loc[suggestion].values[0].split(';')).strip()
     prediction_text = random.choice(gsCodes.loc[predicts].values[0].split(';')).strip()
 
