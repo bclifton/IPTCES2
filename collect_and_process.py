@@ -108,8 +108,9 @@ def scrape():
 
             print 'Saved: ' + filename
 
-        except:
+        except Exception as e:
             print 'Timed out'
+            print e
 
 ##############################################################
 
