@@ -103,7 +103,7 @@ France,President - Francois Hollande,President,Francois Hollande,@fhollande,@Fre
 France,Prime Minister - Manuel Valls,Prime Minister,Manuel Valls,@manuelvalls,@Matignon,
 Gabon,President - Ali Bongo Ondimba,President,Ali Bongo Ondimba,@alibongoondimba,@RepGabon,"WHERE Actor1Name = ""ALI BONGO ONDIMBA"" AND Actor1CountryCode=""GAB"""
 Gabon,Prime Minister - Daniel Ona Ondo,Prime Minister,Daniel Ona Ondo,@GouvGabon,@PrimatureGabon,"WHERE Actor1Name=""ALI BONGO ONDIMBA"" AND Actor1CountryCode='GAB'"
-"Gambia, The",President - Yahya Jammeh,President,Yahya Jammeh,@jammehofficial,,"WHERE Actor1Name = ""YAHYA JAMMEH"" AND Actor1CountryCode=""GMB"""
+"The Gambia",President - Yahya Jammeh,President,Yahya Jammeh,@jammehofficial,,"WHERE Actor1Name = ""YAHYA JAMMEH"" AND Actor1CountryCode=""GMB"""
 Georgia,Prime Minister - Irakli Garibashvili,Prime Minister,Irakli Garibashvili,@PrimeMinisterGE,@govtofgeorgia,
 Georgia,President - Giorgi Margvelashvili,President,Giorgi Margvelashvili,@MargvelashviliG,,
 Germany,Federal Chancellor - Angela Merkel,Federal Chancellor,Angela Merkel,@Kanzlerin,,"WHERE Actor1Name = ""Angela Merkel"" AND Actor1CountryCode = ""DEU"""
