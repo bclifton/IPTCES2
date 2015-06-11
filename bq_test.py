@@ -180,10 +180,7 @@ def perform_analysis(data, gsCodes, leader):
     goldstein = goldstein.reindex(full_daterange).ffill()
 
 
-    try:
-        len(goldstein['GoldAverage'][-230])
-
-    except:
+    if len(goldstein['GoldAverage']) < 230:
         day_difference = 230 - len(goldstein['GoldAverage']) + 1
 
         new_dates = [goldstein.index[0] - dt.timedelta(days=x) for x in range(1, day_difference)]
@@ -200,6 +197,7 @@ def perform_analysis(data, gsCodes, leader):
 
         temp_goldstein = missing.append(goldstein)
         goldstein = temp_goldstein.fillna(method='bfill')
+
     
 
     #------------- REMOVED THE SMOOTHING FROM THE GRAPH -----------------#
