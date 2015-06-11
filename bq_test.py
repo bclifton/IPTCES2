@@ -179,17 +179,39 @@ def perform_analysis(data, gsCodes, leader):
     # ffill() takes care of days that do not have a entry / Goldstein score in GDELT:
     goldstein = goldstein.reindex(full_daterange).ffill()
 
+
+    if len(goldstein['GoldAverage']) < 230:
+        day_difference = 230 - len(goldstein['GoldAverage']) + 1
+
+        new_dates = [goldstein.index[0] - dt.timedelta(days=x) for x in range(1, day_difference)]
+        new_dates = reversed(new_dates)
+
+        dummy = [None for x in range(1, day_difference)]
+        
+        temp_data = {}
+        temp_data['NumMentions'] = dummy
+        temp_data['GoldMentions'] = dummy
+        temp_data['GoldAverage'] = dummy
+
+        missing = pd.DataFrame(temp_data, index=new_dates, columns=['NumMentions', 'GoldMentions', 'GoldAverage'])
+
+        temp_goldstein = missing.append(goldstein)
+        goldstein = temp_goldstein.fillna(method='bfill')
+
+    
+
+    #------------- REMOVED THE SMOOTHING FROM THE GRAPH -----------------#
     # Creates a rolling_mean using a 30-day window:
-    goldstein['sma-30'] = pd.rolling_mean(goldstein['GoldAverage'], 30)
+    # goldstein['sma-30'] = pd.rolling_mean(goldstein['GoldAverage'], 30)
+    # # The first 30 entries in the rolling_mean become NaN, so...
+    # grm = goldstein['sma-30'].dropna()
+    #--------------------------------------------------------------------#
 
-    # The first 30 entries in the rolling_mean become NaN, so...
-    grm = goldstein['sma-30'].dropna()
-
-    test_sample = pd.DataFrame(grm)
+    test_sample = pd.DataFrame(goldstein['GoldAverage'])
     test_sample.index = pd.to_datetime(test_sample.index)
     test_sample.columns = ['Goldstein daily average']
 
-    plot_sample = pd.DataFrame(grm[-230:])
+    plot_sample = pd.DataFrame(goldstein['GoldAverage'][-230:])
     # plot_sample = pd.DataFrame(grm)
     plot_sample.index = pd.to_datetime(plot_sample.index)
     plot_sample.columns = ['Goldstein daily average']
@@ -406,14 +428,16 @@ def send_tweet(username, suggestion, filename):
 ##############################################################
 
 def main():
-    #import pickle
-    #with open('data.pkl') as f:
-        #data = pickle.load(f)
+    import pickle
+    with open('data.pkl') as f:
+        data = pickle.load(f)
 
-    #graph_file = draw_graph(data['plot_sample'], data['prediction'], data['predicts'], data['suggestion'], data['name'], data['gsDescription'], data['leader'])
-    #image = compose.draw(name=data['name'], country='A fake country', suggestion="Something shorter", prediction='just testing', graph_file=graph_file)
-    #final_image = 'images/' + 'testing' + '_' + tomorrow + '.png'
-    #image.save(final_image, 'PNG')
+    graph_file = draw_graph(data['plot_sample'], data['prediction'], data['predicts'], data['suggestion'], data['name'], data['gsDescription'], data['leader'])
+    image = compose.draw(name=data['name'], country='A fake country', suggestion="Something shorter", prediction='just testing', graph_file=graph_file)
+    final_image = 'images/' + 'testing' + '_' + tomorrow + '.png'
+    image.save(final_image, 'PNG')
+
+
 
     #open_files('Frank_Bainimarama.csv')
     #image = compose.draw(name = "Ellen Johnson Sirleaf", country = "Liberia", prediction = "Make a denial", suggestion = "Make a symbolic statement", graph_file = "graphs/Ali Bongo Ondimba_prediction.png")
