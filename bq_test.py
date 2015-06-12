@@ -213,7 +213,6 @@ def perform_analysis(data, gsCodes, leader):
     test_sample.columns = ['Goldstein daily average']
 
     plot_sample = pd.DataFrame(goldstein['GoldAverage'][-230:])
-    # plot_sample = pd.DataFrame(grm)
     plot_sample.index = pd.to_datetime(plot_sample.index)
     plot_sample.columns = ['Goldstein daily average']
 
