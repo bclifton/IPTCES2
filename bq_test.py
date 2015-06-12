@@ -60,6 +60,7 @@ day_index = dt.datetime.today().weekday()
 
 leaders = pd.read_csv('everyone.csv')
 
+
 ##############################################################
 
 def get_leaders_from_bigquery():
@@ -409,10 +410,14 @@ def draw_graph(plot_sample, prediction, predicts, suggestion, name, gsDescriptio
 
     return image_name(name)
 
+
 ##############################################################
 
 def image_name(name):
     return IMG_PATH + name + '_prediction.png'
+
+
+##############################################################
 
 def send_tweet(username, suggestion, filename):
     message = "Dear {}, this week we suggest you: {}".format(username, suggestion)
@@ -428,21 +433,21 @@ def send_tweet(username, suggestion, filename):
 ##############################################################
 
 def main():
-    import pickle
-    with open('data.pkl') as f:
-        data = pickle.load(f)
+    # import pickle
+    # with open('data.pkl') as f:
+    #     data = pickle.load(f)
 
-    graph_file = draw_graph(data['plot_sample'], data['prediction'], data['predicts'], data['suggestion'], data['name'], data['gsDescription'], data['leader'])
-    image = compose.draw(name=data['name'], country='A fake country', suggestion="Something shorter", prediction='just testing', graph_file=graph_file)
-    final_image = 'images/' + 'testing' + '_' + tomorrow + '.png'
-    image.save(final_image, 'PNG')
+    # graph_file = draw_graph(data['plot_sample'], data['prediction'], data['predicts'], data['suggestion'], data['name'], data['gsDescription'], data['leader'])
+    # image = compose.draw(name=data['name'], country='A fake country', suggestion="Something shorter", prediction='just testing', graph_file=graph_file)
+    # final_image = 'images/' + 'testing' + '_' + tomorrow + '.png'
+    # image.save(final_image, 'PNG')
 
 
 
-    #open_files('Frank_Bainimarama.csv')
-    #image = compose.draw(name = "Ellen Johnson Sirleaf", country = "Liberia", prediction = "Make a denial", suggestion = "Make a symbolic statement", graph_file = "graphs/Ali Bongo Ondimba_prediction.png")
-    #final_image = 'images/' + 'testing' + '_' + tomorrow + '.png'
-    #image.save(final_image, 'PNG')
+    # open_files('')
+    # image = compose.draw(name = "Ellen Johnson Sirleaf", country = "Liberia", prediction = "Make a denial", suggestion = "Make a symbolic statement", graph_file = "graphs/Ali Bongo Ondimba_prediction.png")
+    # final_image = 'images/' + 'testing' + '_' + tomorrow + '.png'
+    # image.save(final_image, 'PNG')
 
     #send_tweet('@brianclifton1', 'just testing', 'images/Benjamin Netanyahu_2015-01-17.png')
 
