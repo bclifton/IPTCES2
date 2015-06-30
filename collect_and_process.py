@@ -153,6 +153,21 @@ def create_schedule():
 
 ##############################################################
 
+def stir_the_pot(sample_range, st_dev):
+    mean = sample_range.mean()
+    added_range = mean + st_dev
+    random_suggestion = None
+
+    if random.randint(0, 1) == 1:
+        random_suggestion = "{0:.1f}".format(random.uniform(float(added_range),10))
+    else:
+        random_suggestion = "{0:.1f}".format(random.uniform(-10,-float(added_range)))
+
+    print 'new suggestion:', random_suggestion
+    return random_suggestion
+
+##############################################################
+
 def perform_analysis(data, gsCodes, leader):
     df = pd.read_csv(data, index_col='SQLDATE', parse_dates=True)
     if len(df) < 100:
@@ -184,6 +199,7 @@ def perform_analysis(data, gsCodes, leader):
     goldstein = goldstein.reindex(full_daterange).ffill()
 
 
+    # Handle the potential lack of sufficient data in GDELT:
     if len(goldstein['GoldAverage']) < 230:
         day_difference = 230 - len(goldstein['GoldAverage']) + 1
 
@@ -191,7 +207,7 @@ def perform_analysis(data, gsCodes, leader):
         new_dates = reversed(new_dates)
 
         dummy = [None for x in range(1, day_difference)]
-        
+
         temp_data = {}
         temp_data['NumMentions'] = dummy
         temp_data['GoldMentions'] = dummy
@@ -209,7 +225,6 @@ def perform_analysis(data, gsCodes, leader):
     # grm = goldstein['sma-30'].dropna()
     #--------------------------------------------------------------------#
 
-
     test_sample = pd.DataFrame(goldstein['GoldAverage'])
     test_sample.index = pd.to_datetime(test_sample.index)
     test_sample.columns = ['Goldstein daily average']
@@ -219,7 +234,6 @@ def perform_analysis(data, gsCodes, leader):
     plot_sample.columns = ['Goldstein daily average']
 
     # Creates the forcasting model using Autoregressive Moving Average (ARMA):
-    #model = sm.tsa.ARMA(test_sample,(12, 0)).fit() # 12 Lags seems to be enough to get an accurate prediction.
     tries = 0
     success = False
     while tries < 6 and success is False:
@@ -239,24 +253,32 @@ def perform_analysis(data, gsCodes, leader):
     prediction = prediction.shift(-1)
     # print prediction
 
-    # Finds the average of the Goldstein scores for the coming week:
-    predicts = round(prediction.ix[tomorrow:str(nextweek)].mean(), 1)
-
-    suggestion = round(((predicts - 1) * -1), 1)
+    sample_window = test_sample[-60:]
+    standard_deviation = float(sample_window.std())
+    suggestion = None
+    # If the world leader appears to be 'stuck' in a behavoir for the last <60> days that is not approaching Goldstein == 1, encourage them to break the trend:
+    if standard_deviation < 1.2 and random.randint(1,5) > 3:
+        print 'Need to stir the pot...'
+        suggestion = stir_the_pot(sample_window, standard_deviation)
+        suggestion = float(suggestion)
+    else:
+        # Finds the average of the Goldstein scores for the coming week:
+        predicts = round(prediction.ix[tomorrow:str(nextweek)].mean(), 1)
+        suggestion = round(((predicts - 1) * -1), 1)
 
     # make sure suggestion and prediction are never the same
     if suggestion == predicts:
         suggestion += .1
 
-    gsDescription   = random.choice(gsCodes.loc[suggestion].values[0].split(';')).strip()
     prediction_text = random.choice(gsCodes.loc[predicts].values[0].split(';')).strip()
+    gsDescription   = random.choice(gsCodes.loc[suggestion].values[0].split(';')).strip()
 
     if predicts == 1.0:
         gsDescription = "You're doing great. Stay the course."
 
     print '==================='
     print name + "'s Forecast: ", predicts, prediction_text
-    print name + "'s Suggested Action: ", (predicts - 1) * -1
+    print name + "'s Suggested Action: ", suggestion
     print "Suggested actions for the coming week:\n" + gsDescription
     print '==================='
 
