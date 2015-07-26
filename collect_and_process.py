@@ -23,7 +23,6 @@ import matplotlib.dates as mdates
 
 import statsmodels.api as sm
 from statsmodels.tsa import *
-tsa = sm.tsa
 
 import compose
 
@@ -195,9 +194,8 @@ def perform_analysis(data, gsCodes, leader):
 
     full_daterange = pd.date_range(start = min(df.index), end = max(df.index))
 
-    # ffill() takes care of days that do not have a entry / Goldstein score in GDELT:
-    goldstein = goldstein.reindex(full_daterange).ffill()
-
+    # interpolate() takes care of days that do not have a entry / Goldstein score in GDELT:
+    goldstein = goldstein.reindex(full_daterange).interpolate(method='linear')
 
     # Handle the potential lack of sufficient data in GDELT:
     if len(goldstein['GoldAverage']) < 230:
@@ -206,14 +204,10 @@ def perform_analysis(data, gsCodes, leader):
         new_dates = [goldstein.index[0] - dt.timedelta(days=x) for x in range(1, day_difference)]
         new_dates = reversed(new_dates)
 
-        dummy = [None for x in range(1, day_difference)]
+        columns = ['NumMentions', 'GoldMentions', 'GoldAverage']
+        temp_data = {col: [None for x in range(1, day_difference)] for col in columns}
 
-        temp_data = {}
-        temp_data['NumMentions'] = dummy
-        temp_data['GoldMentions'] = dummy
-        temp_data['GoldAverage'] = dummy
-
-        missing = pd.DataFrame(temp_data, index=new_dates, columns=['NumMentions', 'GoldMentions', 'GoldAverage'])
+        missing = pd.DataFrame(temp_data, index=new_dates, columns=columns)
 
         temp_goldstein = missing.append(goldstein)
         goldstein = temp_goldstein.fillna(method='bfill')
@@ -257,7 +251,7 @@ def perform_analysis(data, gsCodes, leader):
     standard_deviation = float(sample_window.std())
     suggestion = None
     # If the world leader appears to be 'stuck' in a behavoir for the last <60> days that is not approaching Goldstein == 1, encourage them to break the trend:
-    if standard_deviation < 1.2 and random.randint(1,5) > 3:
+    if standard_deviation < 1.2 and random.randint(1,5) > 2:
         print 'Need to stir the pot...'
         suggestion = stir_the_pot(sample_window, standard_deviation)
         suggestion = float(suggestion)

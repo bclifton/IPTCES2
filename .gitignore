@@ -5,3 +5,6 @@ graphs/
 images/
 *.pyc
 iterate.dat
+*.ipynb
+
+bq_test.py
