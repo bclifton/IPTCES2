@@ -17,10 +17,10 @@ code	description
 -8.5	Engage in destructive action; Engage in riot or political turmoil
 -8.4	Engage in destructive action; Engage in riot or political turmoil
 -8.3	Engage in destructive action; Engage in riot or political turmoil
--8.2	Attempt an assassination; Impose an embargo, boycott or sanctions; Use civillians as a human shield
--8.1	Attempt an assassination; Impose an embargo, boycott or sanctions; Use civillians as a human shield
--8.0	Attempt an assassination; Impose an embargo, boycott or sanctions; Use civillians as a human shield
--7.9	Attempt an assassination; Impose an embargo, boycott or sanctions; Use civillians as a human shield
+-8.2	Attempt an assassination; Impose an embargo, boycott or sanctions; Use civilians as a human shield
+-8.1	Attempt an assassination; Impose an embargo, boycott or sanctions; Use civilians as a human shield
+-8.0	Attempt an assassination; Impose an embargo, boycott or sanctions; Use civilians as a human shield
+-7.9	Attempt an assassination; Impose an embargo, boycott or sanctions; Use civilians as a human shield
 -7.8	Mobilize, exercise or display armed forces; Engage in a military buildup; Commit a military border violation; Fortify a border
 -7.7	Mobilize, exercise or display armed forces; Engage in a military buildup; Commit a military border violation; Fortify a border
 -7.6	Mobilize, exercise or display armed forces; Engage in a military buildup; Commit a military border violation; Fortify a border
@@ -28,8 +28,8 @@ code	description
 -7.4	Engage in violent protest for change in institutions or regimes; Engage in violent protest for leadership change, policy change, or rights; Obstruct passage to demand change in institutions regimes; Protest violently; Riot
 -7.3	Demonstrate the use of military or police power; Increase your military's alert status; Increase the alert status of the police; Mobilize or increase your armed forces; Mobilize or increase police power
 -7.2	Demonstrate the use of military or police power; Increase your military's alert status; Increase the alert status of the police; Mobilize or increase your armed forces; Mobilize or increase police power
--7.1	Break diplomatic relations; Make a specific military threat; Have a mmilitary clash; Threaten with military war; Threaten a military occupation; Threaten a military blockade; Threaten a military attack
--7.0	Break diplomatic relations; Make a specific military threat; Have a mmilitary clash; Threaten with military war; Threaten a military occupation; Threaten a military blockade; Threaten a military attack
+-7.1	Break diplomatic relations; Make a specific military threat; Have a military clash; Threaten with military war; Threaten a military occupation; Threaten a military blockade; Threaten a military attack
+-7.0	Break diplomatic relations; Make a specific military threat; Have a military clash; Threaten with military war; Threaten a military occupation; Threaten a military blockade; Threaten a military attack
 -6.9	Make an ultimatum; Threaten negative sanctions with a time limit; Engage in crowd control; Protest an altruistic act
 -6.8	Perform a guerrilla seizure; Order a police seizure
 -6.7	Perform a guerrilla seizure; Order a police seizure
@@ -43,8 +43,8 @@ code	description
 -5.9	Make a threat; Make a threat with a specific negative nonmilitary sanction; Threaten to reduce or stop aid, boycott, embargo, or reduce or break relations; Threaten to impose restrictions on freedoms of speech and expression, ban political parties or politicians, impose a curfew, or impose a state of emergency or martial law
 -5.8	Make a threat; Make a threat with a specific negative nonmilitary sanction; Threaten to reduce or stop aid, boycott, embargo, or reduce or break relations; Threaten to impose restrictions on freedoms of speech and expression, ban political parties or politicians, impose a curfew, or impose a state of emergency or martial law
 -5.7	Make a threat; Make a threat with a specific negative nonmilitary sanction; Threaten to reduce or stop aid, boycott, embargo, or reduce or break relations; Threaten to impose restrictions on freedoms of speech and expression, ban political parties or politicians, impose a curfew, or impose a state of emergency or martial law
--5.6	Reduce or cut off aid or assistance; Perform an actiont that punishes or deprives
--5.5	Reduce or cut off aid or assistance; Perform an actiont that punishes or deprives
+-5.6	Reduce or cut off aid or assistance; Perform an action that punishes or deprives
+-5.5	Reduce or cut off aid or assistance; Perform an action that punishes or deprives
 -5.4	Perform a non-military demonstration or walk out on something
 -5.3	Perform a non-military demonstration or walk out on something
 -5.2	Perform a non-military demonstration or walk out on something
@@ -78,8 +78,8 @@ code	description
 -2.4	Issue a formal complaint or protest; Make a complaint
 -2.3	Charge; Make a criticism; Blame something or someone; Disapprove of something or someone; Cancel or postpone a planned event; Reduce your routine activity
 -2.2	Charge; Make a criticism; Blame something or someone; Disapprove of something or someone; Cancel or postpone a planned event; Reduce your routine activity
--2.1	Disapprove of something or someone; Make an accusation; Perform an investigatation; Investigate a crime, corruption, human rights abuses, military action, or war crimes
--2.0	Disapprove of something or someone; Make an accusation; Perform an investigatation; Investigate a crime, corruption, human rights abuses, military action, or war crimes
+-2.1	Disapprove of something or someone; Make an accusation; Perform an investigation; Investigate a crime, corruption, human rights abuses, military action, or war crimes
+-2.0	Disapprove of something or someone; Make an accusation; Perform an investigation; Investigate a crime, corruption, human rights abuses, military action, or war crimes
 -1.9	Make an informal complaint
 -1.8	Make an informal complaint
 -1.7	Make an informal complaint
@@ -113,7 +113,7 @@ code	description
 1.1	Yield to someone or something
 1.2	Entreat, plead, or appeal to a person or a group; Beg a person or a group
 1.3	Make a call for action
-1.4	Consult an indivual or a group
+1.4	Consult an individual or a group
 1.5	Offer a proposal; Offer a peace proposal
 1.6	Make a request; Ask for humanitarian aid; Ask for military aid; Ask for economic aid; Grant asylum to someone
 1.7	Express regret; Make an apology
@@ -168,10 +168,10 @@ code	description
 6.6	Give unspecified assistance; Make a substantive agreement
 6.7	Give unspecified assistance; Make a substantive agreement
 6.8	Give unspecified assistance; Make a substantive agreement
-6.9	Make an apology; Ease economic sanctions, boycotts or embargos; Engage in negotiations; Express intent to allow international involvement (not mediation); Express intent to accept mediation; Express intent to change institutions in your regime; Express intent to de-escalate military engagement; Express intent to ease administrative sanctions; Express intent to provide rights, or release persons or property
-7.0	Make an apology; Ease economic sanctions, boycotts or embargos; Engage in negotiations; Express intent to allow international involvement (not mediation); Express intent to accept mediation; Express intent to change institutions in your regime; Express intent to de-escalate military engagement; Express intent to ease administrative sanctions; Express intent to provide rights, or release persons or property
-7.1	Make an apology; Ease economic sanctions, boycotts or embargos; Engage in negotiations; Express intent to allow international involvement (not mediation); Express intent to accept mediation; Express intent to change institutions in your regime; Express intent to de-escalate military engagement; Express intent to ease administrative sanctions; Express intent to provide rights, or release persons or property
-7.2	Make an apology; Ease economic sanctions, boycotts or embargos; Engage in negotiations; Express intent to allow international involvement (not mediation); Express intent to accept mediation; Express intent to change institutions in your regime; Express intent to de-escalate military engagement; Express intent to ease administrative sanctions; Express intent to provide rights, or release persons or property
+6.9	Make an apology; Ease economic sanctions, boycotts or embargoes; Engage in negotiations; Express intent to allow international involvement (not mediation); Express intent to accept mediation; Express intent to change institutions in your regime; Express intent to de-escalate military engagement; Express intent to ease administrative sanctions; Express intent to provide rights, or release persons or property
+7.0	Make an apology; Ease economic sanctions, boycotts or embargoes; Engage in negotiations; Express intent to allow international involvement (not mediation); Express intent to accept mediation; Express intent to change institutions in your regime; Express intent to de-escalate military engagement; Express intent to ease administrative sanctions; Express intent to provide rights, or release persons or property
+7.1	Make an apology; Ease economic sanctions, boycotts or embargoes; Engage in negotiations; Express intent to allow international involvement (not mediation); Express intent to accept mediation; Express intent to change institutions in your regime; Express intent to de-escalate military engagement; Express intent to ease administrative sanctions; Express intent to provide rights, or release persons or property
+7.2	Make an apology; Ease economic sanctions, boycotts or embargoes; Engage in negotiations; Express intent to allow international involvement (not mediation); Express intent to accept mediation; Express intent to change institutions in your regime; Express intent to de-escalate military engagement; Express intent to ease administrative sanctions; Express intent to provide rights, or release persons or property
 7.3	Extend economic aid; give, buy, sell, loan, or borrow something; Provide humanitarian aid; Cooperate militarily
 7.4	Extend economic aid; give, buy, sell, loan, or borrow something; Provide humanitarian aid; Cooperate militarily
 7.5	Extend economic aid; give, buy, sell, loan, or borrow something; Provide humanitarian aid; Cooperate militarily
