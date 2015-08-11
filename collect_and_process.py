@@ -251,10 +251,11 @@ def perform_analysis(data, gsCodes, leader):
     standard_deviation = float(sample_window.std())
     suggestion = None
     # If the world leader appears to be 'stuck' in a behavoir for the last <60> days that is not approaching Goldstein == 1, encourage them to break the trend:
-    if standard_deviation < 1.2 and random.randint(1,5) > 2:
+    if standard_deviation < 2.1 and random.randint(1,5) > 2:
         print 'Need to stir the pot...'
         suggestion = stir_the_pot(sample_window, standard_deviation)
         suggestion = float(suggestion)
+        predicts = round(prediction.ix[tomorrow:str(nextweek)].mean(), 1)
     else:
         # Finds the average of the Goldstein scores for the coming week:
         predicts = round(prediction.ix[tomorrow:str(nextweek)].mean(), 1)
